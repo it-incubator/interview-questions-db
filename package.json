@@ -5,12 +5,16 @@
   "license": "MIT",
   "scripts": {
     "watch": "tsc -w",
-    "dev": "nodemon --inspect dist/index.js"
+    "dev": "nodemon --inspect dist/index.js",
+    "build": "tsc",
+    "start": "node dist/index.js"
   },
   "dependencies": {
-    "fastify": "4.11.0"
+    "fastify": "4.11.0",
+    "uuid": "9.0.0"
   },
   "devDependencies": {
+    "@types/uuid": "9.0.0",
     "@types/node": "18.11.18",
     "nodemon": "2.0.20",
     "ts-node": "10.9.1",

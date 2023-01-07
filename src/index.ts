@@ -1,19 +1,30 @@
-import fastify from 'fastify'
+import fastify, { RequestGenericInterface } from 'fastify'
+import { tasks } from './data/tasks'
+import { exams } from './data/exams'
 
-const server = fastify()
+const app = fastify({logger: true})
 
-// Declare a route
-server.get('/', async (request, reply) => {
-  return { hello: 'world!' }
+const PORT =  process.env.PORT || 5000 // TODO: Нужно ли создавать эту переменную
+
+app.get('/exams', (request, reply) => {
+  return exams
 })
 
-// Run the server!
-const start = async () => {
-  try {
-    await server.listen({ port: 3000 })
-  } catch (err) {
-    server.log.error(err)
-    process.exit(1)
+interface GetExamRequest extends RequestGenericInterface {
+  Params: {
+    id: string
   }
 }
-start()
+
+app.get<GetExamRequest>('/exams/:id', (request, reply) => {
+  const id = request.params.id
+
+  return tasks[id] || reply.status(404).send({
+    msg: 'exam not found'
+  })
+})
+
+app.listen(PORT).catch((error) => {
+  app.log.error(error)
+  process.exit()
+})
