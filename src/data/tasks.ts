@@ -1,7 +1,8 @@
-const javascriptBasicTasks = require('./tasks/javascript/javascript-basic')
-const reactBasicTasks = require('./tasks/react/react-basic')
-const cssBasicTasks = require('./tasks/css/css-basic')
-const htmlMiddleTasks = require('./tasks/html/html-middle')
+import { javascriptBasicTasks } from './tasks/javascript/javascript-basic'
+import { reactBasicTasks } from './tasks/react/react-basic'
+import { htmlMiddleTasks } from './tasks/html/html-middle'
+import { cssBasicTasks } from './tasks/css/css-basic'
+
 
 export type Task = {
   id: string

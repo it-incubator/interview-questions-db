@@ -1,13 +1,16 @@
 import fastify, { RequestGenericInterface } from 'fastify'
 import { tasks } from './data/tasks'
 import { exams } from './data/exams'
+import { shuffleArray } from './utils/shuffle-array'
 
 const app = fastify({logger: true})
-
 const PORT =  process.env.PORT || 5000 // TODO: Нужно ли создавать эту переменную
 
 app.get('/exams', (request, reply) => {
-  return exams
+  return reply
+    .code(200)
+    .header('Access-Control-Allow-Origin', '*')
+    .send(exams)
 })
 
 interface GetExamRequest extends RequestGenericInterface {
@@ -19,9 +22,11 @@ interface GetExamRequest extends RequestGenericInterface {
 app.get<GetExamRequest>('/exams/:id', (request, reply) => {
   const id = request.params.id
 
-  return tasks[id] || reply.status(404).send({
-    msg: 'exam not found'
-  })
+  return reply
+    .code(200)
+    .header('Access-Control-Allow-Origin', '*')
+    .send(shuffleArray(tasks[id]).slice(0, 10))
+    || reply.status(404).send({msg: 'exam not found'})
 })
 
 app.listen(PORT).catch((error) => {

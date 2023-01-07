@@ -1,7 +1,7 @@
 import { v1 } from 'uuid'
 import { Task } from '../../tasks'
 
-const cssBasic: Task[] = [
+export const cssBasicTasks: Task[] = [
   {
     id: v1(),
     questionText: 'Какой цвет фона будет у данных элементов?',
@@ -320,5 +320,3 @@ p {
     ],
   },
 ]
-
-module.exports = { cssBasicTasks: cssBasic }

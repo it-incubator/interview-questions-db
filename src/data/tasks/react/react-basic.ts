@@ -1,7 +1,7 @@
 import { v1 } from 'uuid'
 import { Task } from '../../tasks'
 
-const reactBasicTasks: Task[] = [
+export const reactBasicTasks: Task[] = [
   {
     id: v1(),
     questionText: 'В какой роли выступает React в паттерне проектирования MVC?',

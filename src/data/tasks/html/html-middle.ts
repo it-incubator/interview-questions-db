@@ -1,7 +1,7 @@
 import { v1 } from 'uuid'
 import { Task } from '../../tasks'
 
-const htmlMiddleTasks: Task[] = [
+export const htmlMiddleTasks: Task[] = [
   {
     id: v1(),
     questionText: 'Какие значения может принимать атрибут `method` у тега `<form>`?',

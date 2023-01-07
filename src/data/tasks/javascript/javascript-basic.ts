@@ -1,7 +1,7 @@
 import { v1 } from 'uuid'
 import { Task } from '../../tasks'
 
-const javascriptBasicTasks: Task[] = [
+export const javascriptBasicTasks: Task[] = [
   {
     id: v1(),
     questionText: 'Как можно добавить элемент в начало массива?',
