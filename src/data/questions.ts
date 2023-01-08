@@ -1,51 +1,40 @@
 import { exams } from './exams'
-import { Questions, QuestionType } from '../types/entities'
+import { Question, Questions } from '../types/entities'
 import { v1 } from 'uuid'
 import * as fs from 'fs'
 import path from 'path'
 import { tasksDirPath } from './tasks/tasksDirPath'
 
+export const questions: Questions = {}
+
 const generateQuestionsArray = async  (targetFolderPath: string) => {
   const questionsPromises: any = []
   const questionsFiles = fs.readdirSync(targetFolderPath)
+
   questionsFiles.forEach(file=>{
     const fileContentPromise = fs.promises.readFile(path.join(targetFolderPath, file))
     questionsPromises.push(fileContentPromise)
   })
+
   const rawQuestions = await Promise.all(questionsPromises)
 
-  return rawQuestions.map(question => {
-    return JSON.parse(question)
-  })
+  return rawQuestions.map(rowQuestion => {
+    const question = JSON.parse(rowQuestion) as Question
 
-  //   const questions: any = []
-  // fs.readdir(path.join(__dirname, 'tasks', id), (err, files) => {
-  //
-  //   files.forEach(file => {
-  //     fs.readFile(path.join(__dirname, 'tasks', id, file), (error, data) => {
-  //       const obj = JSON.parse(data.toString())
-  //       const question = {
-  //         ...obj,
-  //         id: v1(),
-  //         answers: obj.answers.map((answer: any) => ({
-  //           ...answer,
-  //           id: v1()
-  //         }))
-  //       }
-  //       questions.push(question)
-  //     })
-  //   })
-  // })
-  //
-  // return questions
+    return {
+      ...question,
+      id: v1(),
+      answers: question.answers.map((answer) => ({...answer, id: v1()}))
+    }
+  })
 }
 
-export const questions: any = {} // associative array
-
-exams.forEach(exam => {
-  const targetFolderPath = path.join(
-    tasksDirPath,
-    exam.id
-  )
-  questions[exam.id] = generateQuestionsArray(targetFolderPath)
-})
+(async function () {
+  for (let i = 0; i < exams.length; i++) {
+    const targetFolderPath = path.join(
+      tasksDirPath,
+      exams[i].id
+    )
+    questions[exams[i].id] = await generateQuestionsArray(targetFolderPath)
+  }
+})()

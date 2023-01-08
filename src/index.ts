@@ -25,8 +25,7 @@ app.get<GetExamRequest>('/exams/:id', (request, reply) => {
   return reply
     .code(200)
     .header('Access-Control-Allow-Origin', '*')
-      .send(questions)
-    // .send(shuffleArray(questions[id]).slice(0, 10))
+    .send(shuffleArray(questions[id]).slice(0, 10))
     || reply.status(404).send({msg: 'exam not found'})
 })
 
