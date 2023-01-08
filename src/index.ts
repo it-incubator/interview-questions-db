@@ -1,5 +1,5 @@
 import fastify, { RequestGenericInterface } from 'fastify'
-import { tasks } from './data/tasks'
+import { questions } from './data/questions'
 import { exams } from './data/exams'
 import { shuffleArray } from './utils/shuffle-array'
 
@@ -25,7 +25,8 @@ app.get<GetExamRequest>('/exams/:id', (request, reply) => {
   return reply
     .code(200)
     .header('Access-Control-Allow-Origin', '*')
-    .send(shuffleArray(tasks[id]).slice(0, 10))
+      .send(questions)
+    // .send(shuffleArray(questions[id]).slice(0, 10))
     || reply.status(404).send({msg: 'exam not found'})
 })
 
