@@ -1,0 +1,22 @@
+{
+  "questionText": "Выбери значение, которое необходимо указать `text-align`, чтобы текст растянулся по всей ширине контейнера, увеличив пробелы между словами",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "`text-align: center`",
+      "isCorrect": false
+    },
+    {
+      "text": "`text-align: justify`",
+      "isCorrect": true
+    },
+    {
+      "text": "`text-align: inherit`",
+      "isCorrect": false
+    },
+    {
+      "text": "`text-align: auto`",
+      "isCorrect": false
+    }
+  ]
+}

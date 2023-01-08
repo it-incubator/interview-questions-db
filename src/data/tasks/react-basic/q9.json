@@ -1,0 +1,22 @@
+{
+  "questionText": "Какая запись инлайновых стилей в JSX будет корректной?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "`style={{ background-color: 'green', margin-top: '5px' }}`",
+      "isCorrect": false
+    },
+    {
+      "text": "`style={ background-color: 'green', margin-top: '5px' }`",
+      "isCorrect": false
+    },
+    {
+      "text": "`style={ backgroundColor: 'green', marginTop: '5px' }`",
+      "isCorrect": false
+    },
+    {
+      "text": "`style={{ backgroundColor: 'green', marginTop: '5px' }}`",
+      "isCorrect": true
+    }
+  ]
+}

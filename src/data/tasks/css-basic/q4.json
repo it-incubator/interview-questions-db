@@ -1,0 +1,18 @@
+{
+  "questionText": "Какого цвета будет текст в параграфе?",
+  "type": "radio",
+  "code": {
+    "text": "/* фрагмент CSS-кода */\n#section1 {\n  color: tomato;\n}\np {\n  color: violet;\n}\n\n<!-- фрагмент HTML-кода -->\n<section id=\"section1\"/>\n  <p>some text</p>\n</section>",
+    "lang": "css"
+  },
+  "answers": [
+    {
+      "text": "`violet`",
+      "isCorrect": true
+    },
+    {
+      "text": "`tomato`",
+      "isCorrect": false
+    }
+  ]
+}

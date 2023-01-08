@@ -1,0 +1,30 @@
+{
+  "questionText": "Выбери теги, которые могут быть помещены в `<head>`",
+  "answers": [
+    {
+      "text": "<meta>",
+      "isCorrect": true
+    },
+    {
+      "text": "<title>",
+      "isCorrect": true
+    },
+    {
+      "text": "<header>",
+      "isCorrect": false
+    },
+    {
+      "text": "<link>",
+      "isCorrect": true
+    },
+    {
+      "text": "<base>",
+      "isCorrect": true
+    },
+    {
+      "text": "<script>",
+      "isCorrect": true
+    }
+  ],
+  "descriptionMarkup": "<p><code>&lt;base&gt;</code> позволяет установиться URL, который будет использоваться в начале всех относительных путей. Используется не очень часто. <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base\" target=\"_blank\" rel=\"noopener noreferrer\">Статья на MDN</a></p>`"
+}

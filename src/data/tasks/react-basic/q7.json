@@ -1,0 +1,22 @@
+{
+  "questionText": "Какой заголовок будет отображён на странице",
+  "type": "radio",
+  "code": {
+    "lang": "jsx",
+    "text": "export const Title = () => {\n  const array = []\n\n  return <h1>{array.length && 'The title'}</h1>\n}"
+  },
+  "answers": [
+    {
+      "text": "The title",
+      "isCorrect": false
+    },
+    {
+      "text": "0",
+      "isCorrect": true
+    },
+    {
+      "text": "undefined",
+      "isCorrect": false
+    }
+  ]
+}

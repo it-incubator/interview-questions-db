@@ -1,0 +1,22 @@
+{
+  "questionText": "Выбери элемент, который может быть прямым дочерним элементом для`<tbody>`?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "`<tr>`",
+      "isCorrect": true
+    },
+    {
+      "text": "`<table>`",
+      "isCorrect": false
+    },
+    {
+      "text": "`<td>`",
+      "isCorrect": false
+    },
+    {
+      "text": "`<thead>`",
+      "isCorrect": false
+    }
+  ]
+}

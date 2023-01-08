@@ -1,0 +1,27 @@
+{
+  "questionText": "Какой отступ будет между двумя параграфами?",
+  "type": "radio",
+  "code": {
+    "text": "/* фрагмент CSS-кода */\n.paragraph-1 {\n  margin: 20px 20px 10px 30px;\n}\n.paragraph-2 {\n  margin: 10px 20px\n}\n\n<!-- фрагмент HTML-кода -->\n<p class=\"paragraph-1\">1</p>\n<p class=\"paragraph-2\">2</p>",
+    "lang": "css"
+  },
+  "answers": [
+    {
+      "text": "`10px`",
+      "isCorrect": true
+    },
+    {
+      "text": "`20px`",
+      "isCorrect": false
+    },
+    {
+      "text": "`30px`",
+      "isCorrect": false
+    },
+    {
+      "text": "`40px`",
+      "isCorrect": false
+    }
+  ],
+  "descriptionMarkup": "<p>Схлопывание внешних отступов - особенность блочной модели CSS, о которой следует помнить.</p>"
+}

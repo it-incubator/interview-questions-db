@@ -1,0 +1,23 @@
+{
+  "questionText": "Какие из перечисленных CSS-свойств можно анимировать?",
+  "type": "checkbox",
+  "answers": [
+    {
+      "text": "`display`",
+      "isCorrect": false
+    },
+    {
+      "text": "`font-size`",
+      "isCorrect": true
+    },
+    {
+      "text": "`opacity`",
+      "isCorrect": true
+    },
+    {
+      "text": "`margin`",
+      "isCorrect": true
+    }
+  ],
+  "descriptionMarkup": "<p>Список <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties' target='_blank' rel=\"noopener noreferrer\">анимируемых CSS-свойств</a> на MDN.</p>"
+}

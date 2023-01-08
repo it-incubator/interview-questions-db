@@ -1,0 +1,23 @@
+{
+  "questionText": "Какой код будет работать подобно методу жизненного цикла `componentDidMount`?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "`useEffect(() => { ... })`",
+      "isCorrect": false
+    },
+    {
+      "text": "`useEffect(() => { return () => { ... } }, [dependencies])`",
+      "isCorrect": false
+    },
+    {
+      "text": "`useEffect(() => { return () => { ... } })`",
+      "isCorrect": false
+    },
+    {
+      "text": "`useEffect(() => { ... }, [])`",
+      "isCorrect": true
+    }
+  ],
+  "descriptionMarkup": "<p>Подобный вопрос могут спросить на собесе, однако Ден Абрамов пишет, что ментальная модель для <code>useEffect</code> не жизненный цикл, а синхронизация.</p>\n<p>Используя <code>useEffect</code>, мы должны думать не о том, на каком этапе жизненного цикла будет вызвана effect-функция, а скорее о том, какой эффект будет вызван изменением стейта. </p>\n<p>Видео доклада <a href=\"https://youtu.be/bGzanfKVFeU?t=144\" target=\"_blank\" rel=\"noopener noreferrer\">\"Goodbye, useEffect\"</a> с конференции React Brussels, раскрывающее эту тему.</p>"
+}

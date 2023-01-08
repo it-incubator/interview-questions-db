@@ -1,0 +1,26 @@
+{
+  "questionText": "Какое значение не может принимать свойство `position`?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "`static`",
+      "isCorrect": false
+    },
+    {
+      "text": "`relative`",
+      "isCorrect": false
+    },
+    {
+      "text": "`block`",
+      "isCorrect": true
+    },
+    {
+      "text": "`absolute`",
+      "isCorrect": false
+    },
+    {
+      "text": "`sticky`",
+      "isCorrect": false
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 import fastify, { RequestGenericInterface } from 'fastify'
-import { questions } from './data/questions'
-import { exams } from './data/exams'
+import { questions } from './questions'
+import { exams } from './exams'
 import { shuffleArray } from './utils/shuffle-array'
 
 const app = fastify({logger: true})

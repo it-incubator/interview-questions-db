@@ -1,0 +1,22 @@
+{
+  "questionText": "Какая CSS-функция используется для вставки пользовательских свойств(custom property)?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "`calc()`",
+      "isCorrect": false
+    },
+    {
+      "text": "`var()`",
+      "isCorrect": true
+    },
+    {
+      "text": "`attr()`",
+      "isCorrect": false
+    },
+    {
+      "text": "`hsl()`",
+      "isCorrect": false
+    }
+  ]
+}

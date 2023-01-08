@@ -1,0 +1,26 @@
+{
+  "questionText": "Какой цвет фона будет у данных элементов?",
+  "type": "radio",
+  "code": {
+    "text": "/* фрагмент CSS-кода */\n.tomato {\n  background-color: tomato;\n}\n.violet {\n  background-color: violet;\n}\n\n<!-- фрагмент HTML-кода -->\n<div class=\"tomato violet\">1</div>\n<div class=\"violet tomato\">2</div>",
+    "lang": "css"
+  },
+  "answers": [
+    {
+      "text": "`tomato` у первого, и `violet` у второго",
+      "isCorrect": false
+    },
+    {
+      "text": "`violet` у первого, и `tomato` у второго",
+      "isCorrect": false
+    },
+    {
+      "text": "у обоих `tomato` 🍅",
+      "isCorrect": false
+    },
+    {
+      "text": "у обоих `violet` 🌷",
+      "isCorrect": true
+    }
+  ]
+}

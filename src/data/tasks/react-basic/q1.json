@@ -1,0 +1,19 @@
+{
+  "questionText": "В какой роли выступает React в паттерне проектирования MVC?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "Model",
+      "isCorrect": false
+    },
+    {
+      "text": "View",
+      "isCorrect": true
+    },
+    {
+      "text": "Controller",
+      "isCorrect": false
+    }
+  ],
+  "descriptionMarkup": "<p>MVC - паттерн проектирования, разделяющий приложение на три части: Model, View, Controller.</p>\n<p>Пользователь видит View(интерфейс) и взаимодействует с ним. View сообщает о действиях пользователя Controller, который в свою очередь изменяет Model. Model содержит данные бизнес-логики - при их обновлении уведомляется View и происходит перерисовка интерфейса.</p>"
+}

@@ -1,0 +1,30 @@
+{
+  "questionText": "Как можно сделать глубокую копию этого объекта?",
+  "code": {
+    "lang": "js",
+    "text": "const user = {\n  name: 'Sonya',\n  age: 28,\n  friends: ['Vasilisa', 'Snow', 'Zlata'],\n}\n\nlet userDeepCopy"
+  },
+  "answers": [
+    {
+      "text": "Вручную, используя spread-оператор следующим образом: `{...user}`",
+      "isCorrect": false
+    },
+    {
+      "text": "Вручную, используя spread-оператор следующим образом: `{...user, friends: [...user.friends]}`",
+      "isCorrect": true
+    },
+    {
+      "text": "Использовать метод Object.assign: `Object.assign(userDeepCopy, user)`",
+      "isCorrect": false
+    },
+    {
+      "text": "Использовать методы встроенного JSON-объекта: `JSON.parse(JSON.stringify(user))`",
+      "isCorrect": true
+    },
+    {
+      "text": "С помощью WebAPI-метода `structuredClone`",
+      "isCorrect": true
+    }
+  ],
+  "descriptionMarkup": "<p>Следует помнить, что <code>Object.assign</code> и spread-оператор делают неглубокую копию (shallow copy).</code></p>\n<p>Использовать JSON-методы следует с пониманием ограничений JSON-формата. Например, такая копия лишит объект всех методов (JSON не предусматривает функций).</p>\n<p><code>structuredClone</code> - новое браузерное API для глубокого копирования. Почитать о нём можно на <a href='https://developer.mozilla.org/en-US/docs/Web/API/structuredClone' target='_blank' rel=\"noopener noreferrer\">MDN</a>.</p>\n"
+}

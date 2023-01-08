@@ -1,0 +1,23 @@
+{
+  "questionText": "Что следует использовать, чтобы избежать излишней вложенности в разметке?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "`React.Component`",
+      "isCorrect": false
+    },
+    {
+      "text": "`React.createContext`",
+      "isCorrect": false
+    },
+    {
+      "text": "`React.createRef`",
+      "isCorrect": false
+    },
+    {
+      "text": "`React.Fragment`",
+      "isCorrect": true
+    }
+  ],
+  "descriptionMarkup": "<p>Можно также использовать сокращённый синтаксис <code>&lt;&gt;&lt;/&gt;</code></p>"
+}

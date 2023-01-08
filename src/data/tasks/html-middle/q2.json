@@ -1,0 +1,27 @@
+{
+  "questionText": "Какой из данных атрибутов не является глобальным?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "class",
+      "isCorrect": false
+    },
+    {
+      "text": "hidden",
+      "isCorrect": false
+    },
+    {
+      "text": "tabindex",
+      "isCorrect": false
+    },
+    {
+      "text": "role",
+      "isCorrect": false
+    },
+    {
+      "text": "disabled",
+      "isCorrect": true
+    }
+  ],
+  "descriptionMarkup": "<p>Глобальные атрибуты - атрибуты, которые можно использовать для любых HTML-тегов.</p>\n<p><code>role</code> - глобальный атрибут, который описывает роль элемента в контексте веб-страницы и участвует в построении Accessibility object model (AOM) - семантической версии DOM. Семантические теги имеют заданную роль по-умолчанию, но с помощью этого атрибута её можно переопределять/уточнять. Если стало интересно, можно почитать об этом на <a href=\"https://web.dev/learn/html/semantic-html/\" target='_blank' rel=\"noopener noreferrer\">web.dev</a> :)</p>"
+}

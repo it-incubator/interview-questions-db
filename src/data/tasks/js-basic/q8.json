@@ -1,0 +1,26 @@
+{
+  "questionText": "Какого falsy-значения не хватает в массиве?",
+  "type": "radio",
+  "code": {
+    "lang": "js",
+    "text": "[false, null, NaN, undefined, 0]"
+  },
+  "answers": [
+    {
+      "text": "`[]`",
+      "isCorrect": false
+    },
+    {
+      "text": "`-1`",
+      "isCorrect": false
+    },
+    {
+      "text": "`{}`",
+      "isCorrect": false
+    },
+    {
+      "text": "`''`",
+      "isCorrect": true
+    }
+  ]
+}

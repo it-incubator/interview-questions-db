@@ -1,0 +1,22 @@
+{
+  "questionText": "Какой метод жизненного цикла используется для избавления от ненужных побочных эффектов(например, отмена таймера)?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "`componentDidMount`",
+      "isCorrect": false
+    },
+    {
+      "text": "`componentDidUpdate`",
+      "isCorrect": false
+    },
+    {
+      "text": "`componentWillUnmount`",
+      "isCorrect": true
+    },
+    {
+      "text": "`shouldComponentUpdate`",
+      "isCorrect": false
+    }
+  ]
+}

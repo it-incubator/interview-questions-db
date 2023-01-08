@@ -1,0 +1,22 @@
+{
+  "questionText": "Требуется, чтобы высота контейнера составляла 1 / 3 от задаваемой ширины. Какое CSS-свойство решит эту задачу?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "`max-height`",
+      "isCorrect": false
+    },
+    {
+      "text": "`padding-top`",
+      "isCorrect": false
+    },
+    {
+      "text": "`position`",
+      "isCorrect": false
+    },
+    {
+      "text": "`aspect-ratio`",
+      "isCorrect": true
+    }
+  ]
+}

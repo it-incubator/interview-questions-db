@@ -1,0 +1,21 @@
+{
+  "questionText": "Как можно передать данные в React-компонент?",
+  "answers": [
+    {
+      "text": "С помощью `React.createContext` и `useContext`",
+      "isCorrect": true
+    },
+    {
+      "text": "Использовать пропсы",
+      "isCorrect": true
+    },
+    {
+      "text": "Использовать хук `useState`",
+      "isCorrect": false
+    },
+    {
+      "text": "С помощью Redux и `useSelector`",
+      "isCorrect": true
+    }
+  ]
+}

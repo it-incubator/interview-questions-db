@@ -1,0 +1,31 @@
+{
+  "questionText": "Какие теги не несут семантической нагрузки?",
+  "type": "checkbox",
+  "answers": [
+    {
+      "text": "<p>",
+      "isCorrect": false
+    },
+    {
+      "text": "<div>",
+      "isCorrect": true
+    },
+    {
+      "text": "<b>",
+      "isCorrect": false
+    },
+    {
+      "text": "<span>",
+      "isCorrect": true
+    },
+    {
+      "text": "<nav>",
+      "isCorrect": false
+    },
+    {
+      "text": "<aside>",
+      "isCorrect": false
+    }
+  ],
+  "descriptionMarkup": "<p>Практически все теги в современном HTML несут семантическую нагрузку.</p>\n<p>Так, например, тег <code>&lt;b&gt;</code>, согласно <a href=\"https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-b-element\" target=\"_blank\" rel=\"noopener noreferrer\">спецификации</a>, используется для <b>ключевых слов</b> в тексте.</p>"
+}

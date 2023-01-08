@@ -1,0 +1,22 @@
+{
+  "questionText": "Назови способы создания массива",
+  "answers": [
+    {
+      "text": "Литерал массива `[]`",
+      "isCorrect": true
+    },
+    {
+      "text": "Конструктор `new Array()`",
+      "isCorrect": true
+    },
+    {
+      "text": "Метод `Array.of()`",
+      "isCorrect": true
+    },
+    {
+      "text": "Метод `Array.from()`",
+      "isCorrect": true
+    }
+  ],
+  "descriptionMarkup": "<p><code>Array.of</code> и <code>Array.from</code> - статические методы массивов, введённые в ECMAScript 2015.</p>\n<p><code>Array.of</code> создаёт массив из переданных аргументов, а <code>Array.from</code> создаёт массив из массивоподобных или итерируемых объектов.</p>\n"
+}

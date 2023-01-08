@@ -1,0 +1,21 @@
+{
+  "questionText": "Какие методы есть у функций?",
+  "answers": [
+    {
+      "text": "`call`",
+      "isCorrect": true
+    },
+    {
+      "text": "`apply`",
+      "isCorrect": true
+    },
+    {
+      "text": "`bind`",
+      "isCorrect": true
+    },
+    {
+      "text": "`name`",
+      "isCorrect": false
+    }
+  ]
+}

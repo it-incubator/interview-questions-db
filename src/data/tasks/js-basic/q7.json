@@ -1,0 +1,26 @@
+{
+  "questionText": "Сколько раз 'Yo' будет выведено в консоль?",
+  "type": "radio",
+  "code": {
+    "lang": "js",
+    "text": "for (let i = 0; i < 7; i += 2) {\n  console.log('Yo')\n}"
+  },
+  "answers": [
+    {
+      "text": "0",
+      "isCorrect": false
+    },
+    {
+      "text": "2",
+      "isCorrect": false
+    },
+    {
+      "text": "3",
+      "isCorrect": false
+    },
+    {
+      "text": "4",
+      "isCorrect": true
+    }
+  ]
+}

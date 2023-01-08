@@ -1,0 +1,26 @@
+{
+  "questionText": "Какая ошибка в данном HTML-коде?",
+  "type": "radio",
+  "code": {
+    "text": "<video src=\"media/flower.mp4\" autoplay width=\"250\">",
+    "lang": "html"
+  },
+  "answers": [
+    {
+      "text": "Требуется закрывающий тег `</video>`",
+      "isCorrect": true
+    },
+    {
+      "text": "У атрибута `autoplay` не указано значение",
+      "isCorrect": false
+    },
+    {
+      "text": "Отсутствует атрибут `type`",
+      "isCorrect": false
+    },
+    {
+      "text": "В этом коде нет ошибок",
+      "isCorrect": false
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "questionText": "Чему равен typeof NaN?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "`'number'`",
+      "isCorrect": true
+    },
+    {
+      "text": "`'object'`",
+      "isCorrect": false
+    },
+    {
+      "text": "`'NaN'`",
+      "isCorrect": false
+    },
+    {
+      "text": "`'undefined'`",
+      "isCorrect": false
+    }
+  ]
+}

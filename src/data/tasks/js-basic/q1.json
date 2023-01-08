@@ -1,0 +1,21 @@
+{
+  "questionText": "Как можно добавить элемент в начало массива?",
+  "answers": [
+    {
+      "text": "Использовать `Array.prototype.unshift()`",
+      "isCorrect": true
+    },
+    {
+      "text": "Использовать `Array.prototype.push()`",
+      "isCorrect": false
+    },
+    {
+      "text": "Использовать `spread` оператор",
+      "isCorrect": true
+    },
+    {
+      "text": "Использовать `Array.prototype.shift()`",
+      "isCorrect": false
+    }
+  ]
+}
