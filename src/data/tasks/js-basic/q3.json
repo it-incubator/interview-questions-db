@@ -26,5 +26,6 @@
       "isCorrect": true
     }
   ],
+  "author": "StarkovSergey",
   "descriptionMarkup": "<p>Следует помнить, что <code>Object.assign</code> и spread-оператор делают неглубокую копию (shallow copy).</code></p>\n<p>Использовать JSON-методы следует с пониманием ограничений JSON-формата. Например, такая копия лишит объект всех методов (JSON не предусматривает функций).</p>\n<p><code>structuredClone</code> - новое браузерное API для глубокого копирования. Почитать о нём можно на <a href='https://developer.mozilla.org/en-US/docs/Web/API/structuredClone' target='_blank' rel=\"noopener noreferrer\">MDN</a>.</p>\n"
 }

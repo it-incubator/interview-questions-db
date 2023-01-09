@@ -22,5 +22,6 @@
       "isCorrect": true
     }
   ],
+  "author": "StarkovSergey",
   "descriptionMarkup": "<p>Согласно <a href=\"https://html.spec.whatwg.org/multipage/form-elements.html#the-button-element\" target=\"_blank\" rel=\"noopener noreferrer\">спецификации</a> в <code>&lt;button&gt;</code> может помещаться фразовый контент(Phrasing content - теги, отвечающие за разметку текста внутри параграфов), за исключением интерактивного контента(ссылки, инпуты и т.д.).</p>\n<p>Существует сервис <a href=\"https://caninclude.glitch.me/\" target='_blank' rel=\"noopener noreferrer\">Can I Include</a>, позволяющий быстро проверить возможность вкладывать теги.</p>"
 }

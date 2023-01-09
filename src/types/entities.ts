@@ -8,6 +8,7 @@ export type Question = {
     text: string
   }
   descriptionMarkup?: string
+  author?: string
 }
 
 export type AnswerType = {

@@ -18,5 +18,5 @@
       "isCorrect": true
     }
   ],
-  "descriptionMarkup": "<p><code>Array.of</code> и <code>Array.from</code> - статические методы массивов, введённые в ECMAScript 2015.</p>\n<p><code>Array.of</code> создаёт массив из переданных аргументов, а <code>Array.from</code> создаёт массив из массивоподобных или итерируемых объектов.</p>\n"
+  "descriptionMarkup": "<p><code>Array.of</code> и <code>Array.from</code> - статические методы массивов, введённые в ECMAScript 2015.</p><p><code>Array.of</code> создаёт массив из переданных аргументов, а <code>Array.from</code> создаёт массив из массивоподобных или итерируемых объектов.</p>"
 }

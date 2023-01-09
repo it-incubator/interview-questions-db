@@ -1,6 +1,7 @@
 {
   "questionText": "Что делает CSS-объявление `visibility: hidden;` с элементом?",
   "type": "radio",
+  "author": "StarkovSergey",
   "answers": [
     {
       "text": "Удаляет элемент из DOM",
