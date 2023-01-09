@@ -1,12 +1,12 @@
 import fastify, { RequestGenericInterface } from 'fastify'
-import { questions } from './questions'
-import { exams } from './exams'
-import { shuffleArray } from './utils/shuffle-array'
+import { examsRepository } from './repositories/exams-repository'
 
 const app = fastify({logger: true})
-const PORT =  process.env.PORT || 5000 // TODO: Нужно ли создавать эту переменную
+const PORT =  process.env.PORT || 5000
 
 app.get('/exams', (request, reply) => {
+  const exams = examsRepository.getExams()
+
   return reply
     .code(200)
     .header('Access-Control-Allow-Origin', '*')
@@ -20,12 +20,12 @@ interface GetExamRequest extends RequestGenericInterface {
 }
 
 app.get<GetExamRequest>('/exams/:id', (request, reply) => {
-  const id = request.params.id
+  const questions = examsRepository.getExamQuestionsById(request.params.id)
 
   return reply
     .code(200)
     .header('Access-Control-Allow-Origin', '*')
-    .send(shuffleArray(questions[id]).slice(0, 10))
+    .send(questions)
     || reply.status(404).send({msg: 'exam not found'})
 })
 
