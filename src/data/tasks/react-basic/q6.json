@@ -19,5 +19,5 @@
       "isCorrect": true
     }
   ],
-  "descriptionMarkup": "<p>Можно также использовать сокращённый синтаксис <code>&lt;&gt;&lt;/&gt;</code></p>"
+  "descriptionMarkup": "Можно также использовать сокращённый синтаксис `<></>`"
 }

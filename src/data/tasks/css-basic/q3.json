@@ -19,5 +19,5 @@
       "isCorrect": true
     }
   ],
-  "descriptionMarkup": "<p>Список <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties' target='_blank' rel=\"noopener noreferrer\">анимируемых CSS-свойств</a> на MDN.</p>"
+  "descriptionMarkup": "Список [анимируемых CSS-свойств](href='https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties) на MDN."
 }

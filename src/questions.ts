@@ -8,6 +8,10 @@ import { tasksDirPath } from './data/tasks/tasksDirPath'
 export const questions: Questions = {}
 
 const generateQuestionsArray = async  (targetFolderPath: string) => {
+  if (!fs.existsSync(targetFolderPath)) {
+    return []
+  }
+
   const questionsPromises: any = []
   const questionsFiles = fs.readdirSync(targetFolderPath)
 

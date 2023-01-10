@@ -26,5 +26,5 @@
       "isCorrect": true
     }
   ],
-  "descriptionMarkup": "<p><code>&lt;base&gt;</code> позволяет установиться URL, который будет использоваться в начале всех относительных путей. Используется не очень часто. <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base\" target=\"_blank\" rel=\"noopener noreferrer\">Статья на MDN</a></p>`"
+  "descriptionMarkup": "`<base>` позволяет установиться URL, который будет использоваться в начале всех относительных путей. Используется не очень часто. [Статья на MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base)"
 }
