@@ -5,7 +5,7 @@ pipeline {
     environment {
         ENV_TYPE = "STAGING"
         PORT = 9007
-        NAMESPACE = "stud"
+        NAMESPACE = "it-incubator"
         REGISTRY_HOSTNAME = "abazuntts"
         PROJECT = "interview-questions-api"
         REGISTRY = "registry.hub.docker.com"
