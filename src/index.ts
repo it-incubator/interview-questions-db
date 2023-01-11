@@ -2,9 +2,9 @@ import fastify, { RequestGenericInterface } from 'fastify'
 import { examsRepository } from './repositories/exams-repository'
 
 const app = fastify({logger: true})
-const PORT =  process.env.PORT || 5000
+const PORT =  Number(process.env.PORT || 5000)
 
-app.get('/exams', (request, reply) => {
+app.get('/api/exams', (request, reply) => {
   const exams = examsRepository.getExams()
 
   return reply
@@ -19,7 +19,7 @@ interface GetExamRequest extends RequestGenericInterface {
   }
 }
 
-app.get<GetExamRequest>('/exams/:id', (request, reply) => {
+app.get<GetExamRequest>('/api/exams/:id', (request, reply) => {
   const questions = examsRepository.getExamQuestionsById(request.params.id)
 
   return reply
