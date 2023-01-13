@@ -14,6 +14,7 @@ WORKDIR /home/node/dist/interview-questions-api
 # where available (npm@5+)
 
 COPY --chown=node package*.json ./
+COPY --chown=node yarn.lock ./
 RUN yarn install
 
 ENV PORT=9007
