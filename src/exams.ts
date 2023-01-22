@@ -9,6 +9,13 @@ export type Exam = {
 
 export const exams: Exam[] = [
   {
+    id: 'html-middle',
+    title: 'HTML Middle',
+    category: 'HTML',
+    level: 'middle',
+    labels: ['frontend'],
+  },
+  {
     id: 'css-basic',
     title: 'CSS Basic',
     category: 'CSS',
@@ -30,9 +37,9 @@ export const exams: Exam[] = [
     labels: ['frontend'],
   },
   {
-    id: 'html-middle',
-    title: 'HTML Middle',
-    category: 'HTML',
+    id: 'react-middle',
+    title: 'React Middle',
+    category: 'React',
     level: 'middle',
     labels: ['frontend'],
   },
