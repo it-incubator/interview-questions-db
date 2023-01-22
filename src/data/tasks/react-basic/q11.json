@@ -1,0 +1,28 @@
+{
+  "questionText": "Что произойдёт при нажатии на кнопку?",
+  "type": "checkbox",
+  "code": {
+    "lang": "jsx",
+    "text": "export const Counter = () => {\n  const [number, setNumber] = useState(0)\n\n  return (\n    <>\n      <h1>{number}</h1>\n      <button\n        onClick={() => {\n          setNumber(number + 1)\n          setNumber(number + 1)\n          setNumber(number + 1)\n        }}>+3</button>\n    </>\n  )\n}"
+  },
+  "answers": [
+    {
+      "text": "`number` будет равен 3",
+      "isCorrect": false
+    },
+    {
+      "text": "`number` будет равен 1",
+      "isCorrect": true
+    },
+    {
+      "text": "произойдёт 1 ререндер компонента",
+      "isCorrect": true
+    },
+    {
+      "text": "произойдёт 3 ререндера компонента",
+      "isCorrect": false
+    }
+  ],
+  "descriptionMarkup": "Группировка нескольких вызовов обновлений состояния компонента в один ререндер называется batching"
+
+}
