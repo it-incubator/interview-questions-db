@@ -1,0 +1,22 @@
+{
+  "questionText": "Какой тег является семантическим",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "<aside>",
+      "isCorrect": true
+    },
+    {
+      "text": "<head>",
+      "isCorrect": false
+    },
+    {
+      "text": "<img>",
+      "isCorrect": false
+    },
+    {
+      "text": "<table>",
+      "isCorrect": false
+    }
+  ]
+}

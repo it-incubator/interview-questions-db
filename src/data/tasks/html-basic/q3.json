@@ -1,0 +1,22 @@
+{
+  "questionText": "Какой тег служит для воспроизведения аудиофайлов?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "<mp3>",
+      "isCorrect": false
+    },
+    {
+      "text": "<audio>",
+      "isCorrect": true
+    },
+    {
+      "text": "<sound>",
+      "isCorrect": false
+    },
+    {
+      "text": "<video>",
+      "isCorrect": false
+    }
+  ]
+}

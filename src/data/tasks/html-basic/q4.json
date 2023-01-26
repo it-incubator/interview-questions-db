@@ -1,0 +1,22 @@
+{
+  "questionText": "Какой HTML-код устанавливает флажок (checkbox)?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "<check>",
+      "isCorrect": false
+    },
+    {
+      "text": "<input type='check'>",
+      "isCorrect": false
+    },
+    {
+      "text": "<checkbox>",
+      "isCorrect": false
+    },
+    {
+      "text": "<input type='checkbox'>",
+      "isCorrect": true
+    }
+  ]
+}

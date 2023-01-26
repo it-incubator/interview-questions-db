@@ -1,0 +1,22 @@
+{
+  "questionText": "Укажите тег позволяющий создавать заголовки.",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "<em>",
+      "isCorrect": false
+    },
+    {
+      "text": "<h2>",
+      "isCorrect": true
+    },
+    {
+      "text": "<head>",
+      "isCorrect": false
+    },
+    {
+      "text": "<strong>",
+      "isCorrect": false
+    }
+  ]
+}

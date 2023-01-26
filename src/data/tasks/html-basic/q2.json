@@ -1,0 +1,22 @@
+{
+  "questionText": "Выберите HTML-тег для создания заголовка с высшим приоритетом:",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "<head>",
+      "isCorrect": false
+    },
+    {
+      "text": "<heading>",
+      "isCorrect": false
+    },
+    {
+      "text": "<h6>",
+      "isCorrect": false
+    },
+    {
+      "text": "<h1>",
+      "isCorrect": true
+    }
+  ]
+}

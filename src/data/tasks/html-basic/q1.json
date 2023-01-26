@@ -1,0 +1,22 @@
+{
+  "questionText": "Что означает HTML?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "Hyperlinks and Text Markup Language (Язык разметки текста, и гиперссылки)",
+      "isCorrect": false
+    },
+    {
+      "text": "Hyper Text Markup Language (Язык гипертекстовой разметки)",
+      "isCorrect": true
+    },
+    {
+      "text": "Home Tool Markup Language (Язык разметки домашних инструментов)",
+      "isCorrect": false
+    },
+    {
+      "text": "Hyper Table Markup Language (Язык табличной разметки)",
+      "isCorrect": false
+    }
+  ]
+}

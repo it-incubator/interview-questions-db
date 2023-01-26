@@ -1,0 +1,22 @@
+{
+  "questionText": "Какие из этих тегов относятся к элементу <table>",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "<table><tr><td>",
+      "isCorrect": true
+    },
+    {
+      "text": "<table><head><tfoot>",
+      "isCorrect": false
+    },
+    {
+      "text": "<table><tr><tt>",
+      "isCorrect": false
+    },
+    {
+      "text": "<thead><body><tr>",
+      "isCorrect": false
+    }
+  ]
+}

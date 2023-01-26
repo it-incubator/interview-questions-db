@@ -1,0 +1,22 @@
+{
+  "questionText": "Выберите ссылку с правильным синтаксисом.",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "<a name='https://www.wm-school.ru'>wm-school.ru</a>",
+      "isCorrect": false
+    },
+    {
+      "text": "<a src='https://www.wm-school.ru'>wm-school.ru</a>",
+      "isCorrect": false
+    },
+    {
+      "text": "<a href='https://www.wm-school.ru'>wm-school.ru</a>",
+      "isCorrect": true
+    },
+    {
+      "text": "<a href='https://www.wm-school.ru' value='wm-school.ru' />",
+      "isCorrect": false
+    }
+  ]
+}

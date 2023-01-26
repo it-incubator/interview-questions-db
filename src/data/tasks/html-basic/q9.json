@@ -1,0 +1,22 @@
+{
+  "questionText": "Какой тег позволяет вставлять картинки в HTML документы?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "<pic>",
+      "isCorrect": false
+    },
+    {
+      "text": "<picture>",
+      "isCorrect": false
+    },
+    {
+      "text": "<image>",
+      "isCorrect": false
+    },
+    {
+      "text": "<img>",
+      "isCorrect": true
+    }
+  ]
+}
