@@ -19,9 +19,5 @@
     }
   ],
   "descriptionMarkup": "Для записи данных в файл в Node.js используется метод <code>fs.write()</code>. Он имеет синхронную версию <code>fs.writeSync()</code>, но она не рекомендуется использовать, так как может заблокировать выполнение программы.",
-  "type": "radio",
-  "code": {
-    "lang": "nodejs",
-    "text": "const fs = require('fs');\nfs.writeFile('message.txt', 'Hello Node.js', (err) => {\n if (err) throw err;\n console.log('The file has been saved!');\n});"
-  }
+  "type": "radio"
 }

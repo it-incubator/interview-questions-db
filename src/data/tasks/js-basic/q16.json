@@ -1,6 +1,6 @@
 {
   "questionText": "Как реализовать замыкание в JavaScript?",
-  "type": "radio",
+  "type": "checkbox",
   "answers": [
     {
       "text": "function outer(){ function inner(){}}",

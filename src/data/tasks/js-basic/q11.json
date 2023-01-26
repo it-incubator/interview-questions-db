@@ -1,10 +1,6 @@
 {
   "questionText": "Как можно создать объект класса в JavaScript?",
   "type": "radio",
-  "code": {
-    "lang": "js",
-    "text": "class MyClass {}; let myObj = new MyClass();"
-  },
   "answers": [
     {
       "text": "let myObj = new MyClass();",

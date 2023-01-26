@@ -1,10 +1,6 @@
 {
   "questionText": "Как можно добавить элемент в конец массива в JavaScript?",
   "type": "radio",
-  "code": {
-    "lang": "js",
-    "text": "let myArr = [1, 2, 3]; myArr.push(4);"
-  },
   "answers": [
     {
       "text": "myArr.push(4);",

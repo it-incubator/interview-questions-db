@@ -19,9 +19,5 @@
       "isCorrect": false
     }
   ],
-  "code": {
-    "lang": "nodeJs",
-    "text": "const net = require('net');\nconst server = net.createServer((socket) => {\n // socket handling logic\n});\nserver.listen(port);"
-  },
   "descriptionMarkup": "Для создания TCP-соединения в Node.js необходимо использовать модуль 'net', который входит в стандартную библиотеку Node.js. В приведенном коде используется метод createServer для создания сервера и метод listen для запуска сервера на определенном порту."
 }

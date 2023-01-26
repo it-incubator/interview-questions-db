@@ -19,9 +19,5 @@
       "isCorrect": true
     }
   ],
-  "code": {
-    "lang": "nodejs",
-    "text": "const child_process = require('child_process');\nconst processList = child_process.execSync('ps aux').toString();\nconsole.log(processList);"
-  },
   "descriptionMarkup": "Для получения списка всех запущенных процессов в Node.js можно использовать модуль child_process и вызвать метод exec, который выполнит shell-команду 'ps aux' и вернет результат в виде строки."
 }

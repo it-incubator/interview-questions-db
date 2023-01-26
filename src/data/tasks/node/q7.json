@@ -19,9 +19,5 @@
       "isCorrect": false
     }
   ],
-  "descriptionMarkup": "В Node.js для асинхронного чтения файла используется метод fs.readFile() или fs.readFileSync('file.txt', 'utf8', callback). Оба варианта принимают первым параметром путь к файлу, вторым параметром - кодировку (необязательный параметр) и третьим параметром - callback-функцию, которая будет вызвана после успешного завершения чтения.",
-  "code": {
-    "lang": "nodejs",
-    "text": "const fs = require('fs');\nfs.readFile('file.txt', (err, data) => {\n if (err) throw err;\n console.log(data);\n});"
-  }
+  "descriptionMarkup": "В Node.js для асинхронного чтения файла используется метод fs.readFile() или fs.readFileSync('file.txt', 'utf8', callback). Оба варианта принимают первым параметром путь к файлу, вторым параметром - кодировку (необязательный параметр) и третьим параметром - callback-функцию, которая будет вызвана после успешного завершения чтения."
 }
