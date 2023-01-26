@@ -1,0 +1,23 @@
+{
+  "questionText": "Какие из перечисленных являются колбек-функциями?",
+  "type": "checkbox",
+  "answers": [
+    {
+      "text": "function handleClick() {}",
+      "isCorrect": false
+    },
+    {
+      "text": "setTimeout(() => {}, 1000)",
+      "isCorrect": true
+    },
+    {
+      "text": "fetch('https://example.com')",
+      "isCorrect": true
+    },
+    {
+      "text": "const result = myPromise.then(data => {})",
+      "isCorrect": true
+    }
+  ],
+  "descriptionMarkup": "Колбек-функции - это функции, которые передаются как параметры другим функциям и вызываются позже, когда они готовы."
+}

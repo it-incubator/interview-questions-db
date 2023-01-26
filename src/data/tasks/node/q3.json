@@ -1,0 +1,27 @@
+{
+  "questionText": "Как можно получить список всех запущенных процессов в Node.js?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "Использовать функцию process.listProcesses()",
+      "isCorrect": false
+    },
+    {
+      "text": "Использовать модуль os и вызвать os.listProcesses()",
+      "isCorrect": false
+    },
+    {
+      "text": "Использовать модуль child_process и вызвать child_process.listProcesses()",
+      "isCorrect": false
+    },
+    {
+      "text": "Использовать модуль child_process и вызвать child_process.exec('ps aux')",
+      "isCorrect": true
+    }
+  ],
+  "code": {
+    "lang": "nodejs",
+    "text": "const child_process = require('child_process');\nconst processList = child_process.execSync('ps aux').toString();\nconsole.log(processList);"
+  },
+  "descriptionMarkup": "Для получения списка всех запущенных процессов в Node.js можно использовать модуль child_process и вызвать метод exec, который выполнит shell-команду 'ps aux' и вернет результат в виде строки."
+}

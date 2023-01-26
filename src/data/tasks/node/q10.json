@@ -1,0 +1,27 @@
+{
+  "questionText": "Как можно создать сокет UDP в Node.js?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "var socket = new dgram.Socket('udp4');",
+      "isCorrect": true
+    },
+    {
+      "text": "var socket = new net.Socket('udp');",
+      "isCorrect": false
+    },
+    {
+      "text": "var socket = new udp.Socket();",
+      "isCorrect": false
+    },
+    {
+      "text": "var socket = new udp.createSocket();",
+      "isCorrect": false
+    }
+  ],
+  "code": {
+    "lang": "nodeJs",
+    "text": "const dgram = require('dgram');\nvar socket = dgram.createSocket('udp4');"
+  },
+  "descriptionMarkup": "Для создания сокета UDP в Node.js необходимо использовать модуль dgram. Этот модуль предоставляет функциональность для работы с сокетами UDP. Для создания сокета нужно использовать метод createSocket(), который принимает тип сокета 'udp4' или 'udp6'. Пример: const dgram = require('dgram'); var socket = dgram.createSocket('udp4');"
+}

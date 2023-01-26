@@ -1,0 +1,27 @@
+{
+  "questionText": "Как можно создать объект класса в JavaScript?",
+  "type": "radio",
+  "code": {
+    "lang": "js",
+    "text": "class MyClass {}; let myObj = new MyClass();"
+  },
+  "answers": [
+    {
+      "text": "let myObj = new MyClass();",
+      "isCorrect": true
+    },
+    {
+      "text": "let myObj = MyClass();",
+      "isCorrect": false
+    },
+    {
+      "text": "let myObj = new Object(MyClass);",
+      "isCorrect": false
+    },
+    {
+      "text": "let myObj = Object.create(MyClass);",
+      "isCorrect": false
+    }
+  ],
+  "descriptionMarkup": "Чтобы создать объект класса в JavaScript, необходимо использовать ключевое слово `new` перед именем класса, как показано в первом варианте ответа."
+}
