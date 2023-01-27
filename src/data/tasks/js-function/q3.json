@@ -1,0 +1,22 @@
+{
+  "questionText": "Что вернёт оператор `typeof` если вызвать его для функции?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "`'object'`",
+      "isCorrect": false
+    },
+    {
+      "text": "`'string'`",
+      "isCorrect": false
+    },
+    {
+      "text": "`'undefined'`",
+      "isCorrect": false
+    },
+    {
+      "text": "`'function'`",
+      "isCorrect": true
+    }
+  ]
+}

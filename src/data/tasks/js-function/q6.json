@@ -1,0 +1,19 @@
+{
+  "questionText": "Выбери верные утверждения о методе `bind()`?",
+  "type": "checkbox",
+  "author": "StarkovSergey",
+  "answers": [
+    {
+      "text": "Вызывает функцию в заданном контексте",
+      "isCorrect": false
+    },
+    {
+      "text": "Создаёт *новую* функции, у которой при вызове будет заданный `this`",
+      "isCorrect": true
+    },
+    {
+      "text": "Не работает для стрелочных функций",
+      "isCorrect": true
+    }
+  ]
+}

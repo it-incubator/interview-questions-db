@@ -30,6 +30,13 @@ export const exams: Exam[] = [
     labels: ['frontend', 'backend'],
   },
   {
+    id: 'js-function',
+    title: 'JS Functions',
+    category: 'JavaScript',
+    level: 'basic',
+    labels: ['frontend', 'backend'],
+  },
+  {
     id: 'react-basic',
     title: 'React Basic',
     category: 'React',

@@ -1,0 +1,18 @@
+{
+  "questionText": "Как можно реализовать каррированную функцию в JavaScript?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "`function add(x) { return function(y) { return x + y } }`",
+      "isCorrect": true
+    },
+    {
+      "text": "`function add(x, y) { return x + y }`",
+      "isCorrect": false
+    },
+    {
+      "text": "`function add(x) { return x + x }`",
+      "isCorrect": false
+    }
+  ]
+}
