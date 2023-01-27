@@ -1,0 +1,24 @@
+{
+  "questionText": "назовите 3 состояния promise",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "pending,resolved,catch",
+      "isCorrect": false
+    },
+    {
+      "text": "pending,resolved,rejected",
+      "isCorrect": true
+    },
+    {
+      "text": "then,resolved,catch",
+      "isCorrect": false
+    },
+    {
+      "text": "нет правильных ответов",
+      "isCorrect": false
+    }
+  ],
+  "descriptionMarkup": "это стейт менеджер (хранитель стейта)."
+}
+
