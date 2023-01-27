@@ -1,0 +1,22 @@
+{
+  "questionText": "В каких записях покажет ошибки validator w3c, выберите несколько вариантов",
+  "type": "checkbox",
+  "answers": [
+    {
+      "text": "`<a Href=google.com class=abc>123</a>`",
+      "isCorrect": false
+    },
+    {
+      "text": "`<p>Hello world!`",
+      "isCorrect": false
+    },
+    {
+      "text": "`<ul><a href='#'>Link</a></ul>`",
+      "isCorrect": true
+    },
+    {
+      "text": "`<table><th><tr>1</tr></th></table>`",
+      "isCorrect": true
+    }
+  ]
+}

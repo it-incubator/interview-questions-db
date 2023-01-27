@@ -1,0 +1,22 @@
+{
+  "questionText": "Выберите в каких случаях будет отображаться favicon в браузере",
+  "type": "checkbox",
+  "answers": [
+    {
+      "text": "`<link rel='icon' type='image/x-icon' href='./fav.ico'>`",
+      "isCorrect": true
+    },
+    {
+      "text": "`<link rel='icon' href='./fav.ico'>`",
+      "isCorrect": true
+    },
+    {
+      "text": "`<link rel='icons' type='image/x-icon' href='./fav.ico'>`",
+      "isCorrect": false
+    },
+    {
+      "text": "`<link rel='shortcut icon' type='text/css' href='./fav.jpg'>`",
+      "isCorrect": true
+    }
+  ]
+}

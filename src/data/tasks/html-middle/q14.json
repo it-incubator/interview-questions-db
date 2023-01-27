@@ -1,0 +1,22 @@
+{
+  "questionText": "Веберите верное утверждение",
+  "type": "checkbox",
+  "answers": [
+    {
+      "text": "`<button>` принимает атрибут type, которому можно присвоить значения submit, reset, или button",
+      "isCorrect": true
+    },
+    {
+      "text": "`<form>` можно стилизовать с помощью тега `<style>`",
+      "isCorrect": true
+    },
+    {
+      "text": "`<input>` c type равным date позволяет пользователю использовать специальный интерфейс date picker",
+      "isCorrect": true
+    },
+    {
+      "text": "У тега `<form>` есть все перечисленные атрибуты: method, action, name, for",
+      "isCorrect": false
+    }
+  ]
+}

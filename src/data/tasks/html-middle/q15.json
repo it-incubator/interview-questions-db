@@ -1,0 +1,22 @@
+{
+  "questionText": "Какой HTML-код написан правильно согласно спецификации w3c",
+  "type": "checkbox",
+  "answers": [
+    {
+      "text": "`<img src='https://example.com/picture.jpg'>`",
+      "isCorrect": false
+    },
+    {
+      "text": "`<ul> <li><a href='https://example.com/'>1</a></li> </ul>`",
+      "isCorrect": true
+    },
+    {
+      "text": "`<ol>  <li><ul> <li><a href='https://example.com/'>1</a></li> </ul></li> <li>2</li>  </ol>`",
+      "isCorrect": true
+    },
+    {
+      "text": "`<img src='https://example.com/picture.jpg' alt='alt text'>`",
+      "isCorrect": true
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "questionText": "Выберите пункты, относящиеся к встроенной валидации форм HTML5",
+  "type": "checkbox",
+  "answers": [
+    {
+      "text": "атрибут required у `<input>`",
+      "isCorrect": true
+    },
+    {
+      "text": "атрибут pattern, используемый с регулярным выражением",
+      "isCorrect": true
+    },
+    {
+      "text": "атрибуты minlength и maxlength у `<textarea>`",
+      "isCorrect": true
+    },
+    {
+      "text": "атрибут type, определяющий тип данных в поле",
+      "isCorrect": true
+    }
+  ]
+}

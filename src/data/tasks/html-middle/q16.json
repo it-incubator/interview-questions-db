@@ -1,0 +1,22 @@
+{
+  "questionText": "Выберите неправильные определения списков согласно спецификации w3c",
+  "type": "checkbox",
+  "answers": [
+    {
+      "text": "`<dl>  <dt>coffee</dt> <dd>black hot drink</dd>  </dl>`",
+      "isCorrect": false
+    },
+    {
+      "text": "`<ul>  <li> <li></li> </li>  </ul>`",
+      "isCorrect": true
+    },
+    {
+      "text": "`<dl>  <dt>coffee</dt> <dt>tea</dt>  </dl>`",
+      "isCorrect": true
+    },
+    {
+      "text": "`<ol>   <li>  <ul> <li>1</li> </ul>  </li>   </ol>`",
+      "isCorrect": false
+    }
+  ]
+}
