@@ -1,0 +1,24 @@
+{
+  "questionText": "К Методам объекта store относятся: ",
+  "type": "checkbox",
+  "answers": [
+    {
+      "text": "createStore",
+      "isCorrect": false
+    },
+    {
+      "text": "getState",
+      "isCorrect":true
+    },
+    {
+      "text": "dispatch",
+      "isCorrect": true
+    },
+    {
+      "text": "subscribe",
+      "isCorrect": true
+    }
+  ],
+  "descriptionMarkup": "https://rajdee.gitbooks.io/redux-in-russian/content/docs/api/Store.html"
+}
+
