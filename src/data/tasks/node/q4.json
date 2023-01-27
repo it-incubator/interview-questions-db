@@ -3,21 +3,21 @@
   "type": "radio",
   "answers": [
     {
-      "text": "setTimeout",
+      "text": "`setTimeout`",
       "isCorrect": false
     },
     {
-      "text": "setImmediate",
+      "text": "`setImmediate`",
       "isCorrect": true
     },
     {
-      "text": "process.nextTick",
+      "text": "`process.nextTick`",
       "isCorrect": false
     },
     {
-      "text": "setInterval",
+      "text": "`setInterval`",
       "isCorrect": false
     }
   ],
-  "descriptionMarkup": "В цикле событий Node.js последним обрабатывается событие setImmediate. Это позволяет обеспечить более быструю обработку критически важных задач."
+  "descriptionMarkup": "В цикле событий Node.js последним обрабатывается событие `setImmediate`. Это позволяет обеспечить более быструю обработку критически важных задач."
 }

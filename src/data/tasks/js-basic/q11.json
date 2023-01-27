@@ -3,19 +3,19 @@
   "type": "radio",
   "answers": [
     {
-      "text": "let myObj = new MyClass();",
+      "text": "`let myObj = new MyClass();`",
       "isCorrect": true
     },
     {
-      "text": "let myObj = MyClass();",
+      "text": "`let myObj = MyClass();`",
       "isCorrect": false
     },
     {
-      "text": "let myObj = new Object(MyClass);",
+      "text": "`let myObj = new Object(MyClass);`",
       "isCorrect": false
     },
     {
-      "text": "let myObj = Object.create(MyClass);",
+      "text": "`let myObj = Object.create(MyClass);`",
       "isCorrect": false
     }
   ],

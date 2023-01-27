@@ -3,15 +3,15 @@
   "type": "radio",
   "answers": [
     {
-      "text": "Используя модификатор private",
+      "text": "Используя модификатор `private`",
       "isCorrect": false
     },
     {
-      "text": "Используя модификатор protected",
+      "text": "Используя модификатор `protected`",
       "isCorrect": true
     },
     {
-      "text": "Используя модификатор public",
+      "text": "Используя модификатор `public`",
       "isCorrect": false
     },
     {
@@ -19,5 +19,5 @@
       "isCorrect": false
     }
   ],
-  "descriptionMarkup": "В TypeScript можно объявить защищенный метод, используя модификатор protected, например: class MyClass { protected myMethod() { // method code } } Защищенный метод может быть вызван только из класса, который его объявил или из класса-наследника."
+  "descriptionMarkup": "В TypeScript можно объявить защищенный метод, используя модификатор `protected`, например: `class MyClass { protected myMethod() { // method code } }` Защищенный метод может быть вызван только из класса, который его объявил или из класса-наследника."
 }

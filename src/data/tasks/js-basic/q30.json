@@ -3,7 +3,7 @@
   "type": "radio",
   "answers": [
     {
-      "text": "Используя свойство this внутри класса",
+      "text": "Используя свойство `this` внутри класса",
       "isCorrect": true
     },
     {
@@ -11,13 +11,13 @@
       "isCorrect": false
     },
     {
-      "text": "Используя свойство props внутри класса",
+      "text": "Используя свойство `props` внутри класса",
       "isCorrect": false
     },
     {
-      "text": "Используя свойство state внутри класса",
+      "text": "Используя свойство `state` внутри класса",
       "isCorrect": false
     }
   ],
-  "descriptionMarkup": "В JavaScript контекст в классе можно получить с помощью свойства this."
+  "descriptionMarkup": "В JavaScript контекст в классе можно получить с помощью свойства `this`."
 }

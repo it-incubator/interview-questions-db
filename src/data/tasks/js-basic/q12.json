@@ -3,21 +3,21 @@
   "type": "radio",
   "answers": [
     {
-      "text": "myArr.push(4);",
+      "text": "`myArr.push(4);`",
       "isCorrect": true
     },
     {
-      "text": "myArr[myArr.length] = 4;",
+      "text": "`myArr[myArr.length] = 4;`",
       "isCorrect": true
     },
     {
-      "text": "myArr.append(4);",
+      "text": "`myArr.append(4);`",
       "isCorrect": false
     },
     {
-      "text": "myArr.concat(4);",
+      "text": "`myArr.concat(4);`",
       "isCorrect": false
     }
   ],
-  "descriptionMarkup": "Чтобы добавить элемент в конец массива в JavaScript, можно использовать метод push() или присвоить значение по индексу, равному длине массива, как показано в первых двух вариантах ответа."
+  "descriptionMarkup": "Чтобы добавить элемент в конец массива в JavaScript, можно использовать метод `push()` или присвоить значение по индексу, равному длине массива, как показано в первых двух вариантах ответа."
 }

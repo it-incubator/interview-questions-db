@@ -3,7 +3,7 @@
   "type": "radio",
   "answers": [
     {
-      "text": "Используя метод Object.assign() для копирования методов из другого объекта в класс",
+      "text": "Используя метод `Object.assign()` для копирования методов из другого объекта в класс",
       "isCorrect": true
     },
     {
@@ -11,13 +11,13 @@
       "isCorrect": false
     },
     {
-      "text": "Используя конструкцию class mixin {...}",
+      "text": "Используя конструкцию `class mixin {...}`",
       "isCorrect": false
     },
     {
-      "text": "Используя метод Object.create() для создания нового класса на основе другого класса",
+      "text": "Используя метод `Object.create()` для создания нового класса на основе другого класса",
       "isCorrect": false
     }
   ],
-  "descriptionMarkup": "Mixin - это механизм, который позволяет добавлять методы и свойства из одного класса в другой класс. Это можно сделать, используя метод Object.assign() для копирования методов и свойств из одного объекта в другой. Например: class mixin { method() {...} } Object.assign(classA.prototype, mixin.prototype);"
+  "descriptionMarkup": "Mixin - это механизм, который позволяет добавлять методы и свойства из одного класса в другой класс. Это можно сделать, используя метод Object.assign() для копирования методов и свойств из одного объекта в другой. Например: `class mixin { method() {...} } Object.assign(classA.prototype, mixin.prototype);`"
 }

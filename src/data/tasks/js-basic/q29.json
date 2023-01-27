@@ -3,21 +3,21 @@
   "type": "checkbox",
   "answers": [
     {
-      "text": "Используя метод bind()",
+      "text": "Используя метод `bind()`",
       "isCorrect": true
     },
     {
-      "text": "Используя метод call()",
+      "text": "Используя метод `call()`",
       "isCorrect": true
     },
     {
-      "text": "Используя метод apply()",
+      "text": "Используя метод `apply()`",
       "isCorrect": true
     },
     {
-      "text": "Используя метод context()",
+      "text": "Используя метод `context()`",
       "isCorrect": false
     }
   ],
-  "descriptionMarkup": "В JavaScript можно связать контекст вызова с классом, используя методы bind(), call() или apply()"
+  "descriptionMarkup": "В JavaScript можно связать контекст вызова с классом, используя методы `bind()`, `call()` или `apply()`"
 }

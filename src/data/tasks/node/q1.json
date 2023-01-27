@@ -3,25 +3,21 @@
   "type": "checkbox",
   "answers": [
     {
-      "text": "fs.readFileSync('file.txt')",
+      "text": "`fs.readFileSync('file.txt')`",
       "isCorrect": false
     },
     {
-      "text": "fs.readFile('file.txt', function(err, data) { ... })",
+      "text": "`fs.readFile('file.txt', function(err, data) { ... })`",
       "isCorrect": true
     },
     {
-      "text": "fs.readSync('file.txt')",
+      "text": "`fs.readSync('file.txt')`",
       "isCorrect": false
     },
     {
-      "text": "fs.getFileSync('file.txt')",
+      "text": "`fs.getFileSync('file.txt')`",
       "isCorrect": false
     }
   ],
-  "code": {
-    "lang": "nodejs",
-    "text": ""
-  },
-  "descriptionMarkup": "Метод `fs.readFile()` асинхронно читает файл. Он принимает путь к файлу в качестве первого аргумента и функцию обратного вызова в качестве второго аргумента. Функция обратного вызова будет передана два аргумента, объект ошибки и содержимое файла в виде объекта Buffer. Если ошибки нет, объект ошибки будет пустым и содержимое файла можно получить через переменную `data`."
+  "descriptionMarkup": "Метод `fs.readFile()` асинхронно читает файл. Он принимает путь к файлу в качестве первого аргумента и функцию обратного вызова в качестве второго аргумента. Функция обратного вызова будет передана два аргумента, объект ошибки и содержимое файла в виде объекта `Buffer`. Если ошибки нет, объект ошибки будет пустым и содержимое файла можно получить через переменную `data`."
 }

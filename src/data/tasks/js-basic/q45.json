@@ -4,21 +4,21 @@
   "type": "radio",
   "answers": [
     {
-      "text": "Используя оператор instanceof",
+      "text": "Используя оператор `instanceof`",
       "isCorrect": true
     },
     {
-      "text": "Используя свойство proto объекта",
+      "text": "Используя свойство `proto` объекта",
       "isCorrect": false
     },
     {
-      "text": "Используя функцию typeof",
+      "text": "Используя функцию `typeof`",
       "isCorrect": false
     },
     {
-      "text": "Используя метод Object.getPrototypeOf()",
+      "text": "Используя метод `Object.getPrototypeOf()`",
       "isCorrect": true
     }
   ],
-  "descriptionMarkup": "В JavaScript можно использовать оператор instanceof или метод Object.getPrototypeOf() для проверки является ли объект экземпляром определенного класса. Например: console.log(object instanceof MyClass); console.log(Object.getPrototypeOf(object) === MyClass.prototype);"
+  "descriptionMarkup": "В JavaScript можно использовать оператор instanceof или метод `Object.getPrototypeOf()` для проверки является ли объект экземпляром определенного класса. Например: `console.log(object instanceof MyClass); console.log(Object.getPrototypeOf(object) === MyClass.prototype);`"
 }

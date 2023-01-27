@@ -1,5 +1,5 @@
 {
-  "questionText": "Как использовать функцию bind() в JavaScript?",
+  "questionText": "Как использовать функцию `bind()` в JavaScript?",
   "type": "checkbox",
   "answers": [
     {

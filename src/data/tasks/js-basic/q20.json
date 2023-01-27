@@ -3,21 +3,21 @@
   "type": "radio",
   "answers": [
     {
-      "text": "class Child extends Parent {...}",
+      "text": "`class Child extends Parent {...}`",
       "isCorrect": false
     },
     {
-      "text": "Child.prototype = Object.create(Parent.prototype);",
+      "text": "`Child.prototype = Object.create(Parent.prototype);`",
       "isCorrect": true
     },
     {
-      "text": "Child.prototype = new Parent();",
+      "text": "`Child.prototype = new Parent();`",
       "isCorrect": false
     },
     {
-      "text": "Child.prototype = Parent.prototype;",
+      "text": "`Child.prototype = Parent.prototype;`",
       "isCorrect": false
     }
   ],
-  "descriptionMarkup": "Для создания класса-наследника в JavaScript с использованием прототипов необходимо создать функцию-конструктор для класса-родителя, а затем использовать метод Object.create() для создания нового объекта с родительским прототипом. Пример: function Parent() {} function Child() {} Child.prototype = Object.create(Parent.prototype);"
+  "descriptionMarkup": "Для создания класса-наследника в JavaScript с использованием прототипов необходимо создать функцию-конструктор для класса-родителя, а затем использовать метод Object.create() для создания нового объекта с родительским прототипом. Пример: `function Parent() {} function Child() {} Child.prototype = Object.create(Parent.prototype);`"
 }

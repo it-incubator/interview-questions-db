@@ -3,21 +3,21 @@
   "type": "radio",
   "answers": [
     {
-      "text": "function decorator(target) {...}",
+      "text": "`function decorator(target) {...}`",
       "isCorrect": false
     },
     {
-      "text": "function decorator() {...}",
+      "text": "`function decorator() {...}`",
       "isCorrect": false
     },
     {
-      "text": "@decorator class MyClass {...}",
+      "text": "`@decorator class MyClass {...}`",
       "isCorrect": true
     },
     {
-      "text": "@decorator function myFunction() {...}",
+      "text": "`@decorator function myFunction() {...}`",
       "isCorrect": true
     }
   ],
-  "descriptionMarkup": "Для создания декоратора в JavaScript необходимо использовать синтаксис декоратора, который начинается с символа '@' и применяется к классу или функции. Пример: @decorator class MyClass {...} или @decorator function myFunction() {...}."
+  "descriptionMarkup": "Для создания декоратора в JavaScript необходимо использовать синтаксис декоратора, который начинается с символа `@` и применяется к классу или функции. Пример: `@decorator class MyClass {...}` или `@decorator function myFunction() {...}.`"
 }

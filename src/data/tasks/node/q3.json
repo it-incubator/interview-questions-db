@@ -3,21 +3,21 @@
   "type": "radio",
   "answers": [
     {
-      "text": "Использовать функцию process.listProcesses()",
+      "text": "Использовать функцию `process.listProcesses()`",
       "isCorrect": false
     },
     {
-      "text": "Использовать модуль os и вызвать os.listProcesses()",
+      "text": "Использовать модуль `os` и вызвать `os.listProcesses()`",
       "isCorrect": false
     },
     {
-      "text": "Использовать модуль child_process и вызвать child_process.listProcesses()",
+      "text": "Использовать модуль `child_process` и вызвать `child_process.listProcesses()`",
       "isCorrect": false
     },
     {
-      "text": "Использовать модуль child_process и вызвать child_process.exec('ps aux')",
+      "text": "Использовать модуль `child_process` и вызвать `child_process.exec('ps aux')`",
       "isCorrect": true
     }
   ],
-  "descriptionMarkup": "Для получения списка всех запущенных процессов в Node.js можно использовать модуль child_process и вызвать метод exec, который выполнит shell-команду 'ps aux' и вернет результат в виде строки."
+  "descriptionMarkup": "Для получения списка всех запущенных процессов в Node.js можно использовать модуль `child_process` и вызвать метод `exec`, который выполнит shell-команду '`ps aux`' и вернет результат в виде строки."
 }

@@ -1,21 +1,21 @@
 {
-  "questionText": "Как можно использовать метод prototype для добавления методов в класс в JavaScript?",
+  "questionText": "Как можно использовать метод `prototype` для добавления методов в класс в JavaScript?",
   "type": "radio",
   "answers": [
     {
-      "text": "Используя метод prototype.addMethod() внутри класса",
+      "text": "Используя метод `prototype.addMethod()` внутри класса",
       "isCorrect": false
     },
     {
-      "text": "Используя свойство prototype и присваивая ему новый метод",
+      "text": "Используя свойство `prototype` и присваивая ему новый метод",
       "isCorrect": true
     },
     {
-      "text": "Используя метод class.prototype.addMethod() внутри класса",
+      "text": "Используя метод `class.prototype.addMethod()` внутри класса",
       "isCorrect": false
     },
     {
-      "text": "Используя метод super.prototype.addMethod() внутри класса",
+      "text": "Используя метод `super.prototype.addMethod()` внутри класса",
       "isCorrect": false
     }
   ]

@@ -1,23 +1,23 @@
 {
-  "questionText": "Как использовать метод super в классе для доступа к родительскому классу в JavaScript?",
+  "questionText": "Как использовать метод `super` в классе для доступа к родительскому классу в JavaScript?",
   "type": "radio",
   "answers": [
     {
-      "text": "Используя метод super() внутри конструктора класса",
+      "text": "Используя метод `super()` внутри конструктора класса",
       "isCorrect": true
     },
     {
-      "text": "Используя метод super.call() внутри класса",
+      "text": "Используя метод `super.call()` внутри класса",
       "isCorrect": false
     },
     {
-      "text": "Используя метод super.apply() внутри класса",
+      "text": "Используя метод `super.apply()` внутри класса",
       "isCorrect": false
     },
     {
-      "text": "Используя метод super.bind() внутри класса",
+      "text": "Используя метод `super.bind()` внутри класса",
       "isCorrect": false
     }
   ],
-  "descriptionMarkup": "В JavaScript можно использовать метод super для доступа к родительскому классу. Для этого необходимо использовать метод super() внутри конструктора класса, например: class Child extends Parent { constructor(name) { super(name); } }"
+  "descriptionMarkup": "В JavaScript можно использовать метод `super` для доступа к родительскому классу. Для этого необходимо использовать метод `super()` внутри конструктора класса, например: `class Child extends Parent { constructor(name) { super(name); } }`"
 }

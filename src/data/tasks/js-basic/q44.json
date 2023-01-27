@@ -3,21 +3,21 @@
   "type": "radio",
   "answers": [
     {
-      "text": "Используя конструктор Object.create(null)",
+      "text": "Используя конструктор `Object.create(null)`",
       "isCorrect": true
     },
     {
-      "text": "Используя литерал объекта {}",
+      "text": "Используя литерал объекта `{}`",
       "isCorrect": false
     },
     {
-      "text": "Используя конструктор new Object()",
+      "text": "Используя конструктор `new Object()`",
       "isCorrect": false
     },
     {
-      "text": "Используя конструктор Object.assign()",
+      "text": "Используя конструктор `Object.assign()`",
       "isCorrect": false
     }
   ],
-  "descriptionMarkup": "В JavaScript можно создать объект без свойства proto, используя конструктор Object.create(null)."
+  "descriptionMarkup": "В JavaScript можно создать объект без свойства `proto`, используя конструктор `Object.create(null)`."
 }

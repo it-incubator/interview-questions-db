@@ -3,25 +3,21 @@
   "type": "radio",
   "answers": [
     {
-      "text": "function add(x) { return function(y) { return x + y; } }",
+      "text": "`function add(x) { return function(y) { return x + y; } }`",
       "isCorrect": true
     },
     {
-      "text": "function add(x, y) { return x + y; }",
+      "text": "`function add(x, y) { return x + y; }`",
       "isCorrect": false
     },
     {
-      "text": "function add(x) { return x + y; }",
+      "text": "`function add(x) { return x + y; }`",
       "isCorrect": false
     },
     {
-      "text": "function add(x) { return x + x; }",
+      "text": "`function add(x) { return x + x; }`",
       "isCorrect": false
     }
   ],
-  "code": {
-    "lang": "js",
-    "text": "function add(x) { return function(y) { return x + y; } }\n const add5 = add(5);\nconsole.log(add5(3))"
-  },
   "descriptionMarkup": "Каррированная функция - это функция, которая возвращает другую функцию."
 }

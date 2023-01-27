@@ -7,17 +7,17 @@
 "isCorrect": false
 },
 {
-"text": "Использовать Promise.all()",
+"text": "Использовать `Promise.all()`",
 "isCorrect": true
 },
 {
-"text": "Использовать setTimeout() для каждой операции",
+"text": "Использовать `setTimeout()` для каждой операции",
 "isCorrect": false
 },
 {
-"text": "Использовать async/await для каждой операции в отдельном блоке",
+"text": "Использовать `async/await` для каждой операции в отдельном блоке",
 "isCorrect": false
 }
 ],
-"descriptionMarkup": "Для реализации параллельного выполнения асинхронных операций в JavaScript можно использовать метод Promise.all()."
+"descriptionMarkup": "Для реализации параллельного выполнения асинхронных операций в JavaScript можно использовать метод `Promise.all()`."
 }

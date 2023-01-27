@@ -3,21 +3,21 @@
   "type": "radio",
   "answers": [
     {
-      "text": "Используя конструктор Error()",
+      "text": "Используя конструктор `Error()`",
       "isCorrect": true
     },
     {
-      "text": "Используя конструктор throw Error()",
+      "text": "Используя конструктор `throw Error()`",
       "isCorrect": false
     },
     {
-      "text": "Используя класс Error",
+      "text": "Используя класс `Error`",
       "isCorrect": true
     },
     {
-      "text": "Используя метод console.error()",
+      "text": "Используя метод `console.error()`",
       "isCorrect": false
     }
   ],
-  "descriptionMarkup": "В JavaScript можно создавать собственный тип ошибки, используя конструктор Error() или класс Error, например: throw new Error('My custom error') или class MyError extends Error {}. Также можно расширять свойства и методы стандартного класса Error."
+  "descriptionMarkup": "В JavaScript можно создавать собственный тип ошибки, используя конструктор `Error()` или класс `Error`, например: `throw new Error('My custom error')` или `class MyError extends Error {}`. Также можно расширять свойства и методы стандартного класса `Error`."
 }

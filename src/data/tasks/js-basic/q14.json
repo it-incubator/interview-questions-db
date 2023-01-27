@@ -3,19 +3,19 @@
   "type": "checkbox",
   "answers": [
     {
-      "text": "function handleClick() {}",
+      "text": "`function handleClick() {}`",
       "isCorrect": false
     },
     {
-      "text": "setTimeout(() => {}, 1000)",
+      "text": "`setTimeout(() => {}, 1000)`",
       "isCorrect": true
     },
     {
-      "text": "fetch('https://example.com')",
+      "text": "`fetch('https://example.com')`",
       "isCorrect": true
     },
     {
-      "text": "const result = myPromise.then(data => {})",
+      "text": "`const result = myPromise.then(data => {})`",
       "isCorrect": true
     }
   ],

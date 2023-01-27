@@ -3,21 +3,21 @@
   "type": "radio",
   "answers": [
     {
-      "text": "fs.createReadStream()",
+      "text": "`fs.createReadStream()`",
       "isCorrect": false
     },
     {
-      "text": "http.createServer()",
+      "text": "`http.createServer()`",
       "isCorrect": false
     },
     {
-      "text": "stream.PassThrough()",
+      "text": "`stream.PassThrough()`",
       "isCorrect": true
     },
     {
-      "text": "buffer.Readable",
+      "text": "`buffer.Readable`",
       "isCorrect": false
     }
   ],
-  "descriptionMarkup": "Метод stream.PassThrough() из модуля stream используется для создания буферизованного потока в Node.js. Он создает промежуточный поток, который просто передает данные от входного потока к выходному без изменения или обработки данных. Этот метод полезен для создания кастомных потоков или для реализации цепочки потоков."
+  "descriptionMarkup": "Метод `stream.PassThrough()` из модуля stream используется для создания буферизованного потока в Node.js. Он создает промежуточный поток, который просто передает данные от входного потока к выходному без изменения или обработки данных. Этот метод полезен для создания кастомных потоков или для реализации цепочки потоков."
 }

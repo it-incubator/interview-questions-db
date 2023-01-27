@@ -3,25 +3,21 @@
   "type": "checkbox",
   "answers": [
     {
-      "text": "function outer(){ function inner(){}}",
+      "text": "`function outer(){ function inner(){}}`",
       "isCorrect": true
     },
     {
-      "text": "function inner(){ function outer(){}}",
+      "text": "`function inner(){ function outer(){}}`",
       "isCorrect": false
     },
     {
-      "text": "function outer(){ var inner = function(){}}",
+      "text": "`function outer(){ var inner = function(){}}`",
       "isCorrect": true
     },
     {
-      "text": "function inner(){ var outer = function(){}}",
+      "text": "`function inner(){ var outer = function(){}}`",
       "isCorrect": false
     }
   ],
-  "code": {
-    "lang": "js",
-    "text": "function outer(){ var inner = function(){console.log('Inner function')}};\n outer();"
-  },
-  "descriptionMarkup": "Замыкание - это функция, которая имеет доступ к переменным внешней функции, в которой она была определена. Замыкание может быть реализовано с использованием вложенной функции или с использованием переменной, содержащей функцию. Пример: function outer(){ var inner = function(){console.log('Inner function')}}; outer();"
+  "descriptionMarkup": "Замыкание - это функция, которая имеет доступ к переменным внешней функции, в которой она была определена. Замыкание может быть реализовано с использованием вложенной функции или с использованием переменной, содержащей функцию. Пример: `function outer(){ var inner = function(){console.log('Inner function')}}; outer();`"
 }
