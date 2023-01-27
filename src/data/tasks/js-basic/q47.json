@@ -1,0 +1,23 @@
+{
+  "questionText": "Как можно реализовать Mixin для класса в JavaScript, чтобы добавить дополнительные свойства и методы к классу?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "Использование метода Object.assign() для копирования свойств из Mixin в класс",
+      "isCorrect": true
+    },
+    {
+      "text": "Использование метода Object.create() для создания нового объекта с свойствами из Mixin и наследование его от класса",
+      "isCorrect": false
+    },
+    {
+      "text": "Использование метода Object.defineProperties() для добавления свойств из Mixin к классу",
+      "isCorrect": true
+    },
+    {
+      "text": "Использование метода Object.setPrototypeOf() для установки прототипа Mixin для класса",
+      "isCorrect": false
+    }
+  ],
+  "descriptionMarkup": "Mixin - это объект, который содержит дополнительные свойства и методы, которые можно добавить к классу. Одним из способов реализации Mixin является использование методов Object.assign() или Object.defineProperties() для копирования свойств из Mixin в класс."
+}

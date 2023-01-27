@@ -1,0 +1,23 @@
+{
+  "questionText": "Как использовать метод super.prototype в классе для доступа к методам родительского класса в JavaScript?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "Используя метод super.prototype.methodName внутри класса",
+      "isCorrect": true
+    },
+    {
+      "text": "Используя метод super.call() внутри класса",
+      "isCorrect": false
+    },
+    {
+      "text": "Используя метод super.apply() внутри класса",
+      "isCorrect": false
+    },
+    {
+      "text": "Используя метод super.bind() внутри класса",
+      "isCorrect": false
+    }
+  ],
+  "descriptionMarkup": "В JavaScript можно использовать метод super.prototype для доступа к методам родительского класса. Для этого необходимо использовать метод super.prototype.methodName внутри класса, например: class Child extends Parent { someMethod() { super.prototype.someMethod.call(this); } }"
+}

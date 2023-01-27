@@ -1,0 +1,23 @@
+{
+  "questionText": "Как связать контекст вызова с классом в JavaScript?",
+  "type": "checkbox",
+  "answers": [
+    {
+      "text": "Используя метод bind()",
+      "isCorrect": true
+    },
+    {
+      "text": "Используя метод call()",
+      "isCorrect": true
+    },
+    {
+      "text": "Используя метод apply()",
+      "isCorrect": true
+    },
+    {
+      "text": "Используя метод context()",
+      "isCorrect": false
+    }
+  ],
+  "descriptionMarkup": "В JavaScript можно связать контекст вызова с классом, используя методы bind(), call() или apply()"
+}

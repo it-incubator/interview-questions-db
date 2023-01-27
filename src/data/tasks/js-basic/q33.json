@@ -1,0 +1,26 @@
+{
+  "questionText": "Какие из приведенных ниже вариантов являются корректными примерами использования стрелочных функций в JavaScript?",
+  "type": "checkbox",
+  "answers": [
+    {
+      "text": "const add = (a, b) => a + b",
+      "isCorrect": true
+    },
+    {
+      "text": "const isEven = number => number % 2 === 0",
+      "isCorrect": true
+    },
+    {
+      "text": "const print = => console.log('hello')",
+      "isCorrect": true
+    },
+    {
+      "text": "const add = => a + b",
+      "isCorrect": false
+    },
+    {
+      "text": "const isEven = (number) => { return number % 2 === 0 }",
+      "isCorrect": true
+    }
+  ]
+}

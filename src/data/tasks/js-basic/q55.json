@@ -1,0 +1,23 @@
+{
+  "questionText": "Как можно расширить класс Error в JavaScript, чтобы создать собственный тип ошибки?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "Наследуя от Error и используя свойство prototype",
+      "isCorrect": true
+    },
+    {
+      "text": "Используя функцию extend для наследования от Error",
+      "isCorrect": false
+    },
+    {
+      "text": "Используя функцию Object.create для наследования от Error",
+      "isCorrect": false
+    },
+    {
+      "text": "Используя функцию class для создания нового класса, наследующего от Error",
+      "isCorrect": true
+    }
+  ],
+  "descriptionMarkup": "В JavaScript можно расширить класс Error, наследуя от него и используя свойство prototype или class для создания собственного типа ошибки. Например: class MyError extends Error { constructor(message) { super(message); this.name = 'MyError'; } }"
+}

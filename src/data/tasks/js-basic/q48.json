@@ -1,0 +1,23 @@
+{
+  "questionText": "Как объявить статический метод в классе в JavaScript?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "Используя ключевое слово static перед объявлением метода",
+      "isCorrect": true
+    },
+    {
+      "text": "Используя ключевое слово const перед объявлением метода",
+      "isCorrect": false
+    },
+    {
+      "text": "Используя ключевое слово var перед объявлением метода",
+      "isCorrect": false
+    },
+    {
+      "text": "Используя ключевое слово let перед объявлением метода",
+      "isCorrect": false
+    }
+  ],
+  "descriptionMarkup": "В JavaScript можно объявить статический метод в классе, используя ключевое слово static перед объявлением метода. Например: class MyClass { static myStaticMethod() { // code here } } Этот метод может быть вызван с помощью имени класса и не требует создания экземпляра класса: MyClass.myStaticMethod();"
+}

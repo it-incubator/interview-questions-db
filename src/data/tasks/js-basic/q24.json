@@ -1,0 +1,23 @@
+{
+  "questionText": "Как можно использовать функцию call() для вызова функции с указанием контекста выполнения и аргументов?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "Используя синтаксис функции.call(context, arg1, arg2, ...)",
+      "isCorrect": true
+    },
+    {
+      "text": "Используя синтаксис функции.apply(context, [arg1, arg2, ...])",
+      "isCorrect": false
+    },
+    {
+      "text": "Используя синтаксис функции.bind(context, arg1, arg2, ...)",
+      "isCorrect": false
+    },
+    {
+      "text": "Используя синтаксис функции(context, arg1, arg2, ...)",
+      "isCorrect": false
+    }
+  ],
+  "descriptionMarkup": "Функция call() позволяет вызвать функцию с указанием контекста выполнения и аргументов. Синтаксис функции call() такой: функция.call(context, arg1, arg2, ...). Например: function greet() { console.log('Hello, ' + this.name); } var person = { name: 'John' }; greet.call(person); // выведет 'Hello, John'"
+}

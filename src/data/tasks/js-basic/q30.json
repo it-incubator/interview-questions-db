@@ -1,0 +1,23 @@
+{
+  "questionText": "Как использовать контекст в классе в JavaScript?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "Используя свойство this внутри класса",
+      "isCorrect": true
+    },
+    {
+      "text": "Используя свойство context внутри класса",
+      "isCorrect": false
+    },
+    {
+      "text": "Используя свойство props внутри класса",
+      "isCorrect": false
+    },
+    {
+      "text": "Используя свойство state внутри класса",
+      "isCorrect": false
+    }
+  ],
+  "descriptionMarkup": "В JavaScript контекст в классе можно получить с помощью свойства this."
+}

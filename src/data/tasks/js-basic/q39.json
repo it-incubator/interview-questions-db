@@ -1,0 +1,24 @@
+{
+  "questionText": "Как использовать механизм расширения классов в JavaScript с использованием синтаксиса стрелочных функций?",
+  "type": "checkbox",
+  "answers": [
+    {
+      "text": "Используя ключевое слово extends в объявлении класса-наследника",
+      "isCorrect": true
+    },
+    {
+      "text": "Используя метод Object.create() для создания нового объекта-наследника",
+      "isCorrect": false
+    },
+    {
+      "text": "Используя метод Object.assign() для копирования свойств и методов родительского класса в класс-наследник",
+      "isCorrect": false
+    },
+    {
+      "text": "Используя синтаксис стрелочных функций в методах класса-наследника",
+      "isCorrect": true
+    }
+  ],
+
+  "descriptionMarkup": "В JavaScript можно реализовать наследование классов с использованием ключевого слова extends в объявлении класса-наследника. Например: class Child extends Parent { constructor(name) { super(name); } sayHello = () => console.log(Hello, ${this.name}) }."
+}

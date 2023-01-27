@@ -1,0 +1,23 @@
+{
+  "questionText": "Как объявить защищенный метод в классе в TypeScript?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "Используя модификатор private",
+      "isCorrect": false
+    },
+    {
+      "text": "Используя модификатор protected",
+      "isCorrect": true
+    },
+    {
+      "text": "Используя модификатор public",
+      "isCorrect": false
+    },
+    {
+      "text": "Нет способа объявить защищенный метод в TypeScript",
+      "isCorrect": false
+    }
+  ],
+  "descriptionMarkup": "В TypeScript можно объявить защищенный метод, используя модификатор protected, например: class MyClass { protected myMethod() { // method code } } Защищенный метод может быть вызван только из класса, который его объявил или из класса-наследника."
+}
