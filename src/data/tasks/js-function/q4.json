@@ -11,10 +11,6 @@
       "isCorrect": false
     },
     {
-      "text": "`function add(x) { return x + y }`",
-      "isCorrect": false
-    },
-    {
       "text": "`function add(x) { return x + x }`",
       "isCorrect": false
     }

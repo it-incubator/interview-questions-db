@@ -1,0 +1,18 @@
+{
+  "questionText": "Выбери верные утверждения о способе объявления функций Function Declaration",
+  "answers": [
+    {
+      "text": "\"Классический\" способ объявления функций с помощью ключевого слово `function` и имени функции",
+      "isCorrect": true
+    },
+    {
+      "text": "Может использоваться для анонимных функций и IIFE(Immediately Invoked Function Expression)",
+      "isCorrect": false
+    },
+    {
+      "text": "Созданные таким способом функции могут вызываться до их объявления",
+      "isCorrect": true
+    }
+  ],
+  "descriptionMarkup": "Hoisting - это механизм в JS в котором переменные `var` и функции, объявленные через Function Declaration, передвигаются вверх своей области видимости перед тем, как код будет выполнен."
+}

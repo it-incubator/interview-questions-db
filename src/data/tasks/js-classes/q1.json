@@ -1,0 +1,18 @@
+{
+  "questionText": "Как можно расширить класс в JavaScript?",
+  "type": "checkbox",
+  "answers": [
+    {
+      "text": "Используя ключевое слово `extends` при объявлении нового класса",
+      "isCorrect": true
+    },
+    {
+      "text": "Используя метод `Object.assign()`",
+      "isCorrect": false
+    },
+    {
+      "text": "Используя свойство `prototype` базового класса: `Child.prototype = Object.create(Parent.prototype)`",
+      "isCorrect": true
+    }
+  ]
+}
