@@ -1,0 +1,25 @@
+{
+  "questionText": "Чему равно `1 && 4 && undefined && 0`?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "4",
+      "isCorrect": false
+    },
+    {
+      "text": "undefined",
+      "isCorrect": true
+    },
+    {
+      "text": "0",
+      "isCorrect": false
+    },
+    {
+      "text": "1",
+      "isCorrect": false
+    }
+  ],
+  "descriptionMarkup": "При работе с оператором `&&` каждый операнд преобразует в логическое значение. Если результат false, останавливается и возвращает исходное значение этого операнда."
+}
+
+

@@ -1,0 +1,23 @@
+{
+  "questionText": "Выберите ложное утверждение",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "метод map можно привязывать к другим методам - `reduce(), sort(), filter()`, метод forEach - нет",
+      "isCorrect": false
+    },
+    {
+      "text": "и метод map, и метод forEach возвращают новый массив",
+      "isCorrect": true
+    },
+    {
+      "text": "во многих случаях метод forEach медленнее метода map",
+      "isCorrect": false
+    },
+    {
+      "text": "метод forEach изменяет исходный массив, в отличие от метода map",
+      "isCorrect": false
+    }
+  ],
+  "descriptionMarkup": "Метод `forEach` всегда возвращает значение undefined."
+}

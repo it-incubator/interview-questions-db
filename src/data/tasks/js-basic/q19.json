@@ -1,0 +1,23 @@
+{
+  "questionText": "Выберите способы приведения строки к числу",
+  "type": "checkbox",
+  "answers": [
+    {
+      "text": "'2' - '2'",
+      "isCorrect": true
+    },
+    {
+      "text": "оператор `+`",
+      "isCorrect": true
+    },
+    {
+      "text": "`Number(str)`",
+      "isCorrect": true
+    },
+    {
+      "text": "'2' + '2'",
+      "isCorrect": false
+    }
+  ],
+  "descriptionMarkup": "При '2' + '2' срабатывает конкатенация, т.е. объединение строк. В результате получается строка '22'."
+}
