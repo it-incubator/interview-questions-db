@@ -1,0 +1,24 @@
+{
+  "questionText": "Что из перечисленного НЕ является методом жизненнего цикла классового компонента?",
+  "type": "checkbox",
+  "answers": [
+    {
+      "text": "componentDidMount()",
+      "isCorrect": false
+    },
+    {
+      "text": "componentCanMount()",
+      "isCorrect": true
+    },
+    {
+      "text": "componentWillUnmount()",
+      "isCorrect": false
+    },
+    {
+      "text": "componentDidUnmount()",
+      "isCorrect": true
+    }
+  ],
+  "descriptionMarkup": "https://ru.reactjs.org/docs/state-and-lifecycle.html(cсылка на источник)"
+}
+
