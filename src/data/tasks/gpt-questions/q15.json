@@ -1,23 +1,22 @@
 {
-  "questionText": "Как использовать объект Map в JavaScript?",
+  "questionText": "Как использовать конструктор Map в JavaScript?",
   "type": "radio",
   "answers": [
     {
-      "text": "`var map = new Map(); map.set('key', 'value');`",
+      "text": "`const map = new Map(); map.set('key', 'value');`",
       "isCorrect": true
     },
     {
-      "text": "`var map = new Map(); map.add('key', 'value');`",
+      "text": "`const map = new Map(); map.add('key', 'value');`",
       "isCorrect": false
     },
     {
-      "text": "`var map = new Object(); map['key'] = 'value';`",
+      "text": "`const map = new Object(); map['key'] = 'value';`",
       "isCorrect": false
     },
     {
-      "text": "`var map = new Array(); map.push(['key', 'value']);`",
+      "text": "`const map = new Array(); map.push(['key', 'value']);`",
       "isCorrect": false
     }
-  ],
-  "descriptionMarkup": "Для создания объекта Map в JavaScript используется конструктор `Map()`. Метод `set()` используется для добавления пары ключ-значение, а метод `get()` для получения значения по ключу. Пример: `var map = new Map(); map.set('key', 'value'); console.log(map.get('key')); // 'value'`"
+  ]
 }
