@@ -1,0 +1,25 @@
+{
+  "questionText": "С помощью чего можно перебрать не только собственные свойства объекта, но и унаследованные?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "`Object.keys()`",
+      "isCorrect": false
+    },
+    {
+      "text": "`Object.values()`",
+      "isCorrect": false
+    },
+    {
+      "text": "`for..in`",
+      "isCorrect": true
+    },
+    {
+      "text": "`for..of`",
+      "isCorrect": false
+    }
+  ]
+}
+
+
+

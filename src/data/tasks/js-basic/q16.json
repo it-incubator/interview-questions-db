@@ -1,0 +1,26 @@
+{
+  "questionText": "Какой результат будет верным при вызове `'сосулька'.replace('с','р')` ?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "рорулька",
+      "isCorrect": false
+    },
+    {
+      "text": "росулька",
+      "isCorrect": true
+    },
+    {
+      "text": "сорулька",
+      "isCorrect": false
+    },
+    {
+      "text": "рррулька",
+      "isCorrect": false
+    }
+  ]
+}
+
+
+
+

@@ -1,0 +1,22 @@
+{
+  "questionText": "Выберите способы создания объекта",
+  "type": "checkbox",
+  "answers": [
+    {
+      "text": "Конструктор `new Object()`",
+      "isCorrect": true
+    },
+    {
+      "text": "Метод `Object.create()`",
+      "isCorrect": true
+    },
+    {
+      "text": "Оператор присваивания: `let newObject = oldObject`",
+      "isCorrect": false
+    },
+    {
+      "text": "Литерал `let object = {}`",
+      "isCorrect": true
+    }
+  ]
+}

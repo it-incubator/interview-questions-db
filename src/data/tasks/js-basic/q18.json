@@ -1,0 +1,23 @@
+{
+  "questionText": "Выберите ложное утверждение",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "Во многих случаях метод `forEach` медленнее метода map",
+      "isCorrect": false
+    },
+    {
+      "text": "Метод `forEach` изменяет исходный массив, в отличие от метода map",
+      "isCorrect": false
+    },
+    {
+      "text": "И метод `map`, и метод `forEach` возвращают новый массив",
+      "isCorrect": true
+    },
+    {
+      "text": "Метод `forEach` просто вызывает указанную функцию для каждого элемента массива",
+      "isCorrect": false
+    }
+  ],
+  "descriptionMarkup": "Метод `forEach` всегда возвращает значение `undefined`."
+}
