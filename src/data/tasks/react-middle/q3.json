@@ -1,0 +1,19 @@
+{
+  "questionText": "Какое тип связывания данных(data binding) реализован в React?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "Одностороннее связывание (one-way binding)",
+      "isCorrect": true
+    },
+    {
+      "text": "Двухстороннее связывание (two-way binding)",
+      "isCorrect": false
+    },
+    {
+      "text": "Одноразовое связывание (one-time binding)",
+      "isCorrect": false
+    }
+  ],
+  "descriptionMarkup": ""
+}

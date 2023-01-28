@@ -3,7 +3,7 @@
   "type": "checkbox",
   "answers": [
     {
-      "text": "`Math.max(arr)`",
+      "text": "`Math.max(...arr)`",
       "isCorrect": true
     },
     {

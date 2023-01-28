@@ -3,21 +3,21 @@
   "type": "radio",
   "answers": [
     {
-      "text": "метод map можно привязывать к другим методам - `reduce(), sort(), filter()`, метод forEach - нет",
+      "text": "Во многих случаях метод `forEach` медленнее метода map",
       "isCorrect": false
     },
     {
-      "text": "и метод map, и метод forEach возвращают новый массив",
+      "text": "Метод `forEach` изменяет исходный массив, в отличие от метода map",
+      "isCorrect": false
+    },
+    {
+      "text": "И метод `map`, и метод `forEach` возвращают новый массив",
       "isCorrect": true
     },
     {
-      "text": "во многих случаях метод forEach медленнее метода map",
-      "isCorrect": false
-    },
-    {
-      "text": "метод forEach изменяет исходный массив, в отличие от метода map",
+      "text": "Метод `forEach` просто вызывает указанную функцию для каждого элемента массива",
       "isCorrect": false
     }
   ],
-  "descriptionMarkup": "Метод `forEach` всегда возвращает значение undefined."
+  "descriptionMarkup": "Метод `forEach` всегда возвращает значение `undefined`."
 }

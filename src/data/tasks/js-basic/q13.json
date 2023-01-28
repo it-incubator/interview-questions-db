@@ -1,5 +1,5 @@
 {
-  "questionText": "Что из перечисленного НЕ относится к структуре данных в JavaScript`?",
+  "questionText": "Что из перечисленного НЕ относится к структуре данных`?",
   "type": "radio",
   "answers": [
     {
@@ -15,7 +15,7 @@
       "isCorrect": true
     },
     {
-      "text": "Объект",
+      "text": "Хеш-таблица",
       "isCorrect": false
     }
   ]

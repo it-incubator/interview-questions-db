@@ -11,11 +11,11 @@
       "isCorrect": true
     },
     {
-      "text": "let object = `{}` \n\n let newObject = obj",
+      "text": "Оператор присваивания: `let newObject = oldObject`",
       "isCorrect": false
     },
     {
-      "text": "let object = `{}`",
+      "text": "Литерал `let object = {}`",
       "isCorrect": true
     }
   ]
