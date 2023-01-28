@@ -1,22 +1,22 @@
 {
-  "questionText": "Что из перечисленного НЕ относится к структуре данных`?",
-  "type": "radio",
+  "questionText": "Выберите способы создания объекта",
+  "type": "checkbox",
   "answers": [
     {
-      "text": "Стек",
-      "isCorrect": false
-    },
-    {
-      "text": "Массив",
-      "isCorrect": false
-    },
-    {
-      "text": "Функция",
+      "text": "Конструктор `new Object()`",
       "isCorrect": true
     },
     {
-      "text": "Хеш-таблица",
+      "text": "Метод `Object.create()`",
+      "isCorrect": true
+    },
+    {
+      "text": "Оператор присваивания: `let newObject = oldObject`",
       "isCorrect": false
+    },
+    {
+      "text": "Литерал `let object = {}`",
+      "isCorrect": true
     }
   ]
 }

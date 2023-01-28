@@ -1,28 +1,21 @@
 {
-  "questionText": "Выбери верные утверждения о стрелочных функциях",
+  "questionText": "У какой из перечисленных функций отсутствует `this` и его значение берётся снаружи?",
+  "type": "radio",
   "answers": [
     {
-      "text": "Не имеют коллекции `arguments`",
-      "isCorrect": true
-    },
-    {
-      "text": "Не имеют своего `this`",
-      "isCorrect": true
-    },
-    {
-      "text": "Используют `this` функций внутри которых они вызваны",
+      "text": "Колбэк-функция",
       "isCorrect": false
     },
     {
-      "text": "Используют `this` функций внутри которых они объявлены",
+      "text": "Функция созданная через function declaration",
+      "isCorrect": false
+    },
+    {
+      "text": "Стрелочная функция",
       "isCorrect": true
     },
     {
-      "text": "Контекст стрелочных функций нельзя изменить с помощью методов `call`, `apply`, `bind`",
-      "isCorrect": true
-    },
-    {
-      "text": "Могут быть использованы как конструкторы",
+      "text": "Функция созданная через function expression",
       "isCorrect": false
     }
   ]

@@ -1,0 +1,25 @@
+{
+  "questionText": "Что из перечисленного относится к микрозадачам?",
+  "type": "checkbox",
+  "answers": [
+    {
+      "text": "`setTimeout(func,...)`",
+      "isCorrect": false
+    },
+    {
+      "text": "обработчик `.then`",
+      "isCorrect": true
+    },
+    {
+      "text": "событие `mousemove`",
+      "isCorrect": false
+    },
+    {
+      "text": "`await`",
+      "isCorrect": true
+    }
+  ],
+  "descriptionMarkup": "Выполнение таких обработчиков как `then`, `catch`, `finally` становится микрозадачей.\n\n Микрозадачи также используются «под капотом» `await`, т.к. это форма обработки промиса. Подробнее можно почитать [medium](https://medium.com/@ravil.nell/%D0%BA%D0%B0%D0%BA-%D0%B2%D1%8B%D0%BF%D0%BE%D0%BB%D0%BD%D1%8F%D0%B5%D1%82%D1%81%D1%8F-%D0%BA%D0%BE%D0%B4-javascript-baddf8f5dd23)"
+}
+
+
