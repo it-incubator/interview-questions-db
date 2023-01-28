@@ -1,0 +1,24 @@
+{
+  "questionText": "какая из CRUD операций при работе с сервером отвечает за изменения каких-либо данных со стороны юзера ",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "Create",
+      "isCorrect": false
+    },
+    {
+      "text": "Read",
+      "isCorrect": false
+    },
+    {
+      "text": "Update",
+      "isCorrect": true
+    },
+    {
+      "text": "Delete",
+      "isCorrect": false
+    }
+  ],
+  "descriptionMarkup": "CRUD-операции включают в себя 4 функции: Create (создание), Read (чтение), Update (редактирование) и Delete (удаление)"
+}
+
