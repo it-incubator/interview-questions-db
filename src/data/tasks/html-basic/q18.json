@@ -1,0 +1,22 @@
+{
+  "questionText": "Выберите верные утверждения",
+  "type": "checkbox",
+  "answers": [
+    {
+      "text": "Атрибут `class` используется для перехода по ссылкам-якорям",
+      "isCorrect": false
+    },
+    {
+      "text": "Атрибут `id` не чувствителен к регистру",
+      "isCorrect": false
+    },
+    {
+      "text": "Атрибуты `id` и `class` используются для выбора элементов через CSS-селекторы",
+      "isCorrect": true
+    },
+    {
+      "text": "Атрибут `class` применим ко всем тегам HTML",
+      "isCorrect": true
+    }
+  ]
+}

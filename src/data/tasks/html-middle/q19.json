@@ -1,5 +1,5 @@
 {
-  "questionText": "Укажите что верно по спецификации w3c",
+  "questionText": "Укажите что верно по спецификации W3C",
   "type": "checkbox",
   "answers": [
     {
@@ -7,7 +7,7 @@
       "isCorrect": false
     },
     {
-      "text": "Для тега img желательно указывать width и height",
+      "text": "Для тега `<img>` желательно указывать `width` и `height`",
       "isCorrect": true
     },
     {

@@ -3,20 +3,24 @@
   "type": "checkbox",
   "answers": [
     {
-      "text": "атрибут required у `<input>`",
+      "text": "Атрибут `required`",
       "isCorrect": true
     },
     {
-      "text": "атрибут pattern, используемый с регулярным выражением",
+      "text": "Атрибут `pattern`, используемый с регулярным выражением",
       "isCorrect": true
     },
     {
-      "text": "атрибуты minlength и maxlength у `<textarea>`",
+      "text": "Ограничение символов, которые можно ввести в поле, с помощью атрибутов `minlength` и `maxlength`",
       "isCorrect": true
     },
     {
-      "text": "атрибут type, определяющий тип данных в поле",
+      "text": "Ограничение числового значения для поля с помощью атрибутов `min` и `max`",
       "isCorrect": true
+    },
+    {
+      "text": "Библиотека Formik",
+      "isCorrect": false
     }
   ]
 }

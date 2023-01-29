@@ -1,22 +1,23 @@
 {
-  "questionText": "Какой HTML-код написан правильно согласно спецификации w3c",
+  "questionText": "Какой HTML-код невалиден?",
   "type": "checkbox",
   "answers": [
     {
-      "text": "`<img src='https://example.com/picture.jpg'>`",
+      "text": "`<img src=\"https://example.com/picture.jpg\">`",
       "isCorrect": false
     },
     {
-      "text": "`<ul> <li><a href='https://example.com/'>1</a></li> </ul>`",
+      "text": "`<ul> <li><a href=\"#\">1</a></li> </ul>`",
       "isCorrect": true
     },
     {
-      "text": "`<ol>  <li><ul> <li><a href='https://example.com/'>1</a></li> </ul></li> <li>2</li>  </ol>`",
+      "text": "`<ol>  <li><ul> <li>1</li> </ul></li> </ol>`",
       "isCorrect": true
     },
     {
-      "text": "`<img src='https://example.com/picture.jpg' alt='alt text'>`",
+      "text": "`<img src=\"https://example.com/picture.jpg\" alt=\"alt text'>\"",
       "isCorrect": true
     }
-  ]
+  ],
+  "descriptionMarkup": "`img` элементы обязательно должны иметь `alt` атрибут"
 }
