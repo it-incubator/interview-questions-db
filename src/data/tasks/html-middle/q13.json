@@ -1,0 +1,26 @@
+{
+  "questionText": "Выберите пункты, относящиеся к встроенной валидации форм HTML5",
+  "type": "checkbox",
+  "answers": [
+    {
+      "text": "Атрибут `required`",
+      "isCorrect": true
+    },
+    {
+      "text": "Атрибут `pattern`, используемый с регулярным выражением",
+      "isCorrect": true
+    },
+    {
+      "text": "Ограничение символов, которые можно ввести в поле, с помощью атрибутов `minlength` и `maxlength`",
+      "isCorrect": true
+    },
+    {
+      "text": "Ограничение числового значения для поля с помощью атрибутов `min` и `max`",
+      "isCorrect": true
+    },
+    {
+      "text": "Библиотека Formik",
+      "isCorrect": false
+    }
+  ]
+}
