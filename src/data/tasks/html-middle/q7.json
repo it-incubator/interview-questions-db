@@ -1,23 +1,22 @@
 {
-  "questionText": "Какой атрибут используется для проверки введенного в `<input>` значения на соответствие регулярному выражению?",
+  "questionText": "С помощью какого тега можно отобразить фавиконку в браузере?",
   "type": "radio",
   "answers": [
     {
-      "text": "`regex`",
-      "isCorrect": false
-    },
-    {
-      "text": "`type`",
-      "isCorrect": false
-    },
-    {
-      "text": "`name`",
-      "isCorrect": false
-    },
-    {
-      "text": "`pattern`",
+      "text": "`<link>`",
       "isCorrect": true
+    },
+    {
+      "text": "`<img>`",
+      "isCorrect": false
+    },
+    {
+      "text": "`<picture>`",
+      "isCorrect": false
+    },
+    {
+      "text": "`<figure>`",
+      "isCorrect": false
     }
-  ],
-  "descriptionMarkup": "Проверка введенного текста будет происходить перед отправкой формы. Если текст будет не соответствовать регулярному выражению, браузер покажет всплывающую подсказку."
+  ]
 }

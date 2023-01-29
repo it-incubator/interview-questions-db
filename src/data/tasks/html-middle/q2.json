@@ -1,27 +1,31 @@
 {
-  "questionText": "Какой из данных атрибутов не является глобальным?",
-  "type": "radio",
+  "questionText": "Какие теги не несут семантической нагрузки?",
+  "type": "checkbox",
   "answers": [
     {
-      "text": "class",
+      "text": "<p>",
       "isCorrect": false
     },
     {
-      "text": "hidden",
-      "isCorrect": false
-    },
-    {
-      "text": "tabindex",
-      "isCorrect": false
-    },
-    {
-      "text": "role",
-      "isCorrect": false
-    },
-    {
-      "text": "disabled",
+      "text": "<div>",
       "isCorrect": true
+    },
+    {
+      "text": "<b>",
+      "isCorrect": false
+    },
+    {
+      "text": "<span>",
+      "isCorrect": true
+    },
+    {
+      "text": "<nav>",
+      "isCorrect": false
+    },
+    {
+      "text": "<aside>",
+      "isCorrect": false
     }
   ],
-  "descriptionMarkup": "Глобальные атрибуты - атрибуты, которые можно использовать для любых HTML-тегов. \n\n `role` - глобальный атрибут, который описывает роль элемента в контексте веб-страницы и участвует в построении Accessibility object model (AOM) - семантической версии DOM. Семантические теги имеют заданную роль по-умолчанию, но с помощью этого атрибута её можно переопределять/уточнять. Если стало интересно, можно почитать об этом на [web.dev](https://web.dev/learn/html/semantic-html/) :)"
+  "descriptionMarkup": "Практически все теги в современном HTML несут семантическую нагрузку.\n\nТак, например, тег `<b>`, согласно [спецификации](https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-b-element), используется для __ключевых слов__ в тексте."
 }

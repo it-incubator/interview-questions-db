@@ -1,0 +1,22 @@
+{
+  "questionText": "Какие значения может принимать атрибут `method` у тега `<form>`?",
+  "type": "checkbox",
+  "answers": [
+    {
+      "text": "get",
+      "isCorrect": true
+    },
+    {
+      "text": "delete",
+      "isCorrect": false
+    },
+    {
+      "text": "put",
+      "isCorrect": false
+    },
+    {
+      "text": "post",
+      "isCorrect": true
+    }
+  ]
+}

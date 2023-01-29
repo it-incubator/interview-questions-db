@@ -1,5 +1,5 @@
 {
-  "questionText": "Выберите верные утверждения",
+  "questionText": "Выберите верные утверждения об атрибутах `id` и `class`",
   "type": "checkbox",
   "answers": [
     {
@@ -15,7 +15,7 @@
       "isCorrect": true
     },
     {
-      "text": "Атрибут `class` применим ко всем тегам HTML",
+      "text": "`class` является глобальным атрибутом",
       "isCorrect": true
     }
   ]

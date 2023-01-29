@@ -1,26 +1,23 @@
 {
-  "questionText": "Какая ошибка в данном HTML-коде?",
-  "type": "radio",
-  "code": {
-    "text": "<video src=\"media/flower.mp4\" autoplay width=\"250\">",
-    "lang": "html"
-  },
+  "questionText": "В каких записях W3C Validator покажет ошибки?",
+  "type": "checkbox",
   "answers": [
     {
-      "text": "Требуется закрывающий тег `</video>`",
+      "text": "`<a Href=google.com class=abc>123</a>`",
+      "isCorrect": false
+    },
+    {
+      "text": "`<p>Hello world!`",
+      "isCorrect": false
+    },
+    {
+      "text": "`<ul><a href='#'>Link</a></ul>`",
       "isCorrect": true
     },
     {
-      "text": "У атрибута `autoplay` не указано значение",
-      "isCorrect": false
-    },
-    {
-      "text": "Отсутствует атрибут `type`",
-      "isCorrect": false
-    },
-    {
-      "text": "В этом коде нет ошибок",
-      "isCorrect": false
+      "text": "`<table><th><tr>1</tr></th></table>`",
+      "isCorrect": true
     }
-  ]
+  ],
+  "descriptionMarkup": "[Валидатор](https://validator.w3.org/) от W3C многое прощает (в т.ч. незакрытые теги - браузер сам закрывает их). Но он хорошо проверяет правильную вложенность тегов(например, в теге `<ul>` прямыми дочерними тегами могут быть только `<li`>, а тег `<th>` не может быть прямым дочерним тегом `<table>`)"
 }

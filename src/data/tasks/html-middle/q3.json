@@ -1,31 +1,30 @@
 {
-  "questionText": "Какие теги не несут семантической нагрузки?",
-  "type": "checkbox",
+  "questionText": "Выбери теги, которые могут быть помещены в `<head>`",
   "answers": [
     {
-      "text": "<p>",
-      "isCorrect": false
-    },
-    {
-      "text": "<div>",
+      "text": "<meta>",
       "isCorrect": true
     },
     {
-      "text": "<b>",
-      "isCorrect": false
-    },
-    {
-      "text": "<span>",
+      "text": "<title>",
       "isCorrect": true
     },
     {
-      "text": "<nav>",
+      "text": "<header>",
       "isCorrect": false
     },
     {
-      "text": "<aside>",
-      "isCorrect": false
+      "text": "<link>",
+      "isCorrect": true
+    },
+    {
+      "text": "<base>",
+      "isCorrect": true
+    },
+    {
+      "text": "<script>",
+      "isCorrect": true
     }
   ],
-  "descriptionMarkup": "Практически все теги в современном HTML несут семантическую нагрузку.\n\nТак, например, тег `<b>`, согласно [спецификации](https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-b-element), используется для __ключевых слов__ в тексте."
+  "descriptionMarkup": "`<base>` позволяет установиться URL, который будет использоваться в начале всех относительных путей. Используется не очень часто. [Статья на MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base)"
 }

@@ -1,30 +1,27 @@
 {
-  "questionText": "Выбери теги, которые могут быть помещены в `<head>`",
+  "questionText": "Какие теги могут быть помещены в `<button>` согласно спецификации HTML?",
   "answers": [
     {
-      "text": "<meta>",
-      "isCorrect": true
-    },
-    {
-      "text": "<title>",
-      "isCorrect": true
-    },
-    {
-      "text": "<header>",
+      "text": "<p>",
       "isCorrect": false
     },
     {
-      "text": "<link>",
+      "text": "<a>",
+      "isCorrect": false
+    },
+    {
+      "text": "<img>",
       "isCorrect": true
     },
     {
-      "text": "<base>",
+      "text": "<strong>",
       "isCorrect": true
     },
     {
-      "text": "<script>",
+      "text": "<span>",
       "isCorrect": true
     }
   ],
-  "descriptionMarkup": "`<base>` позволяет установиться URL, который будет использоваться в начале всех относительных путей. Используется не очень часто. [Статья на MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base)"
+  "author": "StarkovSergey",
+  "descriptionMarkup": "Согласно [спецификации](https://html.spec.whatwg.org/multipage/form-elements.html#the-button-element) в `button` может помещаться фразовый контент(Phrasing content - теги, отвечающие за разметку текста внутри параграфов), за исключением интерактивного контента(ссылки, инпуты и т.д.).\n\nСуществует сервис [Can I Include](https://caninclude.glitch.me), позволяющий быстро проверить возможность вкладывать теги."
 }
