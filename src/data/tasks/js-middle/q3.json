@@ -6,10 +6,6 @@
       "isCorrect": true
     },
     {
-      "text": "Не имеют своего `this`",
-      "isCorrect": true
-    },
-    {
       "text": "Используют `this` функций внутри которых они вызваны",
       "isCorrect": false
     },

@@ -1,0 +1,22 @@
+{
+  "questionText": "Как разработчик может задать значение служебному свойству объектов `[[prototype]]`?",
+  "type": "checkbox",
+  "answers": [
+    {
+      "text": "С помощью `__proto__`",
+      "isCorrect": true
+    },
+    {
+      "text": "Метод `Object.setPrototypeOf()`",
+      "isCorrect": true
+    },
+    {
+      "text": "Метод `Object.create()`",
+      "isCorrect": true
+    },
+    {
+      "text": "К служебному свойство `[[prototype]]` нет доступа",
+      "isCorrect": false
+    }
+  ]
+}

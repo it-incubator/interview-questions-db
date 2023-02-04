@@ -1,18 +1,26 @@
 {
-  "questionText": "Как можно расширить класс в JavaScript?",
+  "questionText": "Какие сущности имеют свойство `prototype`?",
   "type": "checkbox",
   "answers": [
     {
-      "text": "Используя ключевое слово `extends` при объявлении нового класса",
+      "text": "Функции, объявленные с помощью ключевого слова `function`",
       "isCorrect": true
     },
     {
-      "text": "Используя метод `Object.assign()`",
+      "text": "Классы",
+      "isCorrect": true
+    },
+    {
+      "text": "Стрелочные функции",
       "isCorrect": false
     },
     {
-      "text": "Используя свойство `prototype` базового класса: `Child.prototype = Object.create(Parent.prototype)`",
+      "text": "Функции-конструкторы",
       "isCorrect": true
+    },
+    {
+      "text": "Объекты",
+      "isCorrect": false
     }
   ]
 }

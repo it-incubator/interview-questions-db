@@ -1,0 +1,25 @@
+{
+  "questionText": "Выбери статические методы класса `Promise`",
+  "answers": [
+    {
+      "text": "`catch`",
+      "isCorrect": false
+    },
+    {
+      "text": "`all`",
+      "isCorrect": true
+    },
+    {
+      "text": "`then`",
+      "isCorrect": false
+    },
+    {
+      "text": "`resolve`",
+      "isCorrect": true
+    },
+    {
+      "text": "`race`",
+      "isCorrect": true
+    }
+  ]
+}

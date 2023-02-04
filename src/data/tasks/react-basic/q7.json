@@ -17,6 +17,10 @@
     {
       "text": "undefined",
       "isCorrect": false
+    },
+    {
+      "text": "Заголовок без содержимого (пустой `<h1>` тег)",
+      "isCorrect": false
     }
   ]
 }

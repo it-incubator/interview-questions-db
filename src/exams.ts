@@ -16,6 +16,13 @@ export const exams: Exam[] = [
     labels: ['frontend'],
   },
   {
+    id: 'react-middle',
+    title: 'React Middle',
+    category: 'React',
+    level: 'middle',
+    labels: ['frontend'],
+  },
+  {
     id: 'html-middle',
     title: 'HTML Middle',
     category: 'HTML',
@@ -49,13 +56,6 @@ export const exams: Exam[] = [
     category: 'JavaScript',
     level: 'middle',
     labels: ['frontend', 'backend'],
-  },
-  {
-    id: 'react-middle',
-    title: 'React Middle',
-    category: 'React',
-    level: 'middle',
-    labels: ['frontend'],
   },
   {
     id: 'data-structures',

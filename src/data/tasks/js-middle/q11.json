@@ -1,0 +1,22 @@
+{
+  "questionText": "Чему равен результат выражения `Object.getPrototypeOf(Object)`?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "`null`",
+      "isCorrect": false
+    },
+    {
+      "text": "`Function.prototype`",
+      "isCorrect": true
+    },
+    {
+      "text": "`Object.prototype`",
+      "isCorrect": false
+    },
+    {
+      "text": "`undefined`",
+      "isCorrect": false
+    }
+  ]
+}

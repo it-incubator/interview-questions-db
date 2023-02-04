@@ -1,0 +1,27 @@
+{
+  "questionText": "Что будет в консоли? \uD83E\uDD14",
+  "type": "radio",
+  "code": {
+    "lang": "js",
+    "text": "'use strict'\n\nconst a = {\n  name: 'a',\n  logName() {\n    console.log(this.name)\n  }\n}\n\nsetTimeout(a.logName, 100)\n"
+  },
+  "answers": [
+    {
+      "text": "`'a'`",
+      "isCorrect": false
+    },
+    {
+      "text": "`undefined`",
+      "isCorrect": false
+    },
+    {
+      "text": "Error",
+      "isCorrect": false
+    },
+    {
+      "text": "`''`",
+      "isCorrect": true
+    }
+  ],
+  "descriptionMarkup": "Функция вызывается как колбэк в `setTimeout` в отрыве от её контекста. В данном случае `this` будет `window` даже в строгом режиме (это контекст `setTimeout`). У `window` есть свойство `name`, равное `''`"
+}

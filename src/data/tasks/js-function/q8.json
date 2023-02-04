@@ -1,22 +1,18 @@
 {
-  "questionText": "У какой из перечисленных функций отсутствует `this` и его значение берётся снаружи?",
-  "type": "radio",
+  "questionText": "Выбери верные утверждения о способе объявления функций Function Declaration",
   "answers": [
     {
-      "text": "Колбэк-функция",
-      "isCorrect": false
-    },
-    {
-      "text": "Функция созданная через function declaration",
-      "isCorrect": false
-    },
-    {
-      "text": "Стрелочная функция",
+      "text": "\"Классический\" способ объявления функций с помощью ключевого слово `function` и имени функции",
       "isCorrect": true
     },
     {
-      "text": "Функция созданная через function expression",
+      "text": "Может использоваться для анонимных функций и IIFE(Immediately Invoked Function Expression)",
       "isCorrect": false
+    },
+    {
+      "text": "Созданные таким способом функции могут вызываться до их объявления",
+      "isCorrect": true
     }
-  ]
+  ],
+  "descriptionMarkup": "Hoisting - это механизм в JS в котором переменные `var` и функции, объявленные через Function Declaration, передвигаются вверх своей области видимости перед тем, как код будет выполнен."
 }

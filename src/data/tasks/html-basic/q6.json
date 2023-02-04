@@ -1,22 +1,22 @@
 {
   "questionText": "Какой HTML-код невалиден?",
-  "type": "checkbox",
+  "type": "radio",
   "answers": [
     {
       "text": "`<img src=\"https://example.com/picture.jpg\">`",
-      "isCorrect": false
+      "isCorrect": true
     },
     {
       "text": "`<ul> <li><a href=\"#\">1</a></li> </ul>`",
-      "isCorrect": true
+      "isCorrect": false
     },
     {
       "text": "`<ol>  <li><ul> <li>1</li> </ul></li> </ol>`",
-      "isCorrect": true
+      "isCorrect": false
     },
     {
-      "text": "`<img src=\"https://example.com/picture.jpg\" alt=\"alt text'>\"",
-      "isCorrect": true
+      "text": "`<img src=\"https://example.com/picture.jpg\" alt=\"alt text\">`",
+      "isCorrect": false
     }
   ],
   "descriptionMarkup": "`img` элементы обязательно должны иметь `alt` атрибут"

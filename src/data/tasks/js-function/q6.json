@@ -1,7 +1,6 @@
 {
   "questionText": "Выбери верные утверждения о методе `bind()`?",
   "type": "checkbox",
-  "author": "StarkovSergey",
   "answers": [
     {
       "text": "Вызывает функцию в заданном контексте",
