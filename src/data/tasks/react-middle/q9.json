@@ -1,0 +1,16 @@
+{
+  "questionText": "Возможно ли использование хуков в классовых компонентах?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "Да",
+      "isCorrect": true
+    },
+    {
+      "text": "Нет",
+      "isCorrect": false
+    }
+  ],
+  "author": "romchesko-pazzi",
+  "descriptionMarkup": "Тут можно глянуть как юзать хуки в классах - (https://infinum.com/blog/how-to-use-react-hooks-in-class-components/)"
+}
