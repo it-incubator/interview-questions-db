@@ -1,0 +1,23 @@
+{
+  "questionText": "Что из перечисленного имеет `hoisting`?",
+  "type": "checkbox",
+  "answers": [
+    {
+      "text": "`let`",
+      "isCorrect": false
+    },
+    {
+      "text": "`const`",
+      "isCorrect": false
+    },
+    {
+      "text": "`var`",
+      "isCorrect": true
+    },
+    {
+      "text": "Функция созданная через `function declaration`",
+      "isCorrect": true
+    }
+  ],
+  "descriptionMarkup": "JavaScript переносит функции, созданные с помощью `Function Declaration`, вверх текущей области видимости,\n\nа также переменные, объявленные с помощью ключевого слова `var`."
+}

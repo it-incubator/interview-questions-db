@@ -1,0 +1,23 @@
+{
+  "questionText": "С помощью чего можно расширить класс?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "`constructor()`",
+      "isCorrect": false
+    },
+    {
+      "text": "`super()`",
+      "isCorrect": false
+    },
+    {
+      "text": "`extends`",
+      "isCorrect": true
+    },
+    {
+      "text": "`new Object(...)`",
+      "isCorrect": false
+    }
+  ],
+  "descriptionMarkup": "За расширение класса ответчает `extends`."
+}

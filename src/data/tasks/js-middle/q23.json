@@ -1,0 +1,23 @@
+{
+  "questionText": "Какая функция является IIFE?",
+  "type": "checkbox",
+  "answers": [
+    {
+      "text": "`var foo = function bar() {};`",
+      "isCorrect": false
+    },
+    {
+      "text": "`;(function () {})();`",
+      "isCorrect": true
+    },
+    {
+      "text": "`function(){}();`",
+      "isCorrect": false
+    },
+    {
+      "text": "`(function () {})();`",
+      "isCorrect": true
+    }
+  ],
+  "descriptionMarkup": "Про IIFE, а также про области видимости можно почитать на [doka](https://doka.guide/js/closures/)."
+}
