@@ -1,0 +1,23 @@
+{
+  "questionText": "Какое значение выравниванивает flex-элементы вдоль поперечной оси?",
+  "type": "radio",
+  "author": "KarolinaEsepenok",
+  "answers": [
+    {
+      "text": "`align-self`",
+      "isCorrect": false
+    },
+    {
+      "text": "`justify-content`",
+      "isCorrect": false
+    },
+    {
+      "text": "`align-content`",
+      "isCorrect": false
+    },
+    {
+      "text": "`align-items`",
+      "isCorrect": true
+    }
+  ]
+}

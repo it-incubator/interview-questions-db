@@ -1,0 +1,23 @@
+{
+  "questionText": "Какое значение `width` у `<div>` по умолчанию?",
+  "type": "radio",
+  "author": "KarolinaEsepenok",
+  "answers": [
+    {
+      "text": "`0px`",
+      "isCorrect": false
+    },
+    {
+      "text": "`1em`",
+      "isCorrect": false
+    },
+    {
+      "text": "`100%`",
+      "isCorrect": true
+    },
+    {
+      "text": "`100px`",
+      "isCorrect": false
+    }
+  ]
+}
