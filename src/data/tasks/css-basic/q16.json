@@ -1,26 +1,27 @@
 {
-    "questionText": "Как можно выровнять `<div>` c классом `box` по горизонтали?",
-    "type": "checkbox",
-    "code": {
-        "text": ".container {\n  justify-content: center;\n\n  width: 400px;\n  height: 400px;\n}\n\n.box {\n  width: 100px;\n  height: 100px;\n}",
-        "lang": "css"
+  "questionText": "Какой будет ширина параграфа?",
+  "type": "radio",
+  "code": {
+    "text": "p {\n  box-sizing: content-box;\n  \n  border: 1px solid green;\n  width: 200px;\n  height: 50px;\n  padding: 10px;\n}",
+    "lang": "css"
+  },
+  "answers": [
+    {
+      "text": "200px",
+      "isCorrect": false
     },
-    "answers": [
-        {
-            "text": "Задать дочернему элементу `margin: 0 auto`",
-            "isCorrect": true
-        },
-        {
-            "text": "Задать дочернему элементу `display:inline-block` и `text-align: center`",
-            "isCorrect": false
-        },
-        {
-            "text": "Задать контейнеру `text-align: center`, а дочернему  `display:inline-block`",
-            "isCorrect": true
-        },
-        {
-            "text": "Задать контейнеру `display: flex` и `justify-content: center`",
-            "isCorrect": true
-        }
-    ]
+    {
+      "text": "220px",
+      "isCorrect": false
+    },
+    {
+      "text": "221px",
+      "isCorrect": false
+    },
+    {
+      "text": "222px",
+      "isCorrect": true
+    }
+  ],
+  "descriptionMarkup": "По умолчанию CSS использует именно `box-sizing: content-box`"
 }

@@ -1,5 +1,5 @@
 {
-  "questionText": "Что из перечисленного имеет `hoisting`?",
+  "questionText": "Что из перечисленного имеет hoisting?",
   "type": "checkbox",
   "answers": [
     {

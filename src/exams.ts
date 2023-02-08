@@ -70,5 +70,5 @@ export const exams: Exam[] = [
     category: 'HTML',
     level: 'basic',
     labels: ['frontend'],
-  },
+  }
 ]

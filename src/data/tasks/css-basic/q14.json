@@ -1,18 +1,26 @@
 {
-  "questionText": "За что отвечает CSS-свойство `white-space`?",
-  "type": "radio",
-  "answers": [
-    {
-      "text": "Управляет тем, как обрабатываются пробельные символы.",
-      "isCorrect": true
+    "questionText": "Как можно выровнять `<div>` c классом `box` по горизонтали?",
+    "type": "checkbox",
+    "code": {
+        "text": "/* фрагмент CSS-кода */\n.container {\n  width: 400px;\n  height: 400px;\n}\n\n.box {\n  width: 100px;\n  height: 100px;\n} \n\n<!-- фрагмент HTML-кода -->\n <div class=\"container\">\n  <div class=\"box\"></div>\n</div>",
+        "lang": "css"
     },
-    {
-      "text": "Определяет, надо ли разрывать длинные слова для переноса на новую строку",
-      "isCorrect": false
-    },
-    {
-      "text": "Определяет, где будет установлен перевод на новую строку, в случае превышения текстом границ блока",
-      "isCorrect": false
-    }
-  ]
+    "answers": [
+        {
+            "text": "Задать дочернему элементу `margin: 0 auto`",
+            "isCorrect": true
+        },
+        {
+            "text": "Задать дочернему элементу `display: inline-block` и `text-align: center`",
+            "isCorrect": false
+        },
+        {
+            "text": "Задать контейнеру `text-align: center`, а дочернему  `display: inline-block`",
+            "isCorrect": true
+        },
+        {
+            "text": "Задать контейнеру `display: flex` и `justify-content: center`",
+            "isCorrect": true
+        }
+    ]
 }

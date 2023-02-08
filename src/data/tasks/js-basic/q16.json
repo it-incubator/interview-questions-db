@@ -3,21 +3,21 @@
   "type": "checkbox",
   "answers": [
     {
-      "text": "модульная",
+      "text": "Модульная",
       "isCorrect": true
     },
     {
-      "text": "глобальная",
+      "text": "Глобальная",
       "isCorrect": true
     },
     {
-      "text": "блочная",
+      "text": "Блочная",
       "isCorrect": true
     },
     {
-      "text": "динамическая",
+      "text": "Динамическая",
       "isCorrect": false
     }
   ],
-  "descriptionMarkup": "Почитать про области видимости можно на [habr] (https://habr.com/ru/post/517338)."
+  "descriptionMarkup": "Почитать про области видимости можно на [habr](https://habr.com/ru/post/517338)."
 }

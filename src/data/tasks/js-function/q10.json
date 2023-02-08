@@ -3,19 +3,15 @@
   "type": "radio",
   "answers": [
     {
-      "text": "`const foo = function bar() {};`",
+      "text": "`const foo = function bar() {}`",
       "isCorrect": false
     },
     {
-      "text": "`;(function () {})();`",
-      "isCorrect": true
-    },
-    {
-      "text": "`function(){}();`",
+      "text": "`function(){}()`",
       "isCorrect": false
     },
     {
-      "text": "`(function () {})();`",
+      "text": "`(function () {})()`",
       "isCorrect": true
     }
   ],

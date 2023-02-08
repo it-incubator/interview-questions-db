@@ -3,7 +3,7 @@
   "type": "radio",
   "code": {
     "lang": "js",
-    "text": "if (true) {\n  let city = 'Minsk'\n  }\n  console.log(city)"
+    "text": "if (true) {\n  let city = 'Minsk'\n}\nconsole.log(city)"
   },
   "answers": [
     {
