@@ -1,5 +1,5 @@
 {
-  "questionText": "Что можно использовать в массиве зависимостей `useEffect`?",
+  "questionText": "Что следует использовать в массиве зависимостей `useEffect`?",
   "answers": [
     {
       "text": "props",

@@ -1,5 +1,5 @@
 {
-  "questionText": "Какое тип связывания данных(data binding) реализован в React?",
+  "questionText": "Какой тип связывания данных(data binding) реализован в React?",
   "type": "radio",
   "answers": [
     {
