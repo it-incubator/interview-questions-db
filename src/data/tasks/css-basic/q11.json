@@ -1,24 +1,24 @@
 {
-  "questionText": "Какие из перечисленных CSS-свойств могут применяться как к блочному, так и к строчному элементу?",
+  "questionText": "Какое из CSS-свойств не будет работать для элемента со строчным типом отображения?",
   "type": "checkbox",
-  "author": "KarolinaEsepenok",
   "answers": [
     {
-      "text": "`margin-left`",
-      "isCorrect": true
-    },
-    {
-      "text": "`padding-left`",
+      "text": "`width`",
       "isCorrect": false
     },
     {
-      "text": "`margin-right`",
+      "text": "`height`",
+      "isCorrect": false
+    },
+    {
+      "text": "`margin-top`",
       "isCorrect": true
     },
     {
       "text": "`padding-right`",
       "isCorrect": false
     }
-  ]
+  ],
+  "descriptionMarkup": "Лучше вообще не применять свойства `margin` и `padding` к элементам со строчным типом отображения! Горизонтальные отступы работать будут, но для элементов, расположенных на нескольких строках, мы получим странное поведение."
 }
 

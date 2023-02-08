@@ -1,22 +1,25 @@
 {
-    "questionText": "Блочный элемент, более узкий чем его контейнер, можно выровнять внутри его контейнера по горизонтали:",
+    "questionText": "Как можно выровнять `<div>` c классом `box` по горизонтали?",
     "type": "checkbox",
-    "author": "KarolinaEsepenok",
+    "code": {
+        "text": ".container {\n  justify-content: center;\n\n  width: 400px;\n  height: 400px;\n}\n\n.box {\n  width: 100px;\n  height: 100px;\n}",
+        "lang": "css"
+    },
     "answers": [
         {
-            "text": "установив элементу `margin-left:auto` и `margin-right:auto`",
+            "text": "Задать дочернему элементу `margin: 0 auto`",
             "isCorrect": true
         },
         {
-            "text": "установив элементу `text-align`",
+            "text": "Задать дочернему элементу `display:inline-block` и `text-align: center`",
             "isCorrect": false
         },
         {
-            "text": "установив элементу `display:inline-block`",
-            "isCorrect": false
+            "text": "Задать контейнеру `text-align: center`, а дочернему  `display:inline-block`",
+            "isCorrect": true
         },
         {
-            "text": "установив элементу `display:inline-block` и `text-align`",
+            "text": "Задать контейнеру `display: flex` и `justify-content: center`",
             "isCorrect": true
         }
     ]
