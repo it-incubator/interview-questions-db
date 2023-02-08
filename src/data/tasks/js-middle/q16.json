@@ -1,5 +1,5 @@
 {
-  "questionText": "С помощью чего можно сделать защищённые поля в классе?",
+  "questionText": "С помощью чего можно сделать приватные поля в классе?",
   "type": "radio",
   "answers": [
     {
@@ -8,16 +8,16 @@
     },
     {
       "text": "`#name`",
-      "isCorrect": false
+      "isCorrect": true
     },
     {
       "text": "`_name`",
-      "isCorrect": true
+      "isCorrect": false
     },
     {
       "text": "`$name`",
       "isCorrect": false
     }
   ],
-  "descriptionMarkup": "О приватных и защитных методах и свойствах можно почитать на [learn.javascript](https://learn.javascript.ru/private-protected-properties-methods)."
+  "descriptionMarkup": "О приватных и защищённых методах и свойствах можно почитать на [learn.javascript](https://learn.javascript.ru/private-protected-properties-methods)"
 }

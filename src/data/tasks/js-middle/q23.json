@@ -1,9 +1,9 @@
 {
-  "questionText": "Какая функция является IIFE?",
-  "type": "checkbox",
+  "questionText": "Какая функция является IIFE (Immediately Invoked Function Expression)?",
+  "type": "radio",
   "answers": [
     {
-      "text": "`var foo = function bar() {};`",
+      "text": "`const foo = function bar() {};`",
       "isCorrect": false
     },
     {
@@ -19,5 +19,5 @@
       "isCorrect": true
     }
   ],
-  "descriptionMarkup": "Про IIFE, а также про области видимости можно почитать на [doka](https://doka.guide/js/closures/)."
+  "descriptionMarkup": "Про IIFE, а также про области видимости можно почитать в [doka](https://doka.guide/js/closures/)."
 }

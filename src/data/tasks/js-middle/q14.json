@@ -8,15 +8,15 @@
     },
     {
       "text": "глобальная",
-      "isCorrect": false
+      "isCorrect": true
     },
     {
       "text": "блочная",
       "isCorrect": true
     },
     {
-      "text": "функциональная",
-      "isCorrect": true
+      "text": "динамическая",
+      "isCorrect": false
     }
   ],
   "descriptionMarkup": "Почитать про области видимости можно на [habr] (https://habr.com/ru/post/517338)."

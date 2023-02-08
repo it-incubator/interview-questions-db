@@ -18,6 +18,5 @@
       "text": "`new Object(...)`",
       "isCorrect": false
     }
-  ],
-  "descriptionMarkup": "За расширение класса ответчает `extends`."
+  ]
 }
