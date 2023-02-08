@@ -1,0 +1,24 @@
+{
+  "questionText": "Какое из CSS-свойств не будет работать для элемента со строчным типом отображения?",
+  "type": "checkbox",
+  "answers": [
+    {
+      "text": "`width`",
+      "isCorrect": false
+    },
+    {
+      "text": "`height`",
+      "isCorrect": false
+    },
+    {
+      "text": "`margin-top`",
+      "isCorrect": true
+    },
+    {
+      "text": "`padding-right`",
+      "isCorrect": false
+    }
+  ],
+  "descriptionMarkup": "Лучше вообще не применять свойства `margin` и `padding` к элементам со строчным типом отображения! Горизонтальные отступы работать будут, но для элементов, расположенных на нескольких строках, мы получим странное поведение."
+}
+

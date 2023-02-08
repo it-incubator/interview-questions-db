@@ -1,0 +1,24 @@
+{
+  "questionText": "Полупрозрачность пикселей поддерживается только форматом:",
+  "type": "radio",
+  "author": "KarolinaEsepenok",
+  "answers": [
+    {
+      "text": "`SVG`",
+      "isCorrect": false
+    },
+    {
+      "text": "`GIF`",
+      "isCorrect": false
+    },
+    {
+      "text": "`PNG`",
+      "isCorrect": true
+    },
+    {
+      "text": "`JPEG`",
+      "isCorrect": false
+    }
+  ]
+}
+
