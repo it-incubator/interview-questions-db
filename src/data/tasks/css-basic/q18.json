@@ -1,0 +1,24 @@
+{
+  "questionText": "Можно ли перечислять несколько значений свойства `cursor` через зяпятую?",
+  "type": "radio",
+  "author": "KarolinaEsepenok",
+  "answers": [
+    {
+      "text": "Да, но только если первое значение-изображение.",
+      "isCorrect": false
+    },
+    {
+      "text": "Да.",
+      "isCorrect": true
+    },
+    {
+      "text": "Нет.",
+      "isCorrect": false
+    },
+    {
+      "text": "Да, только если используется для ссылки",
+      "isCorrect": false
+    }
+  ],
+  "descriptionMarkup": "Более подробно о свойстве [`cursor`](https://developer.mozilla.org/en-US/docs/Web/CSS/cursor) на MDN."
+}

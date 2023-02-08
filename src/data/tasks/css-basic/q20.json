@@ -1,0 +1,23 @@
+{
+  "questionText": "Выберите относительные единицы измерения, используемые в `CSS`.",
+  "type": "checkbox",
+  "author": "KarolinaEsepenok",
+  "answers": [
+    {
+      "text": "`vh`",
+      "isCorrect": true
+    },
+    {
+      "text": "`px`",
+      "isCorrect": true
+    },
+    {
+      "text": "`cm`",
+      "isCorrect": false
+    },
+    {
+      "text": "`em`",
+      "isCorrect": true
+    }
+  ]
+}

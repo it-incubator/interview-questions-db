@@ -1,0 +1,24 @@
+{
+  "questionText": "Какие из перечисленных CSS-свойств могут применяться как к блочному, так и к строчному элементу?",
+  "type": "checkbox",
+  "author": "KarolinaEsepenok",
+  "answers": [
+    {
+      "text": "`margin-left`",
+      "isCorrect": true
+    },
+    {
+      "text": "`padding-left`",
+      "isCorrect": false
+    },
+    {
+      "text": "`margin-right`",
+      "isCorrect": true
+    },
+    {
+      "text": "`padding-right`",
+      "isCorrect": false
+    }
+  ]
+}
+

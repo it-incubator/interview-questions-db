@@ -1,0 +1,23 @@
+{
+    "questionText": "Блочный элемент, более узкий чем его контейнер, можно выровнять внутри его контейнера по горизонтали:",
+    "type": "checkbox",
+    "author": "KarolinaEsepenok",
+    "answers": [
+        {
+            "text": "установив элементу `margin-left:auto` и `margin-right:auto`",
+            "isCorrect": true
+        },
+        {
+            "text": "установив элементу `text-align`",
+            "isCorrect": false
+        },
+        {
+            "text": "установив элементу `display:inline-block`",
+            "isCorrect": false
+        },
+        {
+            "text": "установив элементу `display:inline-block` и `text-align`",
+            "isCorrect": true
+        }
+    ]
+}

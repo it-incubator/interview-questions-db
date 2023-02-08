@@ -1,0 +1,24 @@
+{
+  "questionText": "CSS-свойство `background-attachment` позволяет задать поведение фона, если содержимое элемента скроллируется. Какое значение по умолчанию?",
+  "type": "radio",
+  "author": "KarolinaEsepenok",
+  "answers": [
+    {
+      "text": "`local`",
+      "isCorrect": false
+    },
+    {
+      "text": "`fixed`",
+      "isCorrect": false
+    },
+    {
+      "text": "`none`",
+      "isCorrect": false
+    },
+    {
+      "text": "`scroll`",
+      "isCorrect": true
+    }
+  ],
+  "descriptionMarkup": "Более подробно о [`background-attachment`](https://developer.mozilla.org/en-US/docs/Web/CSS/background-attachment) на MDN."
+}

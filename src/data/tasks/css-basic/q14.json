@@ -1,0 +1,24 @@
+{
+  "questionText": "Что обозначает CSS-свойство `write-space:pre`?",
+  "type": "radio",
+  "author": "KarolinaEsepenok",
+  "answers": [
+    {
+      "text": "Пробелы и переносы строк отображаются как набраны в HTML-коде, автоматического переноса строк нет.",
+      "isCorrect": true
+    },
+    {
+      "text": "Пробелы и переносы строк отображаются как набраны в HTML-коде, автоматический перенос строк.",
+      "isCorrect": false
+    },
+    {
+      "text": "Запрет переноса строк.",
+      "isCorrect": false
+    },
+    {
+      "text": "Несколько пробелов в HTML-коде объединяются в один, автоматический перенос строк.",
+      "isCorrect": false
+    }
+  ],
+  "descriptionMarkup": "Более подробно о [`write-space`](https://developer.mozilla.org/en-US/docs/Web/CSS/white-space) на MDN."
+}

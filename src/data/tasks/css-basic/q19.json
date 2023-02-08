@@ -1,0 +1,24 @@
+{
+  "questionText": "CSS-свойство `list-style-type` определяет вид маркера списка. Что отобразится при значении `disc`?",
+  "type": "radio",
+  "author": "KarolinaEsepenok",
+  "answers": [
+    {
+      "text": "Десятичные числа.",
+      "isCorrect": false
+    },
+    {
+      "text": "Закрашенный кружок.",
+      "isCorrect": true
+    },
+    {
+      "text": "Незакрашенный кружок.",
+      "isCorrect": false
+    },
+    {
+      "text": "Незакрашенный квадрат.",
+      "isCorrect": false
+    }
+  ],
+  "descriptionMarkup": "Более подробно о свойстве [`list-style-type`](https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type) на MDN."
+}

@@ -1,0 +1,24 @@
+{
+  "questionText": "При использовании каких значений `border-style` пользователь не увидит рамку?",
+  "type": "checkbox",
+  "author": "KarolinaEsepenok",
+  "answers": [
+    {
+      "text": "`outset`",
+      "isCorrect": false
+    },
+    {
+      "text": "`hidden`",
+      "isCorrect": true
+    },
+    {
+      "text": "`none`",
+      "isCorrect": true
+    },
+    {
+      "text": "`groove`",
+      "isCorrect": false
+    }
+  ],
+  "descriptionMarkup": "Более подробно о [`border-style`](https://www.w3schools.com/css/css_border.asp)."
+}
