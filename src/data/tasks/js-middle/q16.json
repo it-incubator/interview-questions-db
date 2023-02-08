@@ -1,0 +1,23 @@
+{
+  "questionText": "С помощью чего можно сделать приватные поля в классе?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "`*name`",
+      "isCorrect": false
+    },
+    {
+      "text": "`#name`",
+      "isCorrect": true
+    },
+    {
+      "text": "`_name`",
+      "isCorrect": false
+    },
+    {
+      "text": "`$name`",
+      "isCorrect": false
+    }
+  ],
+  "descriptionMarkup": "О приватных и защищённых методах и свойствах можно почитать на [learn.javascript](https://learn.javascript.ru/private-protected-properties-methods)"
+}

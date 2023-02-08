@@ -1,0 +1,23 @@
+{
+  "questionText": "Какая функция является IIFE (Immediately Invoked Function Expression)?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "`const foo = function bar() {};`",
+      "isCorrect": false
+    },
+    {
+      "text": "`;(function () {})();`",
+      "isCorrect": true
+    },
+    {
+      "text": "`function(){}();`",
+      "isCorrect": false
+    },
+    {
+      "text": "`(function () {})();`",
+      "isCorrect": true
+    }
+  ],
+  "descriptionMarkup": "Про IIFE, а также про области видимости можно почитать в [doka](https://doka.guide/js/closures/)."
+}

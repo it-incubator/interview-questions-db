@@ -1,0 +1,23 @@
+{
+  "questionText": "С помощью чего можно вызвать конструктор родителя?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "`constructor()`",
+      "isCorrect": false
+    },
+    {
+      "text": "`extends`",
+      "isCorrect": false
+    },
+    {
+      "text": "`new Object(...)`",
+      "isCorrect": false
+    },
+    {
+      "text": "`super()`",
+      "isCorrect": true
+    }
+  ],
+  "descriptionMarkup": "В конструкторе ключевое слово `super()` используется как функция, вызывающая родительский конструктор.\n\nПодробнее про `super` можно почитать на [MDN](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/super)."
+}

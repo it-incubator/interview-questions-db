@@ -1,0 +1,27 @@
+{
+  "questionText": "Какой будет результат?",
+  "type": "radio",
+  "code": {
+    "lang": "js",
+    "text": "if (true) {\n  let city = 'Minsk'\n  }\n  console.log(city)"
+  },
+  "answers": [
+    {
+      "text": "'Minsk'",
+      "isCorrect": false
+    },
+    {
+      "text": "ReferenceError: city is not defined",
+      "isCorrect": true
+    },
+    {
+      "text": "`undefined`",
+      "isCorrect": false
+    },
+    {
+      "text": "`null`",
+      "isCorrect": false
+    }
+  ],
+  "descriptionMarkup": "Блок `if` создал область видимости для переменной `city` и она доступна только внутри этой области."
+}

@@ -22,5 +22,6 @@
       "text": "Объекты",
       "isCorrect": false
     }
-  ]
+  ],
+  "descriptionMarkup": "Про `prototype` и `__proto__` смотреть на канале [IT-KAMASUTRA](https://www.youtube.com/watch?v=b55hiUlhAzI&ab_channel=IT-KAMASUTRA)"
 }
