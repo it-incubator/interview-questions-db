@@ -1,0 +1,23 @@
+{
+  "questionText": "В результате чего возникают простые объекты — `«React-элементы»`?",
+  "type": "radio",
+  "author": "KarolinaEsepenok",
+  "answers": [
+    {
+      "text": "компиляции `JSX`",
+      "isCorrect": false
+    },
+    {
+      "text": "вызова `React.createElement()`",
+      "isCorrect": false
+    },
+    {
+      "text": "компиляции `JSX` и вызова `React.createElement()`",
+      "isCorrect": true
+    },
+    {
+      "text": "компиляции `JSX` и вызова `React.createRef()`",
+      "isCorrect": false
+    }
+  ]
+}

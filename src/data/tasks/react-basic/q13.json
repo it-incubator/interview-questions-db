@@ -1,0 +1,19 @@
+{
+  "questionText": "Если не указать массив зависимостей хука `useMemo()`, то перерендер:",
+  "type": "radio",
+  "author": "KarolinaEsepenok",
+  "answers": [
+    {
+      "text": "произойдёт при каждом изменении состояния",
+      "isCorrect": true
+    },
+    {
+      "text": "произойдёт один раз при вмонтировании компонента",
+      "isCorrect": false
+    },
+    {
+      "text": "не произойдёт",
+      "isCorrect": false
+    }
+  ]
+}

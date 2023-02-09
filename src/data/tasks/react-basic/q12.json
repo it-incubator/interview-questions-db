@@ -1,0 +1,19 @@
+{
+  "questionText": "При использовании хука `useref()` и изменении его свойств:",
+  "type": "radio",
+  "author": "KarolinaEsepenok",
+  "answers": [
+    {
+      "text": "не происходит перерендеринг компоненты",
+      "isCorrect": true
+    },
+    {
+      "text": "происходит перерендеринг компоненты",
+      "isCorrect": false
+    },
+    {
+      "text": "происходит перерендеринг компоненты только при изменении свойства `current`",
+      "isCorrect": false
+    }
+  ]
+}
