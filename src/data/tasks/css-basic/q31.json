@@ -1,0 +1,23 @@
+{
+  "questionText": "Какое свойство указывает как располагаться flex-элементам: в одну строку или можно занять несколько строк?",
+  "type": "radio",
+  "author": "KarolinaEsepenok",
+  "answers": [
+    {
+      "text": "`flex-basic`",
+      "isCorrect": false
+    },
+    {
+      "text": "`flex-shrink`",
+      "isCorrect": false
+    },
+    {
+      "text": "`flex-wrap`",
+      "isCorrect": true
+    },
+    {
+      "text": "`flex-grow`",
+      "isCorrect": false
+    }
+  ]
+}

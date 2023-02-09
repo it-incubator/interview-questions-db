@@ -1,0 +1,23 @@
+{
+  "questionText": "Какое из значений свойства `justify-content` прижимает первый и последний элементы к краям контейнера, а остальные распределяет равномерно между ними?",
+  "type": "radio",
+  "author": "KarolinaEsepenok",
+  "answers": [
+    {
+      "text": "`space-around`",
+      "isCorrect": false
+    },
+    {
+      "text": "`space-evenly`",
+      "isCorrect": false
+    },
+    {
+      "text": "`space-between`",
+      "isCorrect": true
+    },
+    {
+      "text": "`stretch`",
+      "isCorrect": false
+    }
+  ]
+}
