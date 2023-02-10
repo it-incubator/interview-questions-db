@@ -1,22 +1,22 @@
 {
-  "questionText": "В результате чего возникают простые объекты — `«React-элементы»`?",
-  "type": "radio",
+  "questionText": "Выберите правильные утрверждения. Хук `useId`:",
+  "type": "checkbox",
   "author": "KarolinaEsepenok",
   "answers": [
     {
-      "text": "компиляции `JSX`",
-      "isCorrect": false
-    },
-    {
-      "text": "вызова `React.createElement()`",
-      "isCorrect": false
-    },
-    {
-      "text": "компиляции `JSX` и вызова `React.createElement()`",
+      "text": "не следует использовать для генерации ключей",
       "isCorrect": true
     },
     {
-      "text": "компиляции `JSX` и вызова `React.createRef()`",
+      "text": "можно использовать для генерации ключей",
+      "isCorrect": false
+    },
+    {
+      "text": "принимает один параметр (начальное сосотояние)",
+      "isCorrect": false
+    },
+    {
+      "text": "ничего не возвращает",
       "isCorrect": false
     }
   ]

@@ -1,19 +1,23 @@
 {
-  "questionText": "При использовании хука `useref()` и изменении его свойств:",
+  "questionText": "Какие параметры принимает хук useId?",
   "type": "radio",
   "author": "KarolinaEsepenok",
   "answers": [
     {
-      "text": "не происходит перерендеринг компоненты",
+      "text": "начальное состояние",
+      "isCorrect": false
+    },
+    {
+      "text": "массив зависимостей",
+      "isCorrect": false
+    },
+    {
+      "text": "функцию обратного вызова",
+      "isCorrect": false
+    },
+    {
+      "text": "не принимает параметры",
       "isCorrect": true
-    },
-    {
-      "text": "происходит перерендеринг компоненты",
-      "isCorrect": false
-    },
-    {
-      "text": "происходит перерендеринг компоненты только при изменении свойства `current`",
-      "isCorrect": false
     }
   ]
 }

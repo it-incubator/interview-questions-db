@@ -1,18 +1,22 @@
 {
-  "questionText": "Если не указать массив зависимостей хука `useMemo()`, то перерендер:",
-  "type": "radio",
+  "questionText": "Выберите правильные утверждения",
+  "type": "checkbox",
   "author": "KarolinaEsepenok",
   "answers": [
     {
-      "text": "произойдёт при каждом изменении состояния",
-      "isCorrect": true
-    },
-    {
-      "text": "произойдёт один раз при вмонтировании компонента",
+      "text": "Хук `useMemo()` запоминает ссылку на функцию",
       "isCorrect": false
     },
     {
-      "text": "не произойдёт",
+      "text": "Хук `useMemo()` запоминает результат вызова функции",
+      "isCorrect": true
+    },
+    {
+      "text": "хук `useCallback` запоминает ссылку на функцию",
+      "isCorrect": true
+    },
+    {
+      "text": "Хук `useCallback` запоминает результат вызова функции",
       "isCorrect": false
     }
   ]

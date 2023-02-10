@@ -1,23 +1,19 @@
 {
-  "questionText": "Выберите правильные утверждения",
-  "type": "checkbox",
+  "questionText": "`Hok React.memo()` запоминает:",
+  "type": "radio",
   "author": "KarolinaEsepenok",
   "answers": [
     {
-      "text": "Хук `useMemo()` запоминает ссылку на функцию",
+      "text": "результат вызова функции",
       "isCorrect": false
     },
     {
-      "text": "Хук `useMemo()` запоминает результат вызова функции",
-      "isCorrect": true
+      "text": "ссылку на функцию",
+      "isCorrect":false
     },
     {
-      "text": "хук `useCallback` запоминает ссылку на функцию",
+      "text": "мемоизирует весь компонент",
       "isCorrect": true
-    },
-    {
-      "text": "Хук `useCallback` запоминает результат вызова функции",
-      "isCorrect": false
     }
   ]
 }
