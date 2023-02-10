@@ -7,15 +7,15 @@
     },
     "answers": [
         {
-            "text": "Задать дочернему элементу `margin: 0 auto`",
+            "text": "Задать `.box`-элементу `margin: 0 auto`",
             "isCorrect": true
         },
         {
-            "text": "Задать дочернему элементу `display: inline-block` и `text-align: center`",
+            "text": "Задать `.box`-элементу `display: inline-block` и `text-align: center`",
             "isCorrect": false
         },
         {
-            "text": "Задать контейнеру `text-align: center`, а дочернему  `display: inline-block`",
+            "text": "Задать контейнеру `text-align: center`, а `.box`-элементу `display: inline-block`",
             "isCorrect": true
         },
         {

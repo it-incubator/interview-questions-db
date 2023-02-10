@@ -70,5 +70,19 @@ export const exams: Exam[] = [
     category: 'HTML',
     level: 'basic',
     labels: ['frontend'],
+  },
+  {
+    id: 'css-flexbox',
+    title: 'CSS Flexbox',
+    category: 'CSS',
+    level: 'basic',
+    labels: ['frontend'],
+  },
+  {
+    id: 'new-tests',
+    title: 'new',
+    category: 'new',
+    level: 'basic',
+    labels: ['frontend'],
   }
 ]

@@ -1,0 +1,22 @@
+{
+  "questionText": "Какое значение имеет свойство `align-item` по умолчанию?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "`stretch`",
+      "isCorrect": true
+    },
+    {
+      "text": "`start`",
+      "isCorrect": false
+    },
+    {
+      "text": "`end`",
+      "isCorrect": false
+    },
+    {
+      "text": "`center`",
+      "isCorrect": false
+    }
+  ]
+}

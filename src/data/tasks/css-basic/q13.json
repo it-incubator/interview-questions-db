@@ -1,23 +1,23 @@
 {
-  "questionText": "При использовании каких значений `border-style` пользователь не увидит рамку?",
+  "questionText": "Выберите относительные единицы измерения, используемые в `CSS`.",
   "type": "checkbox",
   "author": "KarolinaEsepenok",
   "answers": [
     {
-      "text": "`outset`",
-      "isCorrect": false
-    },
-    {
-      "text": "`hidden`",
+      "text": "`vh`",
       "isCorrect": true
     },
     {
-      "text": "`none`",
-      "isCorrect": true
+      "text": "`px`",
+      "isCorrect": false
     },
     {
-      "text": "`groove`",
+      "text": "`cm`",
       "isCorrect": false
+    },
+    {
+      "text": "`em`",
+      "isCorrect": true
     }
   ]
 }
