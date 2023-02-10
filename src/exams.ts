@@ -77,12 +77,5 @@ export const exams: Exam[] = [
     category: 'CSS',
     level: 'basic',
     labels: ['frontend'],
-  },
-  {
-    id: 'new-tests',
-    title: 'new',
-    category: 'new',
-    level: 'basic',
-    labels: ['frontend'],
   }
 ]
