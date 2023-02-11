@@ -1,0 +1,25 @@
+{
+  "questionText": "Выберите верные утверждения. Функция `reducer`:",
+  "type": "checkbox",
+  "author": "KarolinaEsepenok",
+  "answers": [
+    {
+      "text": "принимает `state` и  `action`, которые могут быть типа только `object`",
+      "isCorrect": false
+    },
+    {
+      "text": "возвращает новую версию `state`",
+      "isCorrect": true
+    },
+    {
+      "text": "принимает `state` и  `action`, которые могут быть любого типа",
+      "isCorrect": true
+    },
+    {
+      "text": "ничего не возвращает",
+      "isCorrect": false
+    }
+  ],
+  ,,
+  "descriptionMarkup": "`Reducer` - чистая функция, которая принимает `в качестве аргументов `state` и `action` и возвращает новую версию `stste`. `State` и `action` могут быть любого типа."
+}

@@ -1,5 +1,5 @@
 {
-  "questionText": "Выберите правильные утрверждения. Хук `useId`:",
+  "questionText": "Выберите верные утрверждения. Хук `useId`:",
   "type": "checkbox",
   "author": "KarolinaEsepenok",
   "answers": [
@@ -12,8 +12,8 @@
       "isCorrect": false
     },
     {
-      "text": "принимает один параметр (начальное сосотояние)",
-      "isCorrect": false
+      "text": "возвращает уникальную строку идентификатора",
+      "isCorrect": true
     },
     {
       "text": "ничего не возвращает",

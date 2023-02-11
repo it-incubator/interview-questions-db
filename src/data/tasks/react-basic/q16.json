@@ -1,0 +1,25 @@
+{
+  "questionText": "Выберите хуки, которые возвращают `undefined`",
+  "type": "checkbox",
+  "author": "KarolinaEsepenok",
+  "answers": [
+    {
+      "text": "`useInsertionEffect()`",
+      "isCorrect": true
+    },
+    {
+      "text": "`useImperativeHandle()`",
+      "isCorrect": true
+    },
+    {
+      "text": "`useLayoutEffect()`",
+      "isCorrect": true
+    },
+    {
+      "text": "`useDeferredValue()`",
+      "isCorrect": false
+    }
+  ],
+  ,,
+  "descriptionMarkup": "`Reducer` - чистая функция, которая принимает `в качестве аргументов `state` и `action` и возвращает новую версию `stste`. `State` и `action` могут быть любого типа."
+}

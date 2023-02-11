@@ -1,0 +1,24 @@
+{
+  "questionText": "Синтаксис `<>...</>` является сокращением: ",
+  "type": "radio",
+  "author": "KarolinaEsepenok",
+  "answers": [
+    {
+      "text": "`<Fragment>...</Fragment>`",
+      "isCorrect": true
+    },
+    {
+      "text": "`<Suspense>...</Suspense>`",
+      "isCorrect":false
+    },
+    {
+      "text": "`<div>...</div>`",
+      "isCorrect": false
+    }
+  ,
+    {
+      "text": "`<Profiler>...</Profiler>`",
+      "isCorrect": false
+    }
+  ]
+}

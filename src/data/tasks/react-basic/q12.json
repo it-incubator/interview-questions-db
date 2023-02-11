@@ -1,6 +1,6 @@
 {
-  "questionText": "Какие параметры принимает хук useId?",
-  "type": "radio",
+  "questionText": "Хук `useId` принимает:?",
+  "type": "checkbox",
   "author": "KarolinaEsepenok",
   "answers": [
     {
