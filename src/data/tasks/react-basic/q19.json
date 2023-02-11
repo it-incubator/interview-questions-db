@@ -19,6 +19,5 @@
       "text": "<Suspense id=\"App\" onRender={onRender}>\n  <SomeComponent />\n</Suspense>",
       "isCorrect": false
     }
-
   ]
 }
