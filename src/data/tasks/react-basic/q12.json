@@ -1,0 +1,23 @@
+{
+  "questionText": "Выберите верные утверждения:",
+  "type": "checkbox",
+  "author": "KarolinaEsepenok",
+  "answers": [
+    {
+      "text": "Хук `useMemo()` запоминает ссылку на функцию",
+      "isCorrect": false
+    },
+    {
+      "text": "Хук `useMemo()` запоминает результат вызова функции",
+      "isCorrect": true
+    },
+    {
+      "text": "Хук `useCallback` запоминает ссылку на функцию",
+      "isCorrect": true
+    },
+    {
+      "text": "Хук `useCallback` запоминает результат вызова функции",
+      "isCorrect": false
+    }
+  ]
+}

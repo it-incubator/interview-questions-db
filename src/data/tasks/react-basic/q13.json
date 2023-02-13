@@ -1,0 +1,19 @@
+{
+  "questionText": "`React.memo()` мемоизирует:",
+  "type": "radio",
+  "author": "KarolinaEsepenok",
+  "answers": [
+    {
+      "text": "Результат вызова функции",
+      "isCorrect": false
+    },
+    {
+      "text": "Ссылку на функцию",
+      "isCorrect":false
+    },
+    {
+      "text": "Весь компонент",
+      "isCorrect": true
+    }
+  ]
+}

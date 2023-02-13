@@ -1,0 +1,19 @@
+{
+  "questionText": "Выберите верные утверждения. Хук `useId`:",
+  "type": "checkbox",
+  "author": "KarolinaEsepenok",
+  "answers": [
+    {
+      "text": "Возвращает уникальный ID",
+      "isCorrect": true
+    },
+    {
+      "text": "Не принимает параметры",
+      "isCorrect": true
+    },
+    {
+      "text": "Можно использовать для генерации keys",
+      "isCorrect": false
+    }
+  ]
+}
