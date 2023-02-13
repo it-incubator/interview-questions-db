@@ -4,7 +4,7 @@
   "author": "KarolinaEsepenok",
   "answers": [
     {
-      "text": "<Profiler id=\"App\" onRender={onRender}>\n  <App />\n</Profiler>",
+      "text": "<Profiler id=\"App\" onRender={onRender}>\n\n   <App />\n</Profiler>",
       "isCorrect": true
     },
     {

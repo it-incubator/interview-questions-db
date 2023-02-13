@@ -12,7 +12,7 @@
       "isCorrect": true
     },
     {
-      "text": "хук `useCallback` запоминает ссылку на функцию",
+      "text": "Хук `useCallback` запоминает ссылку на функцию",
       "isCorrect": true
     },
     {

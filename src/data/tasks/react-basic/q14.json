@@ -1,18 +1,18 @@
 {
-  "questionText": "`Hok React.memo()` запоминает:",
+  "questionText": "`React.memo()` мемоизирует:",
   "type": "radio",
   "author": "KarolinaEsepenok",
   "answers": [
     {
-      "text": "результат вызова функции",
+      "text": "Результат вызова функции",
       "isCorrect": false
     },
     {
-      "text": "ссылку на функцию",
+      "text": "Ссылку на функцию",
       "isCorrect":false
     },
     {
-      "text": "весь компонент",
+      "text": "Весь компонент",
       "isCorrect": true
     }
   ]
