@@ -1,0 +1,23 @@
+{
+  "questionText": "Выберите хук, который позволяет обновлять состояние, не блокируя пользовательский интерфейс.",
+  "type": "radio",
+  "author": "KarolinaEsepenok",
+  "answers": [
+    {
+      "text": "`useSyncExternalStore()`",
+      "isCorrect": false
+    },
+    {
+      "text": "`useLayoutEffect()`",
+      "isCorrect": false
+    },
+    {
+      "text": "`useTransition()`",
+      "isCorrect": true
+    },
+    {
+      "text": "`useDeferredValue()`",
+      "isCorrect": false
+    }
+  ]
+}

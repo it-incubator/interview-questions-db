@@ -1,0 +1,19 @@
+{
+    "questionText": "Хук `useReducer` возвращает: ",
+    "type": "radio",
+    "author": "KarolinaEsepenok",
+    "answers": [
+        {
+            "text": "`undefined`",
+            "isCorrect": false
+        },
+        {
+            "text": "текущее состояние и функцию `set`, которая обновяет состояние ",
+            "isCorrect":false
+        },
+        {
+            "text": "массив с двумя значениями: текущее состояние и функцию `dispatch`",
+            "isCorrect": true
+        },
+    ]
+}

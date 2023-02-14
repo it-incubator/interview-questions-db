@@ -1,0 +1,23 @@
+{
+  "questionText": "Выберите обязательные параметры, которые принимает хук `useImperativeHandle()`",
+  "type": "checkbox",
+  "author": "KarolinaEsepenok",
+  "answers": [
+    {
+      "text": "`initialValue`",
+      "isCorrect":false
+    },
+    {
+      "text": "функцию `createHandle`",
+      "isCorrect": true
+    },
+    {
+      "text": "функцию `setup`",
+      "isCorrect": false
+    },
+    {
+      "text": "`ref`",
+      "isCorrect": true
+    }
+  ]
+}
