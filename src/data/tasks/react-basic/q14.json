@@ -1,0 +1,23 @@
+{
+  "questionText": "Выберите валидный код:",
+  "type": "checkbox",
+  "author": "KarolinaEsepenok",
+  "answers": [
+    {
+      "text": "`<Profiler id=\"App\" onRender={onRender}><App /></Profiler>`",
+      "isCorrect": true
+    },
+    {
+      "text": "<Suspense fallback={<Loading />}><SomeComponent /></Suspense>",
+      "isCorrect": true
+    },
+    {
+      "text": "<Profiler fallback={<Loading />}><App /></Profiler>",
+      "isCorrect": false
+    },
+    {
+      "text": "<Suspense id=\"App\" onRender={onRender}><SomeComponent /></Suspense>",
+      "isCorrect": false
+    }
+  ]
+}
