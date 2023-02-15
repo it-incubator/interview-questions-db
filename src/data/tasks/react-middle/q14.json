@@ -8,15 +8,15 @@
       "isCorrect": true
     },
     {
-      "text": "<Suspense fallback={<Loading />}><SomeComponent /></Suspense>",
+      "text": "`<Suspense fallback={<Loading />}><SomeComponent /></Suspense>`",
       "isCorrect": true
     },
     {
-      "text": "<Profiler fallback={<Loading />}><App /></Profiler>",
+      "text": "`<Profiler fallback={<Loading />}><App /></Profiler>`",
       "isCorrect": false
     },
     {
-      "text": "<Suspense id=\"App\" onRender={onRender}><SomeComponent /></Suspense>",
+      "text": "`<Suspense id=\"App\" onRender={onRender}><SomeComponent /></Suspense>`",
       "isCorrect": false
     }
   ]

@@ -10,7 +10,7 @@ RUN mkdir -p /home/node/dist/interview-questions-api
 WORKDIR /home/node/dist/interview-questions-api
 
 # Install app dependencies
-# A wildcard is used to ensure both q14.json AND package-lock.json are copied
+# A wildcard is used to ensure both package.json AND package-lock.json are copied
 # where available (npm@5+)
 
 COPY --chown=node package*.json ./
