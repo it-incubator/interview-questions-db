@@ -1,0 +1,27 @@
+{
+  "questionText": "Парный тег `caption` внутри тега `table` - заголовок таблицы. Выберите значения CSS свойства `caption-side`.",
+  "type": "checkbox",
+  "author": "KarolinaEsepenok",
+  "answers": [
+    {
+      "text": "`top`",
+      "isCorrect": true
+    },
+    {
+      "text": "`center`",
+      "isCorrect": false
+    },
+    {
+      "text": "`right`",
+      "isCorrect": false
+    },
+    {
+      "text": "`left`",
+      "isCorrect": false
+    },
+    {
+      "text": "`bottom`",
+      "isCorrect": true
+    }
+  ]
+}
