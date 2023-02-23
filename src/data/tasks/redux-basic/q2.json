@@ -4,19 +4,19 @@
   "author": "KarolinaEsepenok",
   "answers": [
     {
-      "text": "поле `type`, которое должно быть строкой",
+      "text": "поле `type`, которое должно быть строкой.",
       "isCorrect": true
     },
     {
-      "text": "поле `type`, которое может быть любого типа" ,
+      "text": "поле `type`, которое может быть любого типа." ,
       "isCorrect": false
     },
     {
-      "text": "поле `type` и `payload`, которые должны быть строками",
+      "text": "поле `type` и `payload`, которые должны быть строками.",
       "isCorrect": false
     },
     {
-      "text": "поле `type` - строка, `payload` - объект",
+      "text": "поле `type` - строка, `payload` - объект.",
       "isCorrect": false
     }
   ]

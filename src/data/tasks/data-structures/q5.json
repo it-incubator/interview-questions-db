@@ -1,0 +1,23 @@
+{
+  "questionText": "Метод `set.clear()` -",
+  "type": "radio",
+  "author": "KarolinaEsepenok",
+  "answers": [
+    {
+      "text": "удаляет все имеющиеся значения.",
+      "isCorrect": true
+    },
+    {
+      "text": "удаляет последнее значение.",
+      "isCorrect": false
+    },
+    {
+      "text": "удаляет первое значение и возвращает `true`.",
+      "isCorrect": false
+    },
+    {
+      "text": "удаляет последнее значение и возвращает обновленный объект `set`.",
+      "isCorrect": false
+    }
+  ]
+}

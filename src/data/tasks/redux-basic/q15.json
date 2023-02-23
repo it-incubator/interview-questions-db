@@ -4,19 +4,19 @@
   "author": "KarolinaEsepenok",
   "answers": [
     {
-      "text": "Принимает `state` и  `action`, которые могут быть типа только `object`",
+      "text": "принимает `state` и  `action`, которые могут быть типа только `object`",
       "isCorrect": false
     },
     {
-      "text": "Принимает `state` и `action`, которые могут быть любого типа",
+      "text": "принимает `state` и `action`, которые могут быть любого типа",
       "isCorrect": true
     },
     {
-      "text": "Возвращает новую версию `state`",
+      "text": "возвращает новую версию `state`",
       "isCorrect": true
     },
     {
-      "text": "Ничего не возвращает",
+      "text": "ничего не возвращает",
       "isCorrect": false
     }
   ],

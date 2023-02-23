@@ -1,0 +1,23 @@
+{
+  "questionText": "Метод `map.get(key)` возвращает:",
+  "type": "radio",
+  "author": "KarolinaEsepenok",
+  "answers": [
+    {
+      "text": "`true`, если ключ присутствует в коллекции, иначе `false`.",
+      "isCorrect": false
+    },
+    {
+      "text": "`true`, если ключ присутствует в коллекции, иначе `undefined`.",
+      "isCorrect": false
+    },
+    {
+      "text": "значение по ключу или `undefined`, если ключ отсутствует.",
+      "isCorrect": true
+    },
+    {
+      "text": "значение по ключу или `null`, если ключ отсутствует.",
+      "isCorrect": false
+    }
+  ]
+}

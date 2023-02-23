@@ -1,0 +1,22 @@
+{
+  "questionText": "Структура данных `Stack` работает по принципу:",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "`First In, Last Out`.",
+      "isCorrect": false
+    },
+    {
+      "text": "`First In, First Out`.",
+      "isCorrect": false
+    },
+    {
+      "text": "`Last In, First Out`.",
+      "isCorrect": true
+    },
+    {
+      "text": "`Last In, Last Out`.",
+      "isCorrect": false
+    }
+  ]
+}
