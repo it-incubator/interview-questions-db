@@ -1,18 +1,18 @@
 {
-  "questionText": "Метод `set.clear()` -",
+  "questionText": "Что делает метод множества `set.clear()`?",
   "type": "radio",
   "author": "KarolinaEsepenok",
   "answers": [
     {
-      "text": "Удаляет все имеющиеся значения.",
+      "text": "Удаляет все имеющиеся значения",
       "isCorrect": true
     },
     {
-      "text": "Удаляет последнее значение.",
+      "text": "Удаляет последнее значение",
       "isCorrect": false
     },
     {
-      "text": "Удаляет первое значение и возвращает `true`.",
+      "text": "Удаляет первое значение и возвращает `true`",
       "isCorrect": false
     }
   ]

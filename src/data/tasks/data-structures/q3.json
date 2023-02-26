@@ -1,5 +1,5 @@
 {
-  "questionText": "Для перебора коллекций `Map` и `Set` существуют втроенные методы. Выберите верные.",
+  "questionText": "Для перебора коллекций `Map` и `Set` существуют встроенные методы:",
   "type": "checkbox",
   "author": "KarolinaEsepenok",
   "answers": [
