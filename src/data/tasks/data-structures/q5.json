@@ -1,0 +1,19 @@
+{
+  "questionText": "Метод `set.clear()` -",
+  "type": "radio",
+  "author": "KarolinaEsepenok",
+  "answers": [
+    {
+      "text": "Удаляет все имеющиеся значения.",
+      "isCorrect": true
+    },
+    {
+      "text": "Удаляет последнее значение.",
+      "isCorrect": false
+    },
+    {
+      "text": "Удаляет первое значение и возвращает `true`.",
+      "isCorrect": false
+    }
+  ]
+}

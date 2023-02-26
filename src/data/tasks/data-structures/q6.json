@@ -1,0 +1,23 @@
+{
+  "questionText": "Отличия `Map` от обычного объекта `Object`:",
+  "type": "checkbox",
+  "author": "KarolinaEsepenok",
+  "answers": [
+    {
+      "text": "Что угодно может быть ключом, в том числе и объекты.",
+      "isCorrect": true
+    },
+    {
+      "text": "Ключом могут быть только объекты.",
+      "isCorrect": false
+    },
+    {
+      "text": "Есть дополнительные методы.",
+      "isCorrect": true
+    },
+    {
+      "text": "Есть свойство `size`.",
+      "isCorrect": true
+    }
+  ]
+}

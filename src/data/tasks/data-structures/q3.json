@@ -1,0 +1,27 @@
+{
+  "questionText": "Для перебора коллекций `Map` и `Set` существуют втроенные методы. Выберите верные.",
+  "type": "checkbox",
+  "author": "KarolinaEsepenok",
+  "answers": [
+    {
+      "text": "`.has(value)`",
+      "isCorrect": false
+    },
+    {
+      "text": "`.keys()`",
+      "isCorrect": true
+    },
+    {
+      "text": "`.values()`",
+      "isCorrect": true
+    },
+    {
+      "text": "`.entries()`",
+      "isCorrect": true
+    },
+    {
+      "text": "`.get(key)`",
+      "isCorrect": false
+    }
+  ]
+}

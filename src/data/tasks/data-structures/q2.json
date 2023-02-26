@@ -1,0 +1,23 @@
+{
+  "questionText": "Структура данных `Map` - это коллекция",
+  "type": "radio",
+  "author": "KarolinaEsepenok",
+  "answers": [
+    {
+      "text": "уникальных значений (без ключей).",
+      "isCorrect": false
+    },
+    {
+      "text": "уникальных ключей (без значений).",
+      "isCorrect": false
+    },
+    {
+      "text": "ключ/значение, ключи могут быть любого типа.",
+      "isCorrect": true
+    },
+    {
+      "text": "ключ/значение, где ключ - строка.",
+      "isCorrect": false
+    }
+  ]
+}

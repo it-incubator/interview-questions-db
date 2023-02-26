@@ -1,0 +1,23 @@
+{
+  "questionText": "Атрибут `action` тега `form` опрелеляет:",
+  "type": "radio",
+  "author": "KarolinaEsepenok",
+  "answers": [
+    {
+      "text": "Способ отправки данных формы.",
+      "isCorrect": false
+    },
+    {
+      "text": "Уникальное имя формы",
+      "isCorrect": false
+    },
+    {
+      "text": "Способ кодирования данных формы",
+      "isCorrect": false
+    },
+    {
+      "text": "URL, куда отправляются данные формы",
+      "isCorrect": true
+    }
+  ]
+}
