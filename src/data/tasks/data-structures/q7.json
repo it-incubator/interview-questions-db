@@ -1,21 +1,21 @@
 {
-  "questionText": "Структура данных `Stack` работает по принципу:",
-  "type": "radio",
+  "questionText": "Структура данных Stack работает по принципам:",
+  "type": "checkbox",
   "answers": [
     {
-      "text": "`First In, Last Out`.",
-      "isCorrect": false
-    },
-    {
-      "text": "`First In, First Out`.",
-      "isCorrect": false
-    },
-    {
-      "text": "`Last In, First Out`.",
+      "text": "First In, Last Out",
       "isCorrect": true
     },
     {
-      "text": "`Last In, Last Out`.",
+      "text": "First In, First Out",
+      "isCorrect": false
+    },
+    {
+      "text": "Last In, First Out",
+      "isCorrect": true
+    },
+    {
+      "text": "Last In, Last Out",
       "isCorrect": false
     }
   ]
