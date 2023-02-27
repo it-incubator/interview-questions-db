@@ -1,0 +1,24 @@
+{
+  "questionText": "Выберите общие семейства шрифтов.",
+  "type": "checkbox",
+  "author": "KarolinaEsepenok",
+  "answers": [
+    {
+      "text": "`Serif`, `sans-serif`",
+      "isCorrect": true
+    },
+    {
+      "text": "`Monospace`, `italic`",
+      "isCorrect": false
+    },
+    {
+      "text": "`Monospace`, `cursive`, `fantasy`",
+      "isCorrect": true
+    },
+    {
+      "text": "`Serif`, `oblique`",
+      "isCorrect": false
+    }
+  ],
+  "descriptionMarkup": "В `CSS` есть пять общих семейств шрифтов:`serif` - имеют небольшую обводку по краям каждой буквы;`sans-serif` - шрифты без засечек имеют четкие линии;`monospace` - все буквы имеют одинаковую фиксированную ширину;`fursive` - имитируют человеческий почерк;`fantasy` - это декоративные шрифты."
+}
