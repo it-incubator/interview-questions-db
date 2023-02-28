@@ -1,0 +1,23 @@
+{
+  "questionText": "Какие области видимости могут иметь `let` и `const`?",
+  "type": "checkbox",
+  "answers": [
+    {
+      "text": "Модульная",
+      "isCorrect": true
+    },
+    {
+      "text": "Глобальная",
+      "isCorrect": true
+    },
+    {
+      "text": "Блочная",
+      "isCorrect": true
+    },
+    {
+      "text": "Динамическая",
+      "isCorrect": false
+    }
+  ],
+  "descriptionMarkup": "Почитать про области видимости можно на [habr](https://habr.com/ru/post/517338)."
+}
