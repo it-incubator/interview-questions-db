@@ -1,0 +1,23 @@
+{
+  "questionText": "Для чего нужен оператор `??` ?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "Для составления тернарного выражения.",
+      "isCorrect": false
+    },
+    {
+      "text": "Используется если нужно вернуть первый аргумент, когда второй `falsy`",
+      "isCorrect": false
+    },
+    {
+      "text": "Используется если нужно вернуть второй аргумент, когда первый `falsy`",
+      "isCorrect": false
+    },
+    {
+      "text": "Используется для проверки, что первый аргумент не является  `null` или `undefined`, в противном случае возвращает второй аргумент",
+      "isCorrect": true
+    }
+  ],
+  "descriptionMarkup": "`??` [Оператор нулевого слияния](https://learn.javascript.ru/nullish-coalescing-operator)"
+}

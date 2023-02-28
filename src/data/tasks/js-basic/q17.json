@@ -1,23 +1,23 @@
 {
-  "questionText": "Какие области видимости могут иметь `let` и `const`?",
+  "questionText": "Какие выражения возвращают `true`?",
   "type": "checkbox",
   "answers": [
     {
-      "text": "Модульная",
+      "text": "`null == undefined`",
       "isCorrect": true
     },
     {
-      "text": "Глобальная",
-      "isCorrect": true
-    },
-    {
-      "text": "Блочная",
-      "isCorrect": true
-    },
-    {
-      "text": "Динамическая",
+      "text": "`null == 0`",
       "isCorrect": false
+    },
+    {
+      "text": "`undefined == 0`",
+      "isCorrect": false
+    },
+    {
+      "text": "`0 == false`",
+      "isCorrect": true
     }
   ],
-  "descriptionMarkup": "Почитать про области видимости можно на [habr](https://habr.com/ru/post/517338)."
+  "descriptionMarkup": "При нестрогом равенстве значения `null` и `undefined` равны друг другу и не равны никаким другим значениям. Это специальное правило языка.\nПри сравнении оператором  `==` если один из операндов число, то второй тоже преобразуется к числу. В итоге `false` приравнивается к нулю."
 }

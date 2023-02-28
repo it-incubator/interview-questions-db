@@ -1,0 +1,23 @@
+{
+  "questionText": "Какой вариант из перечисленных не относится к типам данных в JS?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "`null`",
+      "isCorrect": true
+    },
+    {
+      "text": "`number`",
+      "isCorrect": true
+    },
+    {
+      "text": "`BigInt`",
+      "isCorrect": true
+    },
+    {
+      "text": "`NaN`",
+      "isCorrect": false
+    }
+  ],
+  "descriptionMarkup": "`NaN` (Not-A-Number) - значение возвращаемое если не удается корректно выполнить математическую операцию \n или другими словами результат математической операции, которая не имеет смысла (например: умножение строки на число `1 * a`). \n `type of NaN` - `number`"
+}
