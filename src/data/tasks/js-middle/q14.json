@@ -1,0 +1,23 @@
+{
+  "questionText": "Как сделать копию объекта, при этом сохранив актуальные флаги дескрипторов оригинального объекта?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "Используя метод `Object.assign`, передав в него `Object.assign(copyObj, sourceObj)`",
+      "isCorrect": false
+    },
+    {
+      "text": "Используя spread оператор `const copyObj = {...sourceObj}`",
+      "isCorrect": false
+    },
+    {
+      "text": "Используя методы defineProperties + getOwnPropertyDescriptors `const copyObj = Object.defineProperties({},Object.getOwnPropertyDescriptors(sourceObj))`",
+      "isCorrect": true
+    },
+    {
+      "text": "Используя метод structuredClone() `const copyObj = structuredClone(sourceObj)`",
+      "isCorrect": false
+    }
+  ],
+  "author": "romchesko-pazzi"
+}
