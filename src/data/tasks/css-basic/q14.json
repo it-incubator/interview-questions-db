@@ -4,19 +4,23 @@
   "author": "KarolinaEsepenok",
   "answers": [
     {
-      "text": "`Serif`, `sans-serif`",
+      "text": "`serif`",
       "isCorrect": true
     },
     {
-      "text": "`Monospace`, `italic`",
-      "isCorrect": false
-    },
-    {
-      "text": "`Monospace`, `cursive`, `fantasy`",
+      "text": "`sans-serif`",
       "isCorrect": true
     },
     {
-      "text": "`Serif`, `oblique`",
+      "text": "`monospace`",
+      "isCorrect": true
+    },
+    {
+      "text": "`fantasy`",
+      "isCorrect": true
+    },
+    {
+      "text": "`oblique`",
       "isCorrect": false
     }
   ],
