@@ -11,7 +11,7 @@
       "isCorrect": false
     },
     {
-      "text": "Используя методы defineProperties + getOwnPropertyDescriptors `const copyObj = Object.defineProperties({},Object.getOwnPropertyDescriptors(sourceObj))`",
+      "text": "Используя методы defineProperties + getOwnPropertyDescriptors `const copyObj = Object.defineProperties({}, Object.getOwnPropertyDescriptors(sourceObj))`",
       "isCorrect": true
     },
     {
