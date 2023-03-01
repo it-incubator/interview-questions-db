@@ -2,7 +2,7 @@
   "questionText": "Изображение `first.png` будет:",
   "type": "radio",
   "code": {
-    "text": "/* фрагмент CSS-кода */\nimg {\n  position: absolute;\n  left: 0px;\n  top: 0px;\n  z-index: -1;\n}<!-- фрагмент HTML-кода -->\n<h1>HELLO!</h1>\n<img src=\"first.png\"/>",
+    "text": "/* фрагмент CSS-кода */\nimg {\n  position: absolute;\n  left: 0px;\n  top: 0px;\n  z-index: -1;\n}\n\n<!-- фрагмент HTML-кода -->\n<h1>HELLO!</h1>\n<img src=\"first.png\"/>",
     "lang": "css"
   },
   "author": "KarolinaEsepenok",
