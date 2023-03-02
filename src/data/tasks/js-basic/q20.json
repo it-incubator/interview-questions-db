@@ -3,7 +3,7 @@
   "type": "checkbox",
   "code": {
     "lang": "js",
-    "text": "`let a = [1, 2, 3]; \n delete a[3]; \n a.push(4);`"
+    "text": "`let a = [1, 2, 3]; \n delete a[2]; \n a.push(4);`"
   },
   "answers": [
     {
@@ -19,7 +19,7 @@
       "isCorrect": false
     },
     {
-      "text": "`a[3] === undefined`",
+      "text": "`a[2] === undefined`",
       "isCorrect": true
     }
   ]
