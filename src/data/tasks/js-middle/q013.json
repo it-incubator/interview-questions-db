@@ -23,5 +23,4 @@
       "isCorrect": false
     }
   ],
-  "descriptionMarkup": "Функция вызывается как колбэк в `setTimeout` в отрыве от её контекста. В данном случае `this` будет `window` даже в строгом режиме (это контекст `setTimeout`). У `window` есть свойство `name`, равное `''`"
 }
