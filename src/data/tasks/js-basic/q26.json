@@ -1,0 +1,26 @@
+{
+  "questionText": "Для чего используется `!!` (два оператора \"НЕ\" подряд)?",
+  "type": "radio",
+  "code": {
+    "lang": "js",
+    "text": "`false || NaN && true || 0`"
+  },
+  "answers": [
+    {
+      "text": "Не используется запись является ошибочной",
+      "isCorrect": false
+    },
+    {
+      "text": "Для приведения числа к 0",
+      "isCorrect": false
+    },
+    {
+      "text": "Для приведения аргумента к типу boolean",
+      "isCorrect": true
+    },
+    {
+      "text": "Для придания коду \"восклицательного\" тона)",
+      "isCorrect": false
+    }
+  ]
+}

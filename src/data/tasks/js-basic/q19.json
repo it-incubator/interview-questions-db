@@ -1,0 +1,27 @@
+{
+  "questionText": "Какие имена переменных являются допустимыми с точки зрения синтаксиса JS?",
+  "type": "checkbox",
+  "answers": [
+    {
+      "text": "`let User;`",
+      "isCorrect": true
+    },
+    {
+      "text": "`let _user;`",
+      "isCorrect": true
+    },
+    {
+      "text": "`let 1user;`",
+      "isCorrect": false
+    },
+    {
+      "text": "`let user!;`",
+      "isCorrect": false
+    },
+    {
+      "text": "`let $user;`",
+      "isCorrect": true
+    }
+  ],
+  "descriptionMarkup": "Имена переменных в JavaScript могут содержать буквы, цифры и символы $, _. Имя переменной не может начинаться с цифры."
+}
