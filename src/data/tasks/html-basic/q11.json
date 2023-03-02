@@ -1,5 +1,5 @@
 {
-  "questionText": "Выберите валидный HTML-документ.",
+  "questionText": "Выберите валидную разметку `HTML-документа`.",
   "type": "radio",
   "author": "KarolinaEsepenok",
   "answers": [

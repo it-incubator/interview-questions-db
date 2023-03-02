@@ -16,7 +16,7 @@
             "isCorrect": true
         },
         {
-            "text": "`<style type=\"text/css\">\n.main {\nwidth: 100%;\n}</style>`",
+            "text": "`<style type=\"text/css\">.main {width: 100%;}</style>`",
             "isCorrect": true
         }
     ]
