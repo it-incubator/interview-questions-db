@@ -1,0 +1,23 @@
+{
+  "questionText": "Выберите линейные структуры данных.",
+  "type": "checkbox",
+  "author": "KarolinaEsepenok",
+  "answers": [
+    {
+      "text": "Стек",
+      "isCorrect": true
+    },
+    {
+      "text": "Дерево",
+      "isCorrect": false
+    },
+    {
+      "text": "Очередь",
+      "isCorrect": true
+    },
+    {
+      "text": "Массив",
+      "isCorrect": true
+    }
+  ]
+}

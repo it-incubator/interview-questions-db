@@ -1,0 +1,24 @@
+{
+  "questionText": "Выберите валидный HTML-документ.",
+  "type": "radio",
+  "author": "KarolinaEsepenok",
+  "answers": [
+    {
+      "text": "`<html><!DOCTYPE html><head><title>IT-incubator</title></head><body></body></html>`",
+      "isCorrect": false
+    },
+    {
+      "text": "`<!DOCTYPE html><html><head><title>IT-incubator</title></head><body></body></html>`",
+      "isCorrect": true
+    },
+    {
+      "text": "`<!DOCTYPE html><html><title>IT-incubator</title><head></head><body></body></html>`",
+      "isCorrect": false
+    },
+    {
+      "text": "`<!DOCTYPE html><html><head></head><body><title>IT-incubator</title></body></html>`",
+      "isCorrect": false
+    }
+  ]
+}
+
