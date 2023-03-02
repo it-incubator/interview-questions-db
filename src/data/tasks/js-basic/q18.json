@@ -1,0 +1,27 @@
+{
+  "questionText": "Что вернёт выражение `hobbits.pop()`?",
+  "type": "radio",
+  "code": {
+    "lang": "js",
+    "text": "`const user = [\n 'Frodo', \n 'Sam', \n 'Pippin' \n]`"
+  },
+  "answers": [
+    {
+      "text": "`undefined`",
+      "isCorrect": false
+    },
+    {
+      "text": "Новый массив `['Frodo', 'Sam']`",
+      "isCorrect": false
+    },
+    {
+      "text": "Старый мутировавший массив `['Frodo', 'Sam']`",
+      "isCorrect": false
+    },
+    {
+      "text": "`'Pippin'`",
+      "isCorrect": true
+    }
+  ],
+  "descriptionMarkup": "Метод `pop` удаляет последний элемент из массива и возвращает удалённое значение.\n Если вы вызовете `pop()` на пустом массиве, он вернёт значение `undefined`."
+}

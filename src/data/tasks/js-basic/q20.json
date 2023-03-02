@@ -1,0 +1,26 @@
+{
+  "questionText": "Что произойдет после выполнения кода?",
+  "type": "checkbox",
+  "code": {
+    "lang": "js",
+    "text": "`let a = [1, 2, 3]; \n delete a[2]; \n a.push(4);`"
+  },
+  "answers": [
+    {
+      "text": "`a.length === 3`",
+      "isCorrect": false
+    },
+    {
+      "text": "`a.length === 4`",
+      "isCorrect": true
+    },
+    {
+      "text": "`SyntaxError`",
+      "isCorrect": false
+    },
+    {
+      "text": "`a[2] === undefined`",
+      "isCorrect": true
+    }
+  ]
+}

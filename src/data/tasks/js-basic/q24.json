@@ -1,0 +1,22 @@
+{
+  "questionText": "Какой из вариантов написания строк является допустимым?",
+  "type": "checkbox",
+  "answers": [
+    {
+      "text": "`\"It's string\"`",
+      "isCorrect": true
+    },
+    {
+      "text": "`'It is string'`",
+      "isCorrect": true
+    },
+    {
+      "text": "`'It's string'`",
+      "isCorrect": false
+    },
+    {
+      "text": "`\"It is string'`",
+      "isCorrect": false
+    }
+  ]
+}

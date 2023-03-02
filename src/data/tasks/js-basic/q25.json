@@ -1,0 +1,27 @@
+{
+  "questionText": "Что вернёт выражение?",
+  "type": "radio",
+  "code": {
+    "lang": "js",
+    "text": "`false || NaN && true || 0`"
+  },
+  "answers": [
+    {
+      "text": "`false`",
+      "isCorrect": false
+    },
+    {
+      "text": "`NaN`",
+      "isCorrect": false
+    },
+    {
+      "text": "`true`",
+      "isCorrect": false
+    },
+    {
+      "text": "`0`",
+      "isCorrect": true
+    }
+  ],
+  "descriptionMarkup": "Выполнение операций происходит согласно [таблице приоритетов](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence#table) \n  Приоритет логического оператора `&&`  выше чем у `||`, поэтому он будет выполняться первым. `&&` возвращает либо последний истинный аргумент или первый ложный, в данном случае `NaN`. \n Далее выполняются сравнение `||` в порядке их написания, оператор \"ИЛИ\" возвращает либо первый истинный аргумент, либо последний ложный, в нашем случае `0`."
+}
