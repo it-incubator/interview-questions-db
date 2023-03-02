@@ -1,0 +1,23 @@
+{
+    "questionText": "Выберите тег, который определяет раздел, цитируемый из другого источника (браузеры обычно делают отступ для этих элементов).",
+    "type": "radio",
+    "author": "KarolinaEsepenok",
+    "answers": [
+        {
+            "text": "`<abbr></abbr>`",
+            "isCorrect": false
+        },
+        {
+            "text": "`<figure></figure>`",
+            "isCorrect": false
+        },
+        {
+            "text": "`<blockquote></blockquote>`",
+            "isCorrect": true
+        },
+        {
+            "text": "`<bdo></bdo>`",
+            "isCorrect": false
+        }
+    ]
+}

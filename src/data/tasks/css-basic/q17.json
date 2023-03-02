@@ -1,0 +1,23 @@
+{
+    "questionText": "Ширина окна браузера равна `800px`. 5vw будет равен:",
+    "type": "radio",
+    "author": "KarolinaEsepenok",
+    "answers": [
+        {
+            "text": "`16px`",
+            "isCorrect": true
+        },
+        {
+            "text": "`8px`",
+            "isCorrect": false
+        },
+        {
+            "text": "`4px`",
+            "isCorrect": true
+        },
+        {
+            "text": "`40px`",
+            "isCorrect": true
+        }
+    ]
+}
