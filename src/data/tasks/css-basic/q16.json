@@ -1,10 +1,10 @@
 {
-    "questionText": "Выберите валидные способы добавления `CSS` в `HTML-документы`.",
+    "questionText": "Выберите валидные способы добавления CSS в HTML-документы.",
     "type": "checkbox",
     "author": "KarolinaEsepenok",
     "answers": [
         {
-            "text": "`<link href=\"https://it-incubator.io/css/style.css\" rel=\"stylesheet\" type=\"text/css\"`>",
+            "text": "`<link href=\"https://it-incubator.io/css/style.css\" rel=\"stylesheet\" type=\"text/css\">`",
             "isCorrect": true
         },
         {

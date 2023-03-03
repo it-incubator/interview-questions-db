@@ -5,7 +5,7 @@
     "answers": [
         {
             "text": "`16px`",
-            "isCorrect": true
+            "isCorrect": false
         },
         {
             "text": "`8px`",
@@ -13,7 +13,7 @@
         },
         {
             "text": "`4px`",
-            "isCorrect": true
+            "isCorrect": false
         },
         {
             "text": "`40px`",

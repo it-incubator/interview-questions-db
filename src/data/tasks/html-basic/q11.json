@@ -1,22 +1,22 @@
 {
-  "questionText": "Выберите валидную разметку `HTML-документа`.",
+  "questionText": "Тег `<body>` в HTML-документе следует за тегом:",
   "type": "radio",
   "author": "KarolinaEsepenok",
   "answers": [
     {
-      "text": "`<html><!DOCTYPE html><head><title>IT-incubator</title></head><body></body></html>`",
+      "text": "`<html>`",
       "isCorrect": false
     },
     {
-      "text": "`<!DOCTYPE html><html><head><title>IT-incubator</title></head><body></body></html>`",
+      "text": "`<head>`",
       "isCorrect": true
     },
     {
-      "text": "`<!DOCTYPE html><html><title>IT-incubator</title><head></head><body></body></html>`",
+      "text": "`<title>`",
       "isCorrect": false
     },
     {
-      "text": "`<!DOCTYPE html><html><head></head><body><title>IT-incubator</title></body></html>`",
+      "text": "`<!DOCTYPE html>`",
       "isCorrect": false
     }
   ]
