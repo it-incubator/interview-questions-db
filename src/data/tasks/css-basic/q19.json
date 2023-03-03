@@ -1,0 +1,27 @@
+{
+  "questionText": "Какое слово будет иметь `background-color: red`?",
+  "type": "radio",
+  "code": {
+    "text": "/* фрагмент CSS-кода */\n\ndiv ~ p {\n  background-color: red;\n}\n\n<!-- фрагмент HTML-кода -->\n\n<p>IT-incubator</p>\n\n<div>\n <p>уникальный</p>\n</div>\n\n<p>формат</p>\n\n<p>обучения</p>",
+    "lang": "css"
+  },
+  "author": "KarolinaEsepenok",
+  "answers": [
+    {
+      "text": "IT-incubator",
+      "isCorrect": false
+    },
+    {
+      "text": "Уникальный",
+      "isCorrect": false
+    },
+    {
+      "text": "Формат",
+      "isCorrect": true
+    },
+    {
+      "text": "Обучения",
+      "isCorrect": true
+    }
+  ]
+}

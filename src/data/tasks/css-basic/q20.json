@@ -1,0 +1,27 @@
+{
+  "questionText": "Какое слово будет иметь `background-color: blue`?",
+  "type": "checkbox",
+  "code": {
+    "text": "/* фрагмент CSS-кода */\n\ndiv + p {\n  background-color: blue;\n}\n\n<!-- фрагмент HTML-кода -->\n\n<div>\n <p>IT-incubator</p>\n</div>\n\n<p>уникальный</p>\n\n<p>формат</p>\n\n<div>\n<p>обучения</p>\n</div>",
+    "lang": "css"
+  },
+  "author": "KarolinaEsepenok",
+  "answers": [
+    {
+      "text": "IT-incubator",
+      "isCorrect": false
+    },
+    {
+      "text": "Уникальный",
+      "isCorrect": true
+    },
+    {
+      "text": "Формат",
+      "isCorrect": false
+    },
+    {
+      "text": "Обучения",
+      "isCorrect": false
+    }
+  ]
+}

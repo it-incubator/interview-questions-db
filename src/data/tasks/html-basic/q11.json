@@ -1,0 +1,24 @@
+{
+  "questionText": "Тег `<body>` в HTML-документе следует за тегом:",
+  "type": "radio",
+  "author": "KarolinaEsepenok",
+  "answers": [
+    {
+      "text": "`<html>`",
+      "isCorrect": false
+    },
+    {
+      "text": "`<head>`",
+      "isCorrect": true
+    },
+    {
+      "text": "`<title>`",
+      "isCorrect": false
+    },
+    {
+      "text": "`<!DOCTYPE html>`",
+      "isCorrect": false
+    }
+  ]
+}
+
