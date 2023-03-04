@@ -4,19 +4,19 @@
   "answers": [
     {
       "text": "`null`",
-      "isCorrect": true
+      "isCorrect": false
     },
     {
       "text": "`number`",
-      "isCorrect": true
+      "isCorrect": false
     },
     {
       "text": "`BigInt`",
-      "isCorrect": true
+      "isCorrect": false
     },
     {
       "text": "`NaN`",
-      "isCorrect": false
+      "isCorrect": true
     }
   ],
   "descriptionMarkup": "`NaN` (Not-A-Number) - значение возвращаемое если не удается корректно выполнить математическую операцию \n или другими словами результат математической операции, которая не имеет смысла (например: умножение строки на число `1 * a`). \n `type of NaN` - `number`"

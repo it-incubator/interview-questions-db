@@ -1,6 +1,6 @@
 {
   "questionText": "Какое слово будет иметь `background-color: red`?",
-  "type": "radio",
+  "type": "checkbox",
   "code": {
     "text": "/* фрагмент CSS-кода */\ndiv ~ p {\n  background-color: red;\n}\n\n<!-- фрагмент HTML-кода -->\n<p>IT-incubator</p>\n\n<div>\n <p>уникальный</p>\n</div>\n\n<p>формат</p>\n\n<p>обучения</p>",
     "lang": "css"
