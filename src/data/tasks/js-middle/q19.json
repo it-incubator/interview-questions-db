@@ -2,7 +2,7 @@
   "questionText": "Где должна быть объявлена переменная `a`, чтобы счетчики работали независимо?",
   "code": {
     "lang": "js",
-    "text": "function functionReturner () { \n return () => { \n return ++a \n } \n } \n let counter1 = functionReturner() \n let counter2 = functionReturner() \n counter1()\t// 1 \n counter1() \t// 2 \n counter2() \t// 1 \n counter2() \t// 2"
+    "text": "function functionReturner () { \n\t return () => { \n\t\t return ++a \n\t } \n } \n\n let counter1 = functionReturner() \n let counter2 = functionReturner() \n\n counter1() \t// 1 \n counter1() \t// 2 \n\n counter2() \t// 1 \n counter2() \t// 2"
   },
   "type": "radio",
   "answers": [

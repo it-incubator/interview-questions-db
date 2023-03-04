@@ -15,11 +15,11 @@
       "isCorrect": true
     },
     {
-      "text": "Promise может находиться в трёх состояниях then, catch, fullfield.",
+      "text": "Promise может находиться в трёх состояниях then, catch, fulfilled.",
       "isCorrect": false
     },
     {
-      "text": "Promise может находиться в двух состояниях pending, fullfield.",
+      "text": "Promise может находиться в трёх состояниях pending, resolved, rejected.",
       "isCorrect": true
     }
   ]

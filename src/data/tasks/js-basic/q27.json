@@ -3,24 +3,25 @@
   "type": "radio",
   "code": {
     "lang": "js",
-    "text": "1000 / Infinity"
+    "text": "9++"
   },
   "answers": [
     {
-      "text": "`NaN`",
+      "text": "Так как инкремент записан после числа будет выведено `9`",
       "isCorrect": false
     },
     {
-      "text": "`Infinity`",
+      "text": "`10`",
       "isCorrect": false
     },
     {
-      "text": "`0`",
+      "text": "Будет вывдена ошибка",
       "isCorrect": true
     },
     {
-      "text": "`1000`",
+      "text": "undefined",
       "isCorrect": false
     }
-  ]
+  ],
+  "descriptionMarkup": "Инкремент/декремент можно применить только к переменной. Попытка использовать его на значении, типа `5++`, приведёт к ошибке."
 }
