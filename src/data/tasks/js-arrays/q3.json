@@ -1,0 +1,22 @@
+{
+  "questionText": "Как можно обратиться к последнему элементу массива?",
+  "answers": [
+    {
+      "text": "`array[-1]`",
+      "isCorrect": false
+    },
+    {
+      "text": "`array[array.length - 1]`",
+      "isCorrect": true
+    },
+    {
+      "text": "`array.at(-1)`",
+      "isCorrect": true
+    },
+    {
+      "text": "`array.indexOf(-1)`",
+      "isCorrect": false
+    }
+  ],
+  "descriptionMarkup": "Использовать метод массива `.at()` в этом случае куда приятней, правда? :) Сейчас он поддерживается во всех современных браузерах."
+}

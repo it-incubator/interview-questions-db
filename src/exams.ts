@@ -78,4 +78,11 @@ export const exams: Exam[] = [
     level: 'middle',
     labels: ['frontend', 'backend'],
   },
+  {
+    id: 'js-arrays',
+    title: 'JS Arrays',
+    category: 'JavaScript',
+    level: 'basic',
+    labels: ['frontend', 'backend'],
+  }
 ]

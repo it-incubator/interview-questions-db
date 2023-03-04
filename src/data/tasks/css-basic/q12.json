@@ -4,19 +4,19 @@
   "author": "KarolinaEsepenok",
   "answers": [
     {
-      "text": "`SVG`",
+      "text": "SVG",
       "isCorrect": false
     },
     {
-      "text": "`GIF`",
+      "text": "GIF",
       "isCorrect": false
     },
     {
-      "text": "`PNG`",
+      "text": "PNG",
       "isCorrect": true
     },
     {
-      "text": "`JPEG`",
+      "text": "JPEG",
       "isCorrect": false
     }
   ]

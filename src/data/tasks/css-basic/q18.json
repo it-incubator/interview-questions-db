@@ -2,7 +2,7 @@
   "questionText": "Какое слово будет иметь `background-color: yellow`?",
   "type": "radio",
   "code": {
-    "text": "/* фрагмент CSS-кода */\n\ndiv > p {\n  background-color: yellow;\n}\n\n<!-- фрагмент HTML-кода -->\n\n<p>Один</p>\n\n<div>\n <p>Два</p>\n</div>\n\n<p>Три</p>\n<p>Четыре</p>",
+    "text": "/* фрагмент CSS-кода */\ndiv > p {\n  background-color: yellow;\n}\n\n<!-- фрагмент HTML-кода -->\n<p>Один</p>\n\n<div>\n <p>Два</p>\n</div>\n\n<p>Три</p>\n<p>Четыре</p>",
     "lang": "css"
   },
   "author": "KarolinaEsepenok",
