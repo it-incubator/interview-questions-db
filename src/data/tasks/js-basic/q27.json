@@ -1,0 +1,26 @@
+{
+  "questionText": "Какой будет результат при выполнении кода?",
+  "type": "radio",
+  "code": {
+    "lang": "js",
+    "text": "1000 / Infinity"
+  },
+  "answers": [
+    {
+      "text": "`NaN`",
+      "isCorrect": false
+    },
+    {
+      "text": "`Infinity`",
+      "isCorrect": false
+    },
+    {
+      "text": "`0`",
+      "isCorrect": true
+    },
+    {
+      "text": "`1000`",
+      "isCorrect": false
+    }
+  ]
+}

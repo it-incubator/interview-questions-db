@@ -1,0 +1,27 @@
+{
+  "questionText": "Какой будет результат при выполнении кода?",
+  "type": "radio",
+  "code": {
+    "lang": "js",
+    "text": "null + undefined"
+  },
+  "answers": [
+    {
+      "text": "`NaN`",
+      "isCorrect": true
+    },
+    {
+      "text": "`null`",
+      "isCorrect": false
+    },
+    {
+      "text": "`undefined`",
+      "isCorrect": false
+    },
+    {
+      "text": "`0`",
+      "isCorrect": false
+    }
+  ],
+  "descriptionMarkup": "При выполнении сложения `null` преобразуется в число `0`, а при матматических операциях с одним из операндов `undefined` получится `NaN` (в случае со сложением `undefined` со строкой будет конкатенация)"
+}

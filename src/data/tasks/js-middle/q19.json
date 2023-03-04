@@ -1,0 +1,31 @@
+{
+  "questionText": "Где должна быть объявлена переменная `a`, чтобы счетчики работали независимо?",
+  "code": {
+    "lang": "js",
+    "text": "function functionReturner () { \n return () => { \n return ++a \n } \n } \n let counter1 = functionReturner() \n let counter2 = functionReturner() \n counter1()\t// 1 \n counter1() \t// 2 \n counter2() \t// 1 \n counter2() \t// 2"
+  },
+  "type": "radio",
+  "answers": [
+    {
+      "text": "Такое поведение невозможно",
+      "isCorrect": false
+    },
+    {
+      "text": "Перед объявлением функции",
+      "isCorrect": false
+    },
+    {
+      "text": "В теле `functionReturner`, перед возвращаемой функцией",
+      "isCorrect": true
+    },
+    {
+      "text": "Внутри возвращаемой функции",
+      "isCorrect": false
+    },
+    {
+      "text": "После объявления функции",
+      "isCorrect": false
+    }
+  ],
+  "descriptionMarkup": "Здесь можно почитать про [замыкание](https://learn.javascript.ru/closure)"
+}
