@@ -1,0 +1,27 @@
+{
+  "questionText": "В каком порядке будут выведены сообщения в консоль?",
+  "code": {
+    "lang": "js",
+    "text": "console.log(1) \n\nsetTimeout(()=>{ \n\t console.log('Timeout 1') \n\t Promise.resolve().then( \n\t\t () => console.log('Promise 1') \n\t\t) \n\t}, 0) \n\nsetTimeout(()=>console.log('Timeout 2')) \n\nPromise.resolve().then( \n\t () => console.log('Promise 2')\n) \n\nconsole.log(2)"
+  },
+  "type": "radio",
+  "answers": [
+    {
+      "text": "`1`, `'Timeout 1'`, `'Promise 1'`, `'Timeout 2'`, `'Promise 2'`, `2`",
+      "isCorrect": false
+    },
+    {
+      "text": "`1`, `2`, `'Timeout 1'`, `'Promise 1'`, `'Promise 2'`, `'Timeout 2'` ",
+      "isCorrect": false
+    },
+    {
+      "text": "`1`, `2`, `'Promise 2'`, `'Timeout 1'`, `'Promise 1'`, `'Timeout 2'` ",
+      "isCorrect": true
+    },
+    {
+      "text": "`1`, `2`, `'Promise 1'`, `'Promise 2'`, `'Timeout 1'`, `'Timeout 2'` ",
+      "isCorrect": false
+    }
+  ],
+  "descriptionMarkup": "Первым будет отрабатывать синхронный код (вывод `1` и `2`). Далее микротаски и макротаски соответственно. В очереди микротаск находится только `Promise 2`. \n\n После перехода к макротаскам выведется `Timeout 1` в качестве callback функции для таймаута используется зарезолвленный промис.\n\n Cначала выводится микротаска `Promise 1` и только потом `Timeout 2`."
+}

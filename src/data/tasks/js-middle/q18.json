@@ -1,0 +1,26 @@
+{
+  "questionText": "Выбирите верные утверждение о Promise.",
+  "type": "checkbox",
+  "answers": [
+    {
+      "text": "Promise - это объект, который используется для отложенных и асинхронных вычислений.",
+      "isCorrect": true
+    },
+    {
+      "text": "Promise - это функция по формированию Call Stack.",
+      "isCorrect": false
+    },
+    {
+      "text": "Promise решает проблему \"Callback hell\".",
+      "isCorrect": true
+    },
+    {
+      "text": "Promise может находиться в трёх состояниях then, catch, fulfilled.",
+      "isCorrect": false
+    },
+    {
+      "text": "Promise может находиться в трёх состояниях pending, fulfilled, rejected.",
+      "isCorrect": true
+    }
+  ]
+}
