@@ -19,7 +19,7 @@
       "isCorrect": false
     },
     {
-      "text": "Promise может находиться в трёх состояниях pending, resolved, rejected.",
+      "text": "Promise может находиться в трёх состояниях pending, fulfilled, rejected.",
       "isCorrect": true
     }
   ]
