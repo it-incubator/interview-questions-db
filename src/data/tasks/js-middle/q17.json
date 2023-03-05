@@ -2,7 +2,7 @@
   "questionText": "В каком порядке будут выведены сообщения в консоль?",
   "code": {
     "lang": "js",
-    "text": " console.log(1) \n setTimeout(()=>{ \n\t console.log('Timeout 1') \n\t Promise.resolve().then( \n\t\t () => console.log('Promise 1') \n\t\t) \n\t}, 0) \n\t setTimeout(()=>console.log('Timeout 2')) \n Promise.resolve().then( \n\t () => console.log('Promise 2')\n\t) \n console.log(2)"
+    "text": "console.log(1) \n\nsetTimeout(()=>{ \n\t console.log('Timeout 1') \n\t Promise.resolve().then( \n\t\t () => console.log('Promise 1') \n\t\t) \n\t}, 0) \n\nsetTimeout(()=>console.log('Timeout 2')) \n\nPromise.resolve().then( \n\t () => console.log('Promise 2')\n) \n\nconsole.log(2)"
   },
   "type": "radio",
   "answers": [
