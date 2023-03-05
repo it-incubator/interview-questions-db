@@ -3,7 +3,7 @@
   "type": "radio",
   "code": {
     "lang": "js",
-    "text": "9++"
+    "text": "console.log(9++)"
   },
   "answers": [
     {
