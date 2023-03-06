@@ -1,0 +1,27 @@
+{
+  "questionText": "Сколько будет составлять задержка перед выводом `3`?",
+  "type": "radio",
+  "code": {
+    "lang": "js",
+    "text": "setTimeout(()=> console.log(1), 1000)\nsetTimeout(()=> console.log(1), 5000)\nsetTimeout(()=> console.log(1), 10000)"
+  },
+  "answers": [
+    {
+      "text": "16 секунд",
+      "isCorrect": false
+    },
+    {
+      "text": "160 секунд",
+      "isCorrect": false
+    },
+    {
+      "text": "10 секунд",
+      "isCorrect": true
+    },
+    {
+      "text": "4 секунды",
+      "isCorrect": false
+    }
+  ],
+  "descriptionMarkup": "Отсчёт `setTimeout` выполняется WebAPI и не блокирует выполнение последующего кода. Разница между началом отсчёта следующих `setTimeout` будет составлять доли секунды.\n\nЕсли нам нужно, чтобы отсчёт начинался только после завершения предыдущего `setTimeout` используются либо вложенные колбэки, либо промисы."
+}

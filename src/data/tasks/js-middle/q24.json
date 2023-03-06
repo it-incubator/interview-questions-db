@@ -1,0 +1,32 @@
+{
+  "questionText": "Что будет выводиться при выполнении кода?",
+  "type": "radio",
+  "code": {
+    "lang": "js",
+    "text": "Promise.race([\n    new Promise((resolve, reject) => \n\t\t\tsetTimeout(() => reject(1), 1000)),\n    new Promise((resolve, reject) => \n\t\t\tsetTimeout(() => resolve(2), 2000)),\n    new Promise((resolve, reject) => \n\t\t\tsetTimeout(() => resolve(3), 3000))\n])\n\t.then(alert)"
+  },
+  "answers": [
+    {
+      "text": "`1`, `2`, `3`",
+      "isCorrect": false
+    },
+    {
+      "text": "`3`, `2`, `1`",
+      "isCorrect": false
+    },
+    {
+      "text": "`1`",
+      "isCorrect": true
+    },
+    {
+      "text": "`2`",
+      "isCorrect": false
+    },
+    {
+      "text": "`3`",
+      "isCorrect": false
+    }
+  ],
+  "descriptionMarkup": "`Promise.race(promises)` ждёт только первый выполненный промис, из которого берёт результат (или ошибку)."
+}
+

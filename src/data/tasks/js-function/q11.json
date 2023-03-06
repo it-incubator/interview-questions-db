@@ -1,0 +1,31 @@
+{
+  "questionText": "Что можно сказать о функции для вычисления факториала числа, приведенной ниже?",
+  "type": "checkbox",
+  "code": {
+    "lang": "js",
+    "text": "function factorial(n) {\n    return n * factorial(n - 1)\n}\n"
+  },
+  "answers": [
+    {
+      "text": "Является Immediately Invoked Function Expression",
+      "isCorrect": false
+    },
+    {
+      "text": "Является рекурсивной функцией",
+      "isCorrect": true
+    },
+    {
+      "text": "Функция предназначена для целых неотрицательных чисел",
+      "isCorrect": true
+    },
+    {
+      "text": "Функция будет работать корректно",
+      "isCorrect": false
+    },
+    {
+      "text": "В данном исполнении будет переполнен Call Stack",
+      "isCorrect": true
+    }
+  ],
+  "descriptionMarkup": "В теле [рекурсивной функции](https://learn.javascript.ru/recursion) обязательно должна быть включена проверка для прекращения повторных вызовов функции."
+}
