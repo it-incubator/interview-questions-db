@@ -1,0 +1,27 @@
+{
+  "questionText": "Что будет в консоли(`const hi` - структура данных - стек)?",
+  "type": "radio",
+  "code": {
+    "text": "const hi = [ 1, 2, \"hello\", \"IT-incubator\" ];\n\nconst element = hi.pop();\n\nconsole.log(element)",
+    "lang": "js"
+  },
+  "author": "KarolinaEsepenok",
+  "answers": [
+    {
+      "text": "`[ 1 ]`",
+      "isCorrect": false
+    },
+    {
+      "text": "`[  2, \"hello\", \"IT-incubator\" ]`",
+      "isCorrect": false
+    },
+    {
+      "text": "`[ 1, 2, \"hello\" ]`",
+      "isCorrect": false
+    },
+    {
+      "text": "`[ \"IT-incubator\" ]`",
+      "isCorrect": true
+    }
+  ]
+}
