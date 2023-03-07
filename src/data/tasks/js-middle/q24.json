@@ -3,7 +3,7 @@
   "type": "radio",
   "code": {
     "lang": "js",
-    "text": "Promise.race([\n    new Promise((resolve, reject) => \n\t\t\tsetTimeout(() => reject(1), 1000)),\n    new Promise((resolve, reject) => \n\t\t\tsetTimeout(() => resolve(2), 2000)),\n    new Promise((resolve, reject) => \n\t\t\tsetTimeout(() => resolve(3), 3000))\n])\n\t.then(alert)"
+    "text": "Promise.race([\n    new Promise((resolve, reject) => \n\t\t\tsetTimeout(() => resolve(1), 1000)),\n    new Promise((resolve, reject) => \n\t\t\tsetTimeout(() => resolve(2), 2000)),\n    new Promise((resolve, reject) => \n\t\t\tsetTimeout(() => resolve(3), 3000))\n])\n\t.then(alert)"
   },
   "answers": [
     {

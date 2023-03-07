@@ -3,7 +3,7 @@
   "type": "radio",
   "code": {
     "lang": "js",
-    "text": "let hero = {\n  fire() {\n    this.bam = true\n  }\n}\n\nlet spiderman = {\n  __proto__: hero\n}\n\nironMan.fire()"
+    "text": "let hero = {\n  fire() {\n    this.bam = true\n  }\n}\n\nlet ironMan = {\n  __proto__: hero\n}\n\nironMan.fire()"
   },
   "answers": [
     {

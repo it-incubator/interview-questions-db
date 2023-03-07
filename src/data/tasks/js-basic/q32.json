@@ -1,9 +1,9 @@
 {
-  "questionText": "Сколько будет составлять задержка перед выводом `3`?",
+  "questionText": "Сколько будет составлять задержка перед выводом в консоль `3`?",
   "type": "radio",
   "code": {
     "lang": "js",
-    "text": "setTimeout(()=> console.log(1), 1000)\nsetTimeout(()=> console.log(1), 5000)\nsetTimeout(()=> console.log(1), 10000)"
+    "text": "setTimeout(()=> console.log(1), 1000)\nsetTimeout(()=> console.log(2), 5000)\nsetTimeout(()=> console.log(3), 10000)"
   },
   "answers": [
     {
