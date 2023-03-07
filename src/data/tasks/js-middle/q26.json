@@ -1,0 +1,28 @@
+{
+  "questionText": "Какой объект получит свойство `bam` при вызове `ironMan.fire()`?",
+  "type": "radio",
+  "code": {
+    "lang": "js",
+    "text": "let hero = {\n  fire() {\n    this.bam = true\n  }\n}\n\nlet ironMan = {\n  __proto__: hero\n}\n\nironMan.fire()"
+  },
+  "answers": [
+    {
+      "text": "`hero`",
+      "isCorrect": false
+    },
+    {
+      "text": "`ironMan`",
+      "isCorrect": true
+    },
+    {
+      "text": "Оба объекта",
+      "isCorrect": false
+    },
+    {
+      "text": "Случится потеря контекста",
+      "isCorrect": false
+    }
+  ],
+  "descriptionMarkup": "Неважно, где находится метод: в объекте или его прототипе. При вызове метода `this` — всегда используется объект перед точкой."
+}
+
