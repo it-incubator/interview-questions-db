@@ -1,5 +1,5 @@
 {
-  "questionText": "Выбери статические методы класса `Promise`",
+  "questionText": "Укажите статические методы класса `Promise`",
   "answers": [
     {
       "text": "`catch`",

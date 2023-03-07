@@ -84,5 +84,12 @@ export const exams: Exam[] = [
     category: 'JavaScript',
     level: 'basic',
     labels: ['frontend', 'backend'],
+  },
+  {
+    id: 'js-promises',
+    title: 'JS Promises',
+    category: 'JavaScript',
+    level: 'middle',
+    labels: ['frontend', 'backend'],
   }
 ]
