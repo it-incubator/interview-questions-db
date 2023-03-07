@@ -1,0 +1,23 @@
+{
+    "questionText": "Свойство `overflow` по умолчанию имеет значение:",
+    "type": "radio",
+    "author": "KarolinaEsepenok",
+    "answers": [
+        {
+            "text": "`auto`",
+            "isCorrect": false
+        },
+        {
+            "text": "`hidden`",
+            "isCorrect": false
+        },
+        {
+            "text": "`scroll`",
+            "isCorrect": false
+        },
+        {
+            "text": "`visible`",
+            "isCorrect": true
+        }
+    ]
+}

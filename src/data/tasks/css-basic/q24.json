@@ -1,0 +1,23 @@
+{
+    "questionText": "Тень блока при использовании `box-shadow: 0 10px black` будет находиться:",
+    "type": "radio",
+    "author": "KarolinaEsepenok",
+    "answers": [
+        {
+            "text": "Сверху, сразу над блоком",
+            "isCorrect": false
+        },
+        {
+            "text": "Справа",
+            "isCorrect": false
+        },
+        {
+            "text": "Внизу, сразу под блоком",
+            "isCorrect": true
+        },
+        {
+            "text": "Слева",
+            "isCorrect": false
+        }
+    ]
+}

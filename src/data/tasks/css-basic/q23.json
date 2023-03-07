@@ -1,0 +1,23 @@
+{
+    "questionText": "Выберите математические фунцкии CSS.",
+    "type": "checkbox",
+    "author": "KarolinaEsepenok",
+    "answers": [
+        {
+            "text": "`min()`",
+            "isCorrect": true
+        },
+        {
+            "text": "`max()`",
+            "isCorrect": true
+        },
+        {
+            "text": "`clamp()`",
+            "isCorrect": true
+        },
+        {
+            "text": "`calc()`",
+            "isCorrect": true
+        }
+    ]
+}
