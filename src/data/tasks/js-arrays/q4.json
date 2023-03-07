@@ -3,7 +3,7 @@
   "type": "radio",
   "code": {
     "lang": "js",
-    "text": "const user = [\n 'Frodo', \n 'Sam', \n 'Pippin' \n]"
+    "text": "const hobbits = [\n 'Frodo', \n 'Sam', \n 'Pippin' \n]"
   },
   "answers": [
     {
