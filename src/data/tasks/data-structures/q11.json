@@ -1,5 +1,5 @@
 {
-  "questionText": "Выберите какими методами массива можно работать со стеком.",
+  "questionText": "Выберите методы массива, с помощью который можно работать со стеком",
   "type": "checkbox",
   "author": "KarolinaEsepenok",
   "answers": [
@@ -12,7 +12,7 @@
       "isCorrect": false
     },
     {
-      "text": "`pop()`",
+      "text": "`unshift()`",
       "isCorrect":true
     },
     {
