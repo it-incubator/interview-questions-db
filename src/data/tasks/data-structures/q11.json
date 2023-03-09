@@ -1,27 +1,23 @@
 {
-  "questionText": "Что будет в консоли(`const hello` - структура данных - очередь)?",
-  "type": "radio",
-  "code": {
-    "text": "const hello = [ 1, 2, \"hi\", \"IT-incubator\" ];\n\nconst element = hello.dequeue();\n\nconsole.log(element)",
-    "lang": "js"
-  },
+  "questionText": "Выберите какими методами массива можно работать со стеком.",
+  "type": "checkbox",
   "author": "KarolinaEsepenok",
   "answers": [
     {
-      "text": "`[ 1 ]`",
+      "text": "`push()`",
       "isCorrect": true
     },
     {
-      "text": "`[  2, \"hello\", \"IT-incubator\" ]`",
+      "text": "`shift()`",
       "isCorrect": false
     },
     {
-      "text": "`[ 1, 2, \"hello\" ]`",
-      "isCorrect": false
+      "text": "`pop()`",
+      "isCorrect":true
     },
     {
-      "text": "`[ \"IT-incubator\" ]`",
-      "isCorrect": false
+      "text": "`slice()`",
+      "isCorrect":false
     }
   ]
 }

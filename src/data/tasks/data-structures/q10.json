@@ -1,18 +1,22 @@
 {
-  "questionText": "Выберите верные утверждения.",
+  "questionText": "Выберите какими методами массива можно работать с очередью.",
   "type": "checkbox",
   "author": "KarolinaEsepenok",
   "answers": [
     {
-      "text": "В стеке элементы вставляются с одного конца, а извлекаются из другого.",
-      "isCorrect": false
-    },
-    {
-      "text": "В очереди элементы вставляются с одного конца, а извлекаются из другого.",
+      "text": "`push()`",
       "isCorrect": true
     },
     {
-      "text": "В стеке элементы вставляются и извлекаются из одного конца.",
+      "text": "`splice()`",
+      "isCorrect": false
+    },
+    {
+      "text": "`slice()`",
+      "isCorrect":false
+    },
+    {
+      "text": "`shift()`",
       "isCorrect": true
     }
   ]
