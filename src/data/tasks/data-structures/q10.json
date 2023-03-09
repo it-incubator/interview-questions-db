@@ -1,5 +1,5 @@
 {
-  "questionText": "Выберите какими методами массива можно работать с очередью.",
+  "questionText": "Выберите методы массивов, с помощью которых можно работать с очередью",
   "type": "checkbox",
   "author": "KarolinaEsepenok",
   "answers": [
@@ -8,11 +8,11 @@
       "isCorrect": true
     },
     {
-      "text": "`splice()`",
+      "text": "`pop()`",
       "isCorrect": false
     },
     {
-      "text": "`slice()`",
+      "text": "`unshift()`",
       "isCorrect":false
     },
     {
