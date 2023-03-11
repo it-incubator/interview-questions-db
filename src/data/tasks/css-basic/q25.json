@@ -1,0 +1,23 @@
+{
+    "questionText": "Свойство `object-fit` по умолчанию имеет значение:",
+    "type": "radio",
+    "author": "KarolinaEsepenok",
+    "answers": [
+        {
+            "text": "`fill`",
+            "isCorrect": true
+        },
+        {
+            "text": "`cover`",
+            "isCorrect": false
+        },
+        {
+            "text": "`none`",
+            "isCorrect": false
+        },
+        {
+            "text": "`contain`",
+            "isCorrect":false
+        }
+    ]
+}

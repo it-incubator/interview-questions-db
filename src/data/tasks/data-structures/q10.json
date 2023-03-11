@@ -1,0 +1,23 @@
+{
+  "questionText": "Выберите методы массивов, с помощью которых можно работать с очередью",
+  "type": "checkbox",
+  "author": "KarolinaEsepenok",
+  "answers": [
+    {
+      "text": "`push()`",
+      "isCorrect": true
+    },
+    {
+      "text": "`pop()`",
+      "isCorrect": false
+    },
+    {
+      "text": "`unshift()`",
+      "isCorrect":false
+    },
+    {
+      "text": "`shift()`",
+      "isCorrect": true
+    }
+  ]
+}

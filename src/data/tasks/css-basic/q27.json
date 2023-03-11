@@ -1,0 +1,23 @@
+{
+    "questionText": "Выберите свойство CSS, которое указывает,как будут расположены строки текста(горизонтально или вертикально).",
+    "type": "radio",
+    "author": "KarolinaEsepenok",
+    "answers": [
+        {
+            "text": "`text-justify`",
+            "isCorrect": false
+        },
+        {
+            "text": "`text-overflow`",
+            "isCorrect": false
+        },
+        {
+            "text": "`writing-mode`",
+            "isCorrect": true
+        },
+        {
+            "text": "`word-wrap`",
+            "isCorrect":false
+        }
+    ]
+}

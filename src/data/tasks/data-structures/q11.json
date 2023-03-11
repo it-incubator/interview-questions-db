@@ -1,0 +1,23 @@
+{
+  "questionText": "Выберите методы массива, с помощью который можно работать со стеком",
+  "type": "checkbox",
+  "author": "KarolinaEsepenok",
+  "answers": [
+    {
+      "text": "`push()`",
+      "isCorrect": true
+    },
+    {
+      "text": "`shift()`",
+      "isCorrect": false
+    },
+    {
+      "text": "`unshift()`",
+      "isCorrect":true
+    },
+    {
+      "text": "`slice()`",
+      "isCorrect":false
+    }
+  ]
+}
