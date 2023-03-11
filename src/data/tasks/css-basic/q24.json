@@ -4,20 +4,21 @@
     "author": "KarolinaEsepenok",
     "answers": [
         {
-            "text": "Сверху, сразу над блоком",
+            "text": "сверху, сразу над блоком",
             "isCorrect": false
         },
         {
-            "text": "Справа",
+            "text": "справа",
             "isCorrect": false
         },
         {
-            "text": "Внизу, сразу под блоком",
+            "text": "внизу, сразу под блоком",
             "isCorrect": true
         },
         {
-            "text": "Слева",
+            "text": "слева",
             "isCorrect": false
         }
-    ]
+    ],
+    "descriptionMarkup": "Первые два значения свойства `box-shadow` определяют смещение тени по осям `x`&nbsp;и&nbsp;`y`."
 }

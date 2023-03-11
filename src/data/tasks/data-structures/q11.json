@@ -8,16 +8,16 @@
       "isCorrect": true
     },
     {
-      "text": "`shift()`",
-      "isCorrect": false
+      "text": "`pop()`",
+      "isCorrect": true
     },
     {
       "text": "`unshift()`",
-      "isCorrect":true
+      "isCorrect":false
     },
     {
-      "text": "`slice()`",
-      "isCorrect":false
+      "text": "`shift()`",
+      "isCorrect": false
     }
   ]
 }

@@ -91,5 +91,12 @@ export const exams: Exam[] = [
     category: 'JavaScript',
     level: 'middle',
     labels: ['frontend', 'backend'],
-  }
+  },
+  {
+    id: 'css-middle',
+    title: 'CSS Middle',
+    category: 'CSS',
+    level: 'middle',
+    labels: ['frontend'],
+  },
 ]

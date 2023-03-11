@@ -1,5 +1,5 @@
 {
-  "questionText": "Отличия `Map` от обычного объекта `Object`:",
+  "questionText": "Отличия `Map` от обычного объекта `Object` в JavaScript:",
   "type": "checkbox",
   "author": "KarolinaEsepenok",
   "answers": [

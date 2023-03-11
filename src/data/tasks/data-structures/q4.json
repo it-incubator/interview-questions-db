@@ -1,5 +1,5 @@
 {
-  "questionText": "Метод `map.get(key)` возвращает:",
+  "questionText": "Метод `map.get(key)` коллекции `Map` возвращает:",
   "type": "radio",
   "author": "KarolinaEsepenok",
   "answers": [
