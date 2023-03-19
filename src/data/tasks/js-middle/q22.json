@@ -1,0 +1,28 @@
+{
+  "questionText": "В каком случае можно будет вызвать функцию, как метод глобального объекта?",
+  "type": "radio",
+  "code": {
+    "lang": "js",
+    "text": "window.barkDog()"
+  },
+  "answers": [
+    {
+      "text": "`function barkDog () {\n  alert (\"Bow-wow!\")\n}`",
+      "isCorrect": true
+    },
+    {
+      "text": "`const barkDog = function () {\n  alert (\"Bow-wow!\")\n}`",
+      "isCorrect": false
+    },
+    {
+      "text": "`const barkDog = () => {\n  alert (\"Bow-wow!\")\n}`",
+      "isCorrect": false
+    },
+    {
+      "text": "Ни в одном из перечисленных вариантов",
+      "isCorrect": false
+    }
+  ],
+  "descriptionMarkup": "Глобальные функции, объявленные, как function declaration, доступны, как методы глобального объекта."
+}
+

@@ -1,0 +1,23 @@
+{
+  "questionText": "Для чего используется метод `Object.defineProperty()`?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "Для получения значений флагов объекта",
+      "isCorrect": false
+    },
+    {
+      "text": "Для настройки доступа ко всему объекту",
+      "isCorrect": false
+    },
+    {
+      "text": "Для поиска свойства в объекте",
+      "isCorrect": false
+    },
+    {
+      "text": "Для добавления или изменеия свойств с настройкой их флагов",
+      "isCorrect": true
+    }
+  ]
+}
+

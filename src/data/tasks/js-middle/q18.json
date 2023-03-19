@@ -1,0 +1,23 @@
+{
+  "questionText": "У какого флага значение `false` при обычном создании объекта?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "`writable`",
+      "isCorrect": false
+    },
+    {
+      "text": "`enumerable`",
+      "isCorrect": false
+    },
+    {
+      "text": "`configurable`",
+      "isCorrect": false
+    },
+    {
+      "text": "По умолчанию у всех флагов значение `true`",
+      "isCorrect": true
+    }
+  ]
+}
+

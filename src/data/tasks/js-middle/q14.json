@@ -1,0 +1,32 @@
+{
+  "questionText": "Какие варианты не округлят число в JS?",
+  "type": "checkbox",
+  "answers": [
+    {
+      "text": "`!!1.5`",
+      "isCorrect": true
+    },
+    {
+      "text": "`Math.floor(1.5)`",
+      "isCorrect": false
+    },
+    {
+      "text": "`Math.ceil(1.5)`",
+      "isCorrect": false
+    },
+    {
+      "text": "`Math.round(1.5)`",
+      "isCorrect": false
+    },
+    {
+      "text": "`1.5 ^ 0`",
+      "isCorrect": false
+    },
+    {
+      "text": "`~1.5`",
+      "isCorrect": true
+    }
+  ],
+  "descriptionMarkup": "Про побитовые операторы `^` , `~` и другие можно прочитать в [статье.](https://learn.javascript.ru/bitwise-operators)"
+}
+
