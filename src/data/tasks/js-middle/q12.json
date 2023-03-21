@@ -1,0 +1,24 @@
+{
+  "questionText": "Какие из утверждений про функции-генераторы являются верными?",
+  "type": "checkbox",
+  "answers": [
+    {
+      "text": "Могут возвращать только одно единственное значение или ничего",
+      "isCorrect": false
+    },
+    {
+      "text": "Используют специальную синтаксическую конструкцию `function*`",
+      "isCorrect": true
+    },
+    {
+      "text": "В генераторах нельзя использовать ключевое слово `return`, только `yield` ",
+      "isCorrect": false
+    },
+    {
+      "text": "Генераторы имеют метод `next` и являются перебираемыми",
+      "isCorrect": true
+    }
+  ],
+  "descriptionMarkup": "Подробнее про [генераторы](https://learn.javascript.ru/generators)"
+}
+

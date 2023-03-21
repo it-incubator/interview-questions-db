@@ -1,0 +1,28 @@
+{
+  "questionText": "Что будет выведено при сравнении?",
+  "type": "radio",
+  "code": {
+    "lang": "js",
+    "text": "console.log(1n > 2)"
+  },
+  "answers": [
+    {
+      "text": "`true`",
+      "isCorrect": false
+    },
+    {
+      "text": "`false`",
+      "isCorrect": true
+    },
+    {
+      "text": "Будет выведена ошибка",
+      "isCorrect": false
+    },
+    {
+      "text": "`undefined`",
+      "isCorrect": false
+    }
+  ],
+  "descriptionMarkup": "Обычные числа `number` и `bigInt` принадлежат к разным типам, при сравнении они приводятся к одному типу"
+}
+

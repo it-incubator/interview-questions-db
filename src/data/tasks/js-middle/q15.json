@@ -1,0 +1,28 @@
+{
+  "questionText": "Что получится при выполнении математической операции, когда один из операндов имеет тип `bigInt`, а второй `number`?",
+  "type": "radio",
+  "code": {
+    "lang": "js",
+    "text": "1 + 1n"
+  },
+  "answers": [
+    {
+      "text": "`1n`",
+      "isCorrect": false
+    },
+    {
+      "text": "`2`",
+      "isCorrect": false
+    },
+    {
+      "text": "`2n`",
+      "isCorrect": false
+    },
+    {
+      "text": "При выполнении операции будет выведена ошибка",
+      "isCorrect": true
+    }
+  ],
+  "descriptionMarkup": "Мы должны явно конвертировать операнды в один тип, используя либо `BigInt()`, либо `Number()`"
+}
+
