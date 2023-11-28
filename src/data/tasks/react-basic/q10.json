@@ -18,5 +18,6 @@
       "text": "`shouldComponentUpdate`",
       "isCorrect": false
     }
-  ]
+  ],
+  "descriptionMarkup": "`componentWillUnmount` вызывается непосредственно перед размонтированием и удалением компонента. В этом методе выполняется необходимый сброс: отмена таймеров, сетевых запросов и подписок, созданных в componentDidMount().\n\n Более подробно [reactjs.org](https://ru.legacy.reactjs.org/docs/react-component.html#componentwillunmount)"
 }

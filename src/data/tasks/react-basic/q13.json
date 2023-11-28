@@ -15,5 +15,6 @@
       "text": "Весь компонент",
       "isCorrect": true
     }
-  ]
+  ],
+  "descriptionMarkup": "Более подробно про `useMemo()` [reactjs.org](https://ru.legacy.reactjs.org/docs/hooks-reference.html#usememo)"
 }

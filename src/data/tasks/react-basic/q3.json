@@ -13,5 +13,6 @@
       "text": "Вызываются только в функциональных компонентах и кастомных хуках",
       "isCorrect": true
     }
-  ]
+  ],
+  "descriptionMarkup": "1. Используйте хуки только на верхнем уровне.\n\n 2. Вызывайте хуки только из React-функций.\n\n Почитать о них можно на [react.dev (EN)](https://react.dev/warnings/invalid-hook-call-warning) и [reactjs.org (RU)](https://ru.legacy.reactjs.org/docs/hooks-rules.html)"
 }
