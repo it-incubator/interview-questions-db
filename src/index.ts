@@ -3,7 +3,7 @@ import {examsRepository} from './repositories/exams-repository'
 import {FastifyListenOptions} from "fastify/types/instance";
 
 const app = fastify({logger: true})
-const PORT = Number(process.env.PORT || 5000)
+const PORT = Number(process.env.PORT || 8767)
 
 app.get('/api/exams', (request, reply) => {
     const exams = examsRepository.getExams()
@@ -12,6 +12,18 @@ app.get('/api/exams', (request, reply) => {
         .code(200)
         .header('Access-Control-Allow-Origin', '*')
         .send(exams)
+})
+
+app.get('/api/health', (request, reply) => {
+    return reply
+        .code(200)
+        .header('Access-Control-Allow-Origin', '*')
+        .send({
+            status: 'ok',
+            info: {},
+            error: {},
+            details: {},
+        })
 })
 
 interface GetExamRequest extends RequestGenericInterface {
