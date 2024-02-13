@@ -14,6 +14,18 @@ app.get('/api/exams', (request, reply) => {
         .send(exams)
 })
 
+app.get('/api/health', (request, reply) => {
+    return reply
+        .code(200)
+        .header('Access-Control-Allow-Origin', '*')
+        .send({
+            status: 'ok',
+            info: {},
+            error: {},
+            details: {},
+        })
+})
+
 interface GetExamRequest extends RequestGenericInterface {
     Params: {
         id: string
