@@ -3,7 +3,7 @@ import {examsRepository} from './repositories/exams-repository'
 import {FastifyListenOptions} from "fastify/types/instance";
 
 const app = fastify({logger: true})
-const PORT = Number(process.env.PORT || 5000)
+const PORT = Number(process.env.PORT || 8767)
 
 app.get('/api/exams', (request, reply) => {
     const exams = examsRepository.getExams()

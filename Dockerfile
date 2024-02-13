@@ -1,6 +1,6 @@
 # Check out https://hub.docker.com/_/node to select a new base image
-FROM node:16.13.2-alpine
-
+FROM node:20.11-alpine
+RUN npm install -g pnpm
 # Set to a non-root built-in user `node`
 USER node
 
@@ -14,17 +14,17 @@ WORKDIR /home/node/dist/interview-questions-api
 # where available (npm@5+)
 
 COPY --chown=node package*.json ./
-COPY --chown=node yarn.lock ./
-RUN yarn install
+COPY --chown=node pnpm-lock.yaml ./
+RUN pnpm install
 
 ENV PORT=9007
 # Bundle app source code
 COPY --chown=node . .
 
-RUN yarn build
+RUN pnpm build
 
 # Bind to all network interfaces so that it can be mapped to the host OS
 
 EXPOSE ${PORT}
 
-CMD [ "yarn", "start" ]
+CMD [ "pnpm", "start" ]

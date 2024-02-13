@@ -11,7 +11,7 @@ pipeline {
         DEPLOYMENT_NAME = "interview-questions-api-deployment"
         IMAGE_NAME = "${env.BUILD_ID}_${env.ENV_TYPE}_${env.GIT_COMMIT}"
         DOCKER_BUILD_NAME = "${env.PROJECT}:${env.IMAGE_NAME}"
-        SUCCESS_MESSAGE = "${env.PROJECT} Build SUCCESS: https://interview-questions-db.kimitsu.it-incubator.ru"
+        SUCCESS_MESSAGE = "${env.PROJECT} Build SUCCESS: https://interview-questions-db.kimitsu.it-incubator.io"
         FAILED_MESSAGE = "${env.PROJECT} Build FAILED: "
     }
 
