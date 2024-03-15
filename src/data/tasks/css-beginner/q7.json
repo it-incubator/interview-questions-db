@@ -1,0 +1,18 @@
+{
+  "questionText": "Как установить жирное начертание (жирный шрифт) для текста в CSS?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "Жирное начертание устанавливается с помощью свойства `text-weight`, например: `text-weight: bold;`",
+      "isCorrect": false
+    },
+    {
+      "text": "Жирное начертание устанавливается с помощью свойства `text-fat`, например: `text-fat: bold;`",
+      "isCorrect": false
+    },
+    {
+      "text": "Жирное начертание устанавливается с помощью свойства `font-weight`, например: `font-weight: bold;`",
+      "isCorrect": true
+    }
+  ]
+}

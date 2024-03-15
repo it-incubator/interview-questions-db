@@ -1,0 +1,23 @@
+{
+  "questionText": "Как обновить данные в существующей записи в SQL?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "`MODIFY`",
+      "isCorrect": false
+    },
+    {
+      "text": "`CHANGE SET WHERE`",
+      "isCorrect": false
+    },
+    {
+      "text": "`REFRESH`",
+      "isCorrect": false
+    },
+    {
+      "text": "`UPDATE`",
+      "isCorrect": true
+    }
+  ],
+  "descriptionMarkup": "Например: `UPDATE users SET email = 'newemail@example.com' WHERE id = 1;`"
+}

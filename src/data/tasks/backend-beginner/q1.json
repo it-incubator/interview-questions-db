@@ -1,0 +1,22 @@
+{
+  "questionText": "Что такое backend разработка?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "Разработка пользовательского интерфейса",
+      "isCorrect": false
+    },
+    {
+      "text": "Разработка клиентской части приложения",
+      "isCorrect": false
+    },
+    {
+      "text": "Разработка серверной части приложения",
+      "isCorrect": true
+    },
+    {
+      "text": "Дизайн веб-сайтов",
+      "isCorrect": false
+    }
+  ]
+}

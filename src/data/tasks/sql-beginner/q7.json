@@ -1,0 +1,23 @@
+{
+  "questionText": "Как выбрать записи из таблицы, удовлетворяющие условию, в SQL?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "`FILTER * FROM`",
+      "isCorrect": false
+    },
+    {
+      "text": "`SELECT MATCHING FROM`",
+      "isCorrect": false
+    },
+    {
+      "text": "`GET WHERE`",
+      "isCorrect": false
+    },
+    {
+      "text": "`SELECT WHERE`",
+      "isCorrect": true
+    }
+  ],
+  "descriptionMarkup": "Например, чтобы выбрать всех пользователей возрастом 10 лет из таблицы `users`, используется команда `SELECT * FROM users WHERE age = 10`."
+}

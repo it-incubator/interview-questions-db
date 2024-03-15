@@ -1,0 +1,22 @@
+{
+  "questionText": "Какой HTTP метод используется для создания новой записи на сервере?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "GET",
+      "isCorrect": false
+    },
+    {
+      "text": "POST",
+      "isCorrect": true
+    },
+    {
+      "text": "DELETE",
+      "isCorrect": false
+    },
+    {
+      "text": "PUT",
+      "isCorrect": false
+    }
+  ]
+}

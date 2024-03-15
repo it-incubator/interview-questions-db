@@ -1,0 +1,18 @@
+{
+  "questionText": "Как создать ссылку, которая откроется в новой вкладке браузера?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "Для этого cледует использовать атрибут `target=\"_blank\"`",
+      "isCorrect": true
+    },
+    {
+      "text": "Для этого cледует использовать атрибут `target=\"_window\"`",
+      "isCorrect": false
+    },
+    {
+      "text": "Для этого cледует использовать атрибут `target=\"new-window\"`",
+      "isCorrect": false
+    }
+  ]
+}

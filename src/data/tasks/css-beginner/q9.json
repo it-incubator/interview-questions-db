@@ -1,0 +1,18 @@
+{
+  "questionText": "Как установить выравнивание текста в CSS?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "Выравнивание текста устанавливается с помощью свойства `text-align`, например: `text-align: center;`",
+      "isCorrect": true
+    },
+    {
+      "text": "Выравнивание текста устанавливается с помощью свойства `font-align`, например: `font-align: center;`",
+      "isCorrect": false
+    },
+    {
+      "text": "Выравнивание текста устанавливается с помощью свойства `h-align` - выравнивание по горизонтали или `v-align` - выравнивание по вертикали, например: `v-align: center;` или `h-align: center;`",
+      "isCorrect": false
+    }
+  ]
+}

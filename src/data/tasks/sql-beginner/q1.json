@@ -1,0 +1,22 @@
+{
+  "questionText": "Какое выражение в SQL используется для установления ограничений на данные в таблице?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "`SET`",
+      "isCorrect": false
+    },
+    {
+      "text": "`ALTER TABLE`",
+      "isCorrect": false
+    },
+    {
+      "text": "`CONSTRAINT`",
+      "isCorrect": true
+    },
+    {
+      "text": "`MODIFY`",
+      "isCorrect": false
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "questionText": "Какой из этих инструментов используется для управления зависимостями в проектах на JavaScript?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "NPM",
+      "isCorrect": true
+    },
+    {
+      "text": "Maven",
+      "isCorrect": false
+    },
+    {
+      "text": "Pip",
+      "isCorrect": false
+    },
+    {
+      "text": "Webpack",
+      "isCorrect": false
+    }
+  ]
+}

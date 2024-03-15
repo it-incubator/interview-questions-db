@@ -1,0 +1,18 @@
+{
+  "questionText": "Как изменить размер шрифта текста в CSS?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "Размер шрифта изменяется с помощью свойства `size`, например: `size: 16px;`",
+      "isCorrect": false
+    },
+    {
+      "text": "Размер шрифта изменяется с помощью свойства `font-size`, например: `font-size: 16px;`",
+      "isCorrect": true
+    },
+    {
+      "text": "Размер шрифта изменяется с помощью свойства `size-font`, например: `size-font: 16px;`",
+      "isCorrect": false
+    }
+  ]
+}

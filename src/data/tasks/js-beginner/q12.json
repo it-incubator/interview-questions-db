@@ -1,0 +1,26 @@
+{
+  "questionText": "Что выведется в `console.log` при выполнении следующего кода?",
+  "type": "radio",
+  "code": {
+    "lang": "js",
+    "text": "let sum = 0;\nfor (let i = 1; i <= 100; i++) {\n  sum += i;\n}\nconsole.log(sum);"
+  },
+  "answers": [
+    {
+      "text": "Сумма чисел от 1 до 100",
+      "isCorrect": true
+    },
+    {
+      "text": "Будет выведено значение переменной 'i'.",
+      "isCorrect": false
+    },
+    {
+      "text": "Выведется строка \"undefined\".",
+      "isCorrect": false
+    },
+    {
+      "text": "Консоль останется пустой, так как в цикле нет явного вывода.",
+      "isCorrect": false
+    }
+  ]
+}

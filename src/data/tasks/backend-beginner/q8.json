@@ -1,0 +1,22 @@
+{
+  "questionText": "Какой HTTP статус-код обозначает успешный ответ сервера?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "200",
+      "isCorrect": true
+    },
+    {
+      "text": "404",
+      "isCorrect": false
+    },
+    {
+      "text": "500",
+      "isCorrect": false
+    },
+    {
+      "text": "302",
+      "isCorrect": false
+    }
+  ]
+}
