@@ -1,0 +1,18 @@
+{
+  "questionText": "Как вывести текст на веб-страницу в JavaScript?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "Для вывода текста на веб-страницу используется метод `document.write()`, например: `document.write(\"Привет, мир!\");`.",
+      "isCorrect": true
+    },
+    {
+      "text": "Вывод текста на веб-страницу в JavaScript осуществляется с помощью метода `window.write()`, например: `window.write(\"Привет, мир!\");`.",
+      "isCorrect": false
+    },
+    {
+      "text": "Для отображения текста на веб-странице в JavaScript используется функция `console.log()`, например: `console.log(\"Привет, мир!\");`.",
+      "isCorrect": false
+    }
+  ]
+}

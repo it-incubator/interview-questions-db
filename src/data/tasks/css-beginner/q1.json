@@ -1,0 +1,18 @@
+{
+  "questionText": "Как изменить цвет текста элемента в CSS?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "Цвет текста изменяется с помощью свойства `text-color`, например: `text-color: red;`",
+      "isCorrect": false
+    },
+    {
+      "text": "Цвет текста изменяется с помощью свойства `color`, например: `color: red;`",
+      "isCorrect": true
+    },
+    {
+      "text": "Цвет текста изменяется с помощью свойства `font-color`, например: `font-color: red;`",
+      "isCorrect": false
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "questionText": "Что выведется в `console.log` при выполнении следующего кода?",
+  "type": "radio",
+  "code": {
+    "lang": "js",
+    "text": "for (let i = 1; i <= 10; i++) {\n  console.log(i);\n}"
+  },
+  "answers": [
+    {
+      "text": "Числа от 1 до 10",
+      "isCorrect": true
+    },
+    {
+      "text": "Результатом будет строка 'i'.",
+      "isCorrect": false
+    },
+    {
+      "text": "Будет выведена последовательность чисел от 0 до 9.",
+      "isCorrect": false
+    },
+    {
+      "text": "Выведется только число 10.",
+      "isCorrect": false
+    }
+  ]
+}

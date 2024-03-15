@@ -1,0 +1,22 @@
+{
+    "questionText": "Какой протокол прикладного уровня используется для передачи веб-страниц от сервера к клиенту?",
+    "type": "radio",
+    "answers": [
+        {
+            "text": "FTP",
+            "isCorrect": false
+        },
+        {
+            "text": "HTTP",
+            "isCorrect": true
+        },
+        {
+            "text": "SMTP",
+            "isCorrect": false
+        },
+        {
+            "text": "TCP",
+            "isCorrect": false
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+  "questionText": "Как создать переменную в JavaScript?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "Для создания переменной используется ключевое слово `var`, `let` или `const`, например: `var myVariable = 42;`.",
+      "isCorrect": true
+    },
+    {
+      "text": "Для создания переменной в JavaScript используется оператор `variable`, например: `variable myVariable = 42;`.",
+      "isCorrect": false
+    },
+    {
+      "text": "Чтобы создать переменную в JavaScript, нужно использовать ключевое слово `create`, например: `create myVariable = 42;`.",
+      "isCorrect": false
+    },
+    {
+      "text": "Для определения переменной в JavaScript используется ключевое слово `define`, например: `define myVariable = 42;`.",
+      "isCorrect": false
+    }
+  ]
+}
