@@ -1,0 +1,14 @@
+{
+  "questionText": "Как установить фоновый цвет элемента в CSS?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "Фоновый цвет элемента устанавливается с помощью свойства `bg-color`, например: `bg-color: #FFFF00;`",
+      "isCorrect": false
+    },
+    {
+      "text": "Фоновый цвет элемента устанавливается с помощью свойства `background-color`, например: `background-color: #FFFF00;`",
+      "isCorrect": true
+    }
+  ]
+}

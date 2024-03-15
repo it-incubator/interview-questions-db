@@ -1,0 +1,18 @@
+{
+  "questionText": "Где будет располагаться дочерний элемент, если в родительском написать эти свойства: `display: flex; justify-content: space-around; align-items: flex-end;`?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "Вертикально внизу, горизонтально по центру",
+      "isCorrect": true
+    },
+    {
+      "text": "Горизонтально слева, вертикально по центру",
+      "isCorrect": false
+    },
+    {
+      "text": "Вертикально в верху, горизонтально по центру",
+      "isCorrect": false
+    }
+  ]
+}

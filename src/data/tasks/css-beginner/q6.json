@@ -1,0 +1,18 @@
+{
+  "questionText": "Как изменить шрифт в CSS?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "Шрифт текста изменяется с помощью свойства `font-style`, например: `font-style: Arial, sans-serif;`",
+      "isCorrect": false
+    },
+    {
+      "text": "Шрифт текста изменяется с помощью свойства `font-family`, например: `font-family: Arial, sans-serif;`",
+      "isCorrect": true
+    },
+    {
+      "text": "Шрифт текста изменяется с помощью свойства `font-type`, например: `font-type: Arial, sans-serif;`",
+      "isCorrect": false
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "questionText": "Какой язык не используется для backend разработки?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "Python",
+      "isCorrect": false
+    },
+    {
+      "text": "JavaScript",
+      "isCorrect": false
+    },
+    {
+      "text": "HTML",
+      "isCorrect": true
+    },
+    {
+      "text": "Java",
+      "isCorrect": false
+    }
+  ]
+}

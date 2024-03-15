@@ -1,0 +1,22 @@
+{
+  "questionText": "С помощью какой команды можно создать новую таблицу в SQL?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "`NEW TABLE`",
+      "isCorrect": false
+    },
+    {
+      "text": "`TABLE CREATE`",
+      "isCorrect": false
+    },
+    {
+      "text": "`BUILD TABLE`",
+      "isCorrect": false
+    },
+    {
+      "text": "`CREATE TABLE`",
+      "isCorrect": true
+    }
+  ]
+}

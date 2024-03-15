@@ -1,0 +1,18 @@
+{
+  "questionText": "Как создать ссылку (гиперссылку) в HTML?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "Ссылка создается с помощью тега `<a>`, например: `<a href=\"https://www.example.com\">Это ссылка</a>`.",
+      "isCorrect": true
+    },
+    {
+      "text": "Ссылка создается с помощью тега `<link>`, например: `<link href=\"https://www.example.com\">Это ссылка</link>`.",
+      "isCorrect": false
+    },
+    {
+      "text": "Ссылка создается с помощью тега `<anchor>`, например: `<anchor href=\"https://www.example.com\">Это ссылка</anchor>`.",
+      "isCorrect": false
+    }
+  ]
+}

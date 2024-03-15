@@ -1,0 +1,23 @@
+{
+  "questionText": "Как удалить запись из таблицы в SQL?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "`REMOVE FROM`",
+      "isCorrect": false
+    },
+    {
+      "text": "`DISCARD FROM`",
+      "isCorrect": false
+    },
+    {
+      "text": "`EXPEL FROM`",
+      "isCorrect": false
+    },
+    {
+      "text": "`DELETE FROM`",
+      "isCorrect": true
+    }
+  ],
+  "descriptionMarkup": "Например: `DELETE FROM users WHERE id = 1`"
+}

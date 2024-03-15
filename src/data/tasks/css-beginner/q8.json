@@ -1,0 +1,18 @@
+{
+  "questionText": "Как изменить цвет фона элемента в CSS?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "Цвет фона элемента изменяется с помощью свойства `bg-color`, например: `bg-color: #F0F0F0;`",
+      "isCorrect": false
+    },
+    {
+      "text": "Цвет фона элемента изменяется с помощью свойства `element-background`, например: `element-background: #F0F0F0;`",
+      "isCorrect": false
+    },
+    {
+      "text": "Цвет фона элемента изменяется с помощью свойства `background-color`, например: `background-color: #F0F0F0;`",
+      "isCorrect": true
+    }
+  ]
+}

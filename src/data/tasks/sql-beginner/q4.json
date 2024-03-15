@@ -1,0 +1,23 @@
+{
+  "questionText": "Как выбрать все записи из таблицы в SQL?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "`GET ALL FROM`",
+      "isCorrect": false
+    },
+    {
+      "text": "`EXTRACT * FROM`",
+      "isCorrect": false
+    },
+    {
+      "text": "`COLLECT * FROM`",
+      "isCorrect": false
+    },
+    {
+      "text": "`SELECT * FROM`",
+      "isCorrect": true
+    }
+  ],
+  "descriptionMarkup": "Например, `SELECT * FROM users` выберет все столбцы из таблицы `users`"
+}
