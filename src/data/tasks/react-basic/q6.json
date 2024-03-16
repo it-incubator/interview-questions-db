@@ -19,5 +19,5 @@
       "isCorrect": true
     }
   ],
-  "descriptionMarkup": "Можно также использовать сокращённый синтаксис `<></>`"
+  "descriptionMarkup": "`React.Fragment`, можно также использовать сокращённый синтаксис `<></>`\n\n Более подробно [reactjs.org](https://ru.legacy.reactjs.org/docs/react-api.html#reactfragment)"
 }

@@ -19,5 +19,6 @@
       "text": "Хук `useCallback` запоминает результат вызова функции",
       "isCorrect": false
     }
-  ]
+  ],
+  "descriptionMarkup": "`useCallback` [reactjs.org](https://ru.legacy.reactjs.org/docs/hooks-reference.html#usecallback)\n\n `useMemo()` [reactjs.org](https://ru.legacy.reactjs.org/docs/hooks-reference.html#usememo)"
 }
