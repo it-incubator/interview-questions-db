@@ -1,0 +1,23 @@
+{
+  "questionText": "NodeJS устанавливается вместе: ",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "с менеджером пакетов для установки утилит, необходимых для разработки",
+      "isCorrect": true
+    },
+    {
+      "text": "с DOM-деревом",
+      "isCorrect": false
+    },
+    {
+      "text": "с Event-Loop, необходимым для асинхронного программирования",
+      "isCorrect": false
+    },
+    {
+      "text": "с модулями, необходимыми для декомпозиции кода",
+      "isCorrect": false
+    }
+  ],
+  "author": "DmitrijSergeev"
+}

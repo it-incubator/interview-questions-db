@@ -1,0 +1,23 @@
+{
+  "questionText": "В контексте JSX и React, как называется то, что в нативном `HTML` именуется `атрибутами`?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "JSX-элементы",
+      "isCorrect": false
+    },
+    {
+      "text": "Параметры",
+      "isCorrect": false
+    },
+    {
+      "text": "Аргументы",
+      "isCorrect": false
+    },
+    {
+      "text": "Пропсы",
+      "isCorrect": true
+    }
+  ],
+  "author": "DmitrijSergeev"
+}

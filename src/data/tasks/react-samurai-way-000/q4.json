@@ -1,0 +1,23 @@
+{
+  "questionText": "Что нужно знать, чтобы начать изучать этот курс: ",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "Основы JavaScript, основы вёрстки, иметь представление о Typescript,\n   иметь представление о ReactJS",
+      "isCorrect": true
+    },
+    {
+      "text": "Ничего не нужно",
+      "isCorrect": false
+    },
+    {
+      "text": "Быть профессионалом в DevOps",
+      "isCorrect": false
+    },
+    {
+      "text": "Быть работающим фронтенд-разработчиком",
+      "isCorrect": false
+    }
+  ],
+  "author": "DmitrijSergeev"
+}

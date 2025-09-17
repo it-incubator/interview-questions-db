@@ -1,0 +1,23 @@
+{
+  "questionText": "Что такое NodeJS?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "Современная IDE для написания кода на языке JavaScript",
+      "isCorrect": false
+    },
+    {
+      "text": "Платформа для выполнения кода, написанного на языке JavaScript",
+      "isCorrect": true
+    },
+    {
+      "text": "Фреймворк, транспилирующий html-тэги в JSX-разметку",
+      "isCorrect": false
+    },
+    {
+      "text": "Разновидность браузера",
+      "isCorrect": false
+    }
+  ],
+  "author": "DmitrijSergeev"
+}

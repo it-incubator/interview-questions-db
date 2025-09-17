@@ -1,0 +1,23 @@
+{
+  "questionText": "Какие аргументы может получать функция обратного вызова (`callback-функция`), переданная в `Array.prototype.map()`?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "Только текущий элемент массива",
+      "isCorrect": true
+    },
+    {
+      "text": " Текущий элемент и его индекс",
+      "isCorrect": false
+    },
+    {
+      "text": "Текущий элемент массива, его индекс и весь исходный массив целиком",
+      "isCorrect": false
+    },
+    {
+      "text": "Текущий элемент и ссылку на метод ",
+      "isCorrect": false
+    }
+  ],
+  "author": "DmitrijSergeev"
+}

@@ -1,0 +1,23 @@
+{
+  "questionText": "Логика нативного приложения создаётся в файле с расширением: ",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "`html`",
+      "isCorrect": false
+    },
+    {
+      "text": "`js`",
+      "isCorrect": true
+    },
+    {
+      "text": "`json`",
+      "isCorrect": false
+    },
+    {
+      "text": "`md`",
+      "isCorrect": false
+    }
+  ],
+  "author": "DmitrijSergeev"
+}

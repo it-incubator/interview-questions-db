@@ -1,0 +1,23 @@
+{
+  "questionText": "Что такое JSX/TSX в контексте разработки на React?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "Стандартная HTML-разметка, которая напрямую парсится браузером",
+      "isCorrect": false
+    },
+    {
+      "text": "Особый тип CSS, используемый для стилизации React-компонентов",
+      "isCorrect": false
+    },
+    {
+      "text": "Расширение синтаксиса для JavaScript/TypeScript, которое позволяет писать HTML-подобные структуры непосредственно в коде, которые затем React преобразует в реальные элементы DOM",
+      "isCorrect": true
+    },
+    {
+      "text": "Фреймворк для серверного рендеринга React-приложений",
+      "isCorrect": false
+    }
+  ],
+  "author": "DmitrijSergeev"
+}

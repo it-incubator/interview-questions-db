@@ -1,0 +1,23 @@
+{
+  "questionText": "Каковы последствия вызова setState (например, setTracks) внутри useEffect без массива зависимостей?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "useEffect будет работать как обычная синхронная функция",
+      "isCorrect": false
+    },
+    {
+      "text": "React проигнорирует вызов setState, так как он произошел в эффекте",
+      "isCorrect": false
+    },
+    {
+      "text": "Приложение будет оптимизировано, и setState вызовется только один раз",
+      "isCorrect": false
+    },
+    {
+      "text": "Возникнет бесконечный цикл перерисовок компонента, который может привести к исчерпанию лимитов на запросы к серверу и ошибке `Maximum update depth exceeded`",
+      "isCorrect": true
+    }
+  ],
+  "author": "DmitrijSergeev"
+}

@@ -1,0 +1,23 @@
+{
+  "questionText": "Миссия курса: ",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "Заработать миллион долларов.",
+      "isCorrect": false
+    },
+    {
+      "text": "Заработать миллиард долларов.",
+      "isCorrect": true
+    },
+    {
+      "text": "Подружиться с Цукербергом.",
+      "isCorrect": false
+    },
+    {
+      "text": "Помочь стать востребованным software-инженером всем желающим.",
+      "isCorrect": false
+    }
+  ],
+  "author": "DmitrijSergeev"
+}

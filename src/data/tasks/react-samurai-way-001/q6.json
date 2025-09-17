@@ -1,0 +1,23 @@
+{
+  "questionText": "В какой вкладке консоли браузера можно найти данные, которые приходят с сервера: ",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "console",
+      "isCorrect": false
+    },
+    {
+      "text": "sources",
+      "isCorrect": false
+    },
+    {
+      "text": "network",
+      "isCorrect": true
+    },
+    {
+      "text": "application",
+      "isCorrect": false
+    }
+  ],
+  "author": "DmitrijSergeev"
+}

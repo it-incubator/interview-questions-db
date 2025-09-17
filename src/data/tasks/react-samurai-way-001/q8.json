@@ -1,0 +1,23 @@
+{
+  "questionText": "С помощью какого метода JavaScript мы добавляем элемент (узел) DOM-дерева\n(тэг `html`-разметки) в другой элемент DOM-дерева, то есть вставляем один элемент в другой,\nнаподобие \"матрёшки\": ",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "`createElement`",
+      "isCorrect": false
+    },
+    {
+      "text": "`getElement`",
+      "isCorrect": true
+    },
+    {
+      "text": "`link`",
+      "isCorrect": false
+    },
+    {
+      "text": "`append`",
+      "isCorrect": true
+    }
+  ],
+  "author": "DmitrijSergeev"
+}

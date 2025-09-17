@@ -1,0 +1,23 @@
+{
+  "questionText": "Уже вчера, по утверждению Димыча, нужно было уметь: ",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "пользоваться IDE",
+      "isCorrect": false
+    },
+    {
+      "text": "пересесть на Web-Storm",
+      "isCorrect": false
+    },
+    {
+      "text": "деплоить вэб-приложение",
+      "isCorrect": false
+    },
+    {
+      "text": "вайб-кодить",
+      "isCorrect": true
+    }
+  ],
+  "author": "DmitrijSergeev"
+}

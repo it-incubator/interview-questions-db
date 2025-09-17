@@ -1,0 +1,23 @@
+{
+  "questionText": "Какой файл считается основным конфигурационным файлом для проекта Node.js, перечисляющим его зависимости?",
+  "type": "checkbox",
+  "answers": [
+    {
+      "text": "`index.html`",
+      "isCorrect": false
+    },
+    {
+      "text": "`main.tsx`",
+      "isCorrect": false
+    },
+    {
+      "text": "`package.json`",
+      "isCorrect": true
+    },
+    {
+      "text": "`vite.config.ts`",
+      "isCorrect": false
+    }
+  ],
+  "author": "DmitrijSergeev"
+}

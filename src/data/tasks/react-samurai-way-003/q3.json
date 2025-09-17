@@ -1,0 +1,23 @@
+{
+  "questionText": "Какова цель команды npm `install` во вновь созданном проекте Vite?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "Запустить React-приложение в режиме разработки",
+      "isCorrect": false
+    },
+    {
+      "text": "Скомпилировать файлы TypeScript в JavaScript",
+      "isCorrect": false
+    },
+    {
+      "text": "Создать начальную структуру проекта и файлы",
+      "isCorrect": false
+    },
+    {
+      "text": "Скачать и установить все зависимости (dependencies и devDependencies), перечисленные в package.json, в папку node_modules",
+      "isCorrect": true
+    }
+  ],
+  "author": "DmitrijSergeev"
+}

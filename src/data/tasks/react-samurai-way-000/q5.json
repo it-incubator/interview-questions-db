@@ -1,0 +1,23 @@
+{
+  "questionText": "Проект, который будет выполнен по результатам курса: ",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "учебный",
+      "isCorrect": false
+    },
+    {
+      "text": "тренировочный",
+      "isCorrect": true
+    },
+    {
+      "text": "шуточный",
+      "isCorrect": false
+    },
+    {
+      "text": "реальный продакшн-проект",
+      "isCorrect": false
+    }
+  ],
+  "author": "DmitrijSergeev"
+}

@@ -141,4 +141,11 @@ export const exams: Exam[] = [
     level: 'basic',
     labels: ['backend'],
   },
+  {
+    id: 'react-samurai-way-000', // соответствует названию созданной папки, в которой хранятся вопросы
+    title: 'React Путь самурая Без альтернатив',
+    category: 'ReactJS', // язык или технология
+    level: 'basic', //  'basic' | 'middle' | 'advanced'
+    labels: ['frontend'] // будут использоваться как теги
+  }
 ]

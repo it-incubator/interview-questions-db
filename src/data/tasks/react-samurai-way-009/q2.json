@@ -1,0 +1,23 @@
+{
+  "questionText": "Для чего используется Swagger-документация (Swagger) в контексте взаимодействия с бэкендом?",
+  "type": "checkbox",
+  "answers": [
+    {
+      "text": "Для компиляции и сборки TypeScript файлов в JavaScript",
+      "isCorrect": false
+    },
+    {
+      "text": "Для создания клиентских приложений на React",
+      "isCorrect": false
+    },
+    {
+      "text": "Для описания того, как взаимодействовать с бэкендом, и для выполнения тестовых запросов",
+      "isCorrect": true
+    },
+    {
+      "text": "Для защиты бэкенда от DDoS-атак",
+      "isCorrect": false
+    }
+  ],
+  "author": "DmitrijSergeev"
+}

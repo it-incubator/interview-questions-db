@@ -1,0 +1,23 @@
+{
+  "questionText": "Как называется курс?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "Реакт. Путь самурая. Без шансов.",
+      "isCorrect": false
+    },
+    {
+      "text": "Реакт. Путь самурая. Без альтернатив.",
+      "isCorrect": true
+    },
+    {
+      "text": "Реакт. Путь самурая. Без тормозов.",
+      "isCorrect": false
+    },
+    {
+      "text": "Реакт. У самурая нет цели, есть только путь.",
+      "isCorrect": false
+    }
+  ],
+  "author": "DmitrijSergeev"
+}

@@ -1,0 +1,23 @@
+{
+  "questionText": "Фронтенд-реакт-приложение создаётся внутри файла: ",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "`index.html`",
+      "isCorrect": true
+    },
+    {
+      "text": "`script.js`",
+      "isCorrect": false
+    },
+    {
+      "text": "`package.json`",
+      "isCorrect": false
+    },
+    {
+      "text": "`pnpm-lock.yaml`",
+      "isCorrect": false
+    }
+  ],
+  "author": "DmitrijSergeev"
+}

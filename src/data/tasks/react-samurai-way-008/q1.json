@@ -1,0 +1,23 @@
+{
+  "questionText": "Что такое React-компонент?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "Модульный файл, который определяет стили приложения",
+      "isCorrect": false
+    },
+    {
+      "text": "Функция, которая возвращает JSX-разметку",
+      "isCorrect": true
+    },
+    {
+      "text": "Таблица базы данных для хранения данных приложения",
+      "isCorrect": false
+    },
+    {
+      "text": "Конфигурационный файл для настроек проекта",
+      "isCorrect": false
+    }
+  ],
+  "author": "DmitrijSergeev"
+}
