@@ -15,5 +15,6 @@
             "text": "Массив с двумя значениями: текущее состояние и функцию `dispatch`",
             "isCorrect": true
         }
-    ]
+    ],
+    "descriptionMarkup": "Принимает редюсер типа `(state, action) => newState` и возвращает текущее состояние в паре с методом `dispatch`. Если вы знакомы с Redux, вы уже знаете, как это работает.)\n\n Подробнее про `useReducer` можно почитать тут [reactjs.org](https://ru.legacy.reactjs.org/docs/hooks-reference.html#usereducer)"
 }
