@@ -1,0 +1,23 @@
+{
+  "questionText": "В чём преимущество писания кода на TypeScript, а не на JavaScript",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "TypeScript ускоряет выполнение кода в производственной среде (Production)",
+      "isCorrect": false
+    },
+    {
+      "text": "TypeScript помогает совершать меньшее количество ошибок, поскольку он контролирует разработчиков",
+      "isCorrect": true
+    },
+    {
+      "text": "TypeScript автоматически генерирует всю необходимую документацию по API",
+      "isCorrect": false
+    },
+    {
+      "text": "TypeScript позволяет использовать синтаксис, который не совместим с чистым JavaScript",
+      "isCorrect": false
+    }
+  ],
+  "author": "DmitrijSergeev"
+}

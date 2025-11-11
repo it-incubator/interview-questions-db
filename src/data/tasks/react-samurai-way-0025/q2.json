@@ -1,0 +1,23 @@
+{
+  "questionText": "Как называется промежуточная область, куда попадают untracked или modified файлы с помощью команды git add, и откуда только они могут быть зафиксированы как версия (committed)?",
+  "type": "checkbox",
+  "answers": [
+    {
+      "text": "Staged Area (Indexed, Ready to commit)",
+      "isCorrect": true
+    },
+    {
+      "text": "Clean Files Area",
+      "isCorrect": false
+    },
+    {
+      "text": "Untracked Files Zone",
+      "isCorrect": false
+    },
+    {
+      "text": "Remote Repository (Удаленный репозиторий)",
+      "isCorrect": false
+    }
+  ],
+  "author": "DmitrijSergeev"
+}

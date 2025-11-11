@@ -1,0 +1,23 @@
+{
+  "questionText": "Как называется процесс превращения (конвертации) тайпскриптовых файлов в джаваскриптовые?",
+  "type": "checkbox",
+  "answers": [
+    {
+      "text": "Декомпозиция",
+      "isCorrect": false
+    },
+    {
+      "text": "Инициализация (Init)",
+      "isCorrect": false
+    },
+    {
+      "text": "Компиляция/транспиляция",
+      "isCorrect": true
+    },
+    {
+      "text": "Рефакторинг",
+      "isCorrect": false
+    }
+  ],
+  "author": "DmitrijSergeev"
+}

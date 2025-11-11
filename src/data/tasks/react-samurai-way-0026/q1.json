@@ -1,0 +1,23 @@
+{
+  "questionText": "Какое специальное расширение файла используется для описания сценариев автоматизации (Workflow) в GitHub Actions, где конфигурация строится на отступах и является стандартом для конфигураций?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": ".git",
+      "isCorrect": false
+    },
+    {
+      "text": ".sh",
+      "isCorrect": false
+    },
+    {
+      "text": "md",
+      "isCorrect": false
+    },
+    {
+      "text": ".yaml или .yml",
+      "isCorrect": true
+    }
+  ],
+  "author": "DmitrijSergeev"
+}

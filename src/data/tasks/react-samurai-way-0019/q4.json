@@ -1,0 +1,23 @@
+{
+  "questionText": "Как называется время, когда разработчик может обнаружить ошибки (например, ошибки типизации) благодаря `TypeScript` еще до фактического запуска программы?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "Runtime (время исполнения)",
+      "isCorrect": false
+    },
+    {
+      "text": "Compiletime (время компиляции)",
+      "isCorrect": true
+    },
+    {
+      "text": "Debugtime",
+      "isCorrect": false
+    },
+    {
+      "text": "Executiontime",
+      "isCorrect": false
+    }
+  ],
+  "author": "DmitrijSergeev"
+}

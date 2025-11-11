@@ -1,0 +1,24 @@
+{
+  "questionText": "Какое значение вернёт это выражение: null || 'React' || 'JS'?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "null",
+      "isCorrect": false
+    },
+    {
+      "text": "JS",
+      "isCorrect": false
+    },
+    {
+      "text": "React",
+      "isCorrect": true
+    },
+    {
+      "text": "true",
+      "isCorrect": false
+    }
+  ],
+  "author": "DmitrijSergeev",
+  "descriptionMarkup": "Логический оператор || (`ИЛИ`) также проверяет операнды слева направо и возвращает значение первого `truthy` операнда, на котором останавливается. В этом выражении null является `falsy`, поэтому движок JavaScript продолжает проверку. Следующий операнд, 'React', является `truthy`, поэтому на нем проверка останавливается, и его значение ('React') возвращается как результат всего выражения"
+}

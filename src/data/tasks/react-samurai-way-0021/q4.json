@@ -1,0 +1,23 @@
+{
+  "questionText": "Какие названия, согласно источникам, могут использоваться для слоя, который отвечает за сохраняемость данных и запросы на сервер (отделенный от слоя пользовательского интерфейса)?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "UI Layer, Presentation Layer",
+      "isCorrect": false
+    },
+    {
+      "text": "Data Access Layer, Persistance Layer, API Layer",
+      "isCorrect": true
+    },
+    {
+      "text": "Component Layer, State Management Layer",
+      "isCorrect": false
+    },
+    {
+      "text": "Service Layer, Backend Layer",
+      "isCorrect": false
+    }
+  ],
+  "author": "DmitrijSergeev"
+}

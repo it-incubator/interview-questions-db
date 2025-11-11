@@ -1,0 +1,23 @@
+{
+  "questionText": "Что является основной задачей Бизнес-логики (Business Logic Layer / Domain State Management) в системе, согласно первичному определению?",
+  "type": "checkbox",
+  "answers": [
+    {
+      "text": "Эффективный рендеринг пользовательского интерфейса (UI)",
+      "isCorrect": false
+    },
+    {
+      "text": "Управление хранением данных (Data Access Layer)",
+      "isCorrect": false
+    },
+    {
+      "text": "Соблюдение неких бизнес-инвариантов и бизнес-правил, которые не могут быть нарушены",
+      "isCorrect": true
+    },
+    {
+      "text": "Переиспользование программного кода путем заворачивания логики в функции",
+      "isCorrect": false
+    }
+  ],
+  "author": "DmitrijSergeev"
+}

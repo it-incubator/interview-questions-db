@@ -1,0 +1,23 @@
+{
+  "questionText": "Какую команду необходимо использовать для перемещения untracked или modified файлов в staged зону, готовя их к следующему коммиту?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "git commit -m [message]",
+      "isCorrect": false
+    },
+    {
+      "text": "git status",
+      "isCorrect": false
+    },
+    {
+      "text": "git add [название файла] или git add .",
+      "isCorrect": true
+    },
+    {
+      "text": "git remote add origin",
+      "isCorrect": false
+    }
+  ],
+  "author": "DmitrijSergeev"
+}

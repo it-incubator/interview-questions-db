@@ -1,0 +1,23 @@
+{
+  "questionText": "Какой принцип архитектуры говорит о том, что данные должны храниться там, где они будут обрабатываться, и там, где они нужны?",
+  "type": "checkbox",
+  "answers": [
+    {
+      "text": "Принцип единственной ответственности (`Single Responsibility`)",
+      "isCorrect": false
+    },
+    {
+      "text": "Инверсия управления (`Inversion of Control`)",
+      "isCorrect": false
+    },
+    {
+      "text": "Клиент-серверная модель",
+      "isCorrect": false
+    },
+    {
+      "text": "Информационный эксперт (`Informational Expert`)",
+      "isCorrect": true
+    }
+  ],
+  "author": "DmitrijSergeev"
+}

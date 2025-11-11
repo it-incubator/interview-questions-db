@@ -1,0 +1,24 @@
+{
+  "questionText": "Какое значение будет в переменной result после выполнения этого кода: `const result = 'Hello' && 0 && 'World'`;?",
+  "type": "checkbox",
+  "answers": [
+    {
+      "text": "Hello",
+      "isCorrect": false
+    },
+    {
+      "text": "World",
+      "isCorrect": false
+    },
+    {
+      "text": "true",
+      "isCorrect": false
+    },
+    {
+      "text": "0",
+      "isCorrect": true
+    }
+  ],
+  "author": "DmitrijSergeev",
+  "descriptionMarkup": "Логический оператор && (`И`) проверяет операнды слева направо и возвращает значение первого `falsy` операнда, на котором остановится, или значение последнего операнда, если все они `truthy`. В данном случае 'Hello' — `truthy`, поэтому проверка идет дальше. Следующий операнд — 0, который является `falsy`. На нём вычисление останавливается, и именно 0 присваивается переменной result"
+}

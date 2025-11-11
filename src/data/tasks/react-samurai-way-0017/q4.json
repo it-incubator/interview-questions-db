@@ -1,0 +1,23 @@
+{
+  "questionText": "Что из перечисленного является примером инверсии управления?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "Вызов `window.alert('Hello')`, где мы напрямую даем команду объекту `window`",
+      "isCorrect": false
+    },
+    {
+      "text": "Импорт модуля B в модуль А для последующего вызова его функций",
+      "isCorrect": false
+    },
+    {
+      "text": "Передача функции в window.setTimeout, чтобы window вызвал ее по истечении времени",
+      "isCorrect": true
+    },
+    {
+      "text": "Разделение большого приложения на маленькие изолированные модули",
+      "isCorrect": false
+    }
+  ],
+  "author": "DmitrijSergeev"
+}

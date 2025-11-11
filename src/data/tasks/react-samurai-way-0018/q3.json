@@ -1,0 +1,23 @@
+{
+  "questionText": "Что пришлось сделать в родительском компоненте `MainPage`, чтобы передать информацию от `TracksList` к `TrackDetail`?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "Создать общую глобальную переменную, доступную всем компонентам",
+      "isCorrect": false
+    },
+    {
+      "text": "Импортировать `TrackDetail` внутрь `TracksList`, чтобы они могли общаться напрямую",
+      "isCorrect": false
+    },
+    {
+      "text": "Завести локальное состояние (например, `selectedTrackId`) с помощью хука `useState` и обновлять его, когда дочерний компонент вызывает коллбэк",
+      "isCorrect": true
+    },
+    {
+      "text": "Использовать `useEffect` для отслеживания кликов в дочернем компоненте",
+      "isCorrect": false
+    }
+  ],
+  "author": "DmitrijSergeev"
+}

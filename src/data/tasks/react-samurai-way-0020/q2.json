@@ -1,0 +1,23 @@
+{
+  "questionText": "Какую команду следует запустить, чтобы провести полную компиляцию проекта и выявить все существующие TypeScript ошибки, в том числе те, которые среда разработки (например, WebStorm) могла временно пропустить?",
+  "type": "checkbox",
+  "answers": [
+    {
+      "text": "npm run def",
+      "isCorrect": false
+    },
+    {
+      "text": "npm run init",
+      "isCorrect": false
+    },
+    {
+      "text": "npm run build",
+      "isCorrect": true
+    },
+    {
+      "text": "npm run test",
+      "isCorrect": false
+    }
+  ],
+  "author": "DmitrijSergeev"
+}

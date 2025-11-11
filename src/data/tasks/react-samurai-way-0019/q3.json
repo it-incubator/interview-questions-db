@@ -1,0 +1,23 @@
+{
+  "questionText": "Какая ключевая особенность, согласно источнику, делает динамичный и гибкий `JavaScript` более стабильным и позволяет писать программы с меньшим количеством ошибок?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "Улучшенный Developer Experience (DX)",
+      "isCorrect": false
+    },
+    {
+      "text": "Расширенная работа с DOM-деревом",
+      "isCorrect": false
+    },
+    {
+      "text": "Возможность создания серверного бэкенда через `Node.js`",
+      "isCorrect": false
+    },
+    {
+      "text": "Строгая типизация",
+      "isCorrect": true
+    }
+  ],
+  "author": "DmitrijSergeev"
+}

@@ -1,0 +1,23 @@
+{
+  "questionText": "Какой язык программирования является конечным целевым языком, в который должен превратиться код на `TypeScript` для его выполнения в браузере или в `Node.js`?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "`TypeScript`, так как существуют движки, интерпретирующие этот язык",
+      "isCorrect": false
+    },
+    {
+      "text": "Go",
+      "isCorrect": false
+    },
+    {
+      "text": "JavaScript",
+      "isCorrect": true
+    },
+    {
+      "text": "HTML",
+      "isCorrect": false
+    }
+  ],
+  "author": "DmitrijSergeev"
+}

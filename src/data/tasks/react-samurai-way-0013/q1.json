@@ -1,0 +1,24 @@
+{
+  "questionText": "Что из перечисленного в JavaScript является `falsy` (псевдо-ложным) значением?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "[] (пустой массив)",
+      "isCorrect": false
+    },
+    {
+      "text": "{} (пустой объект)",
+      "isCorrect": false
+    },
+    {
+      "text": "0 (число ноль)",
+      "isCorrect": true
+    },
+    {
+      "text": "` ` (строка с пробелом)",
+      "isCorrect": false
+    }
+  ],
+  "author": "DmitrijSergeev",
+  "descriptionMarkup": "Число ноль (0) является `falsy` значением. Пустой массив и пустой объект — это `truthy` значения. Строка, содержащая пробел, не является пустой и также считается `truthy`"
+}

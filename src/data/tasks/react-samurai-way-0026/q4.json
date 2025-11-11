@@ -1,0 +1,23 @@
+{
+  "questionText": "Какова основная задача GitHub Pages, делающая его удобным для фронтенд-приложений?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "Запуск полноценных бэкендов, сложных микросервисов и баз данных",
+      "isCorrect": false
+    },
+    {
+      "text": "Выполнение сложного CCD-процесса (Continuous Integration/Continuous Delivery)",
+      "isCorrect": false
+    },
+    {
+      "text": "Предоставление возможности покупки доменного имени",
+      "isCorrect": false
+    },
+    {
+      "text": "Предоставление бесплатного хостинга для раздачи статических файлов (HTML, JavaScript)",
+      "isCorrect": true
+    }
+  ],
+  "author": "DmitrijSergeev"
+}

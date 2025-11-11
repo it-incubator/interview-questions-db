@@ -1,0 +1,23 @@
+{
+  "questionText": "Какой специальный файл нужно создать в корневой папке репозитория, чтобы указать Git, какие файлы или папки (например, .idea или .DS_Store) следует игнорировать и не отслеживать, перемещая их в зону Ignored Files?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "config.git",
+      "isCorrect": false
+    },
+    {
+      "text": "ignore.json",
+      "isCorrect": false
+    },
+    {
+      "text": "read.me",
+      "isCorrect": false
+    },
+    {
+      "text": ".gitignore",
+      "isCorrect": true
+    }
+  ],
+  "author": "DmitrijSergeev"
+}

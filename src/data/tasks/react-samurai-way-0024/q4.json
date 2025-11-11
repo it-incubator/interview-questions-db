@@ -1,0 +1,23 @@
+{
+  "questionText": "Какой пакет рекомендуется использовать для более понятной и декларативной обработки условного добавления CSS-классов (например, добавления класса selected при выполнении условия isSelected) вместо ручной конкатенации строк?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "PostCSS",
+      "isCorrect": false
+    },
+    {
+      "text": "Lightning CSS",
+      "isCorrect": false
+    },
+    {
+      "text": "CLSX",
+      "isCorrect": true
+    },
+    {
+      "text": "React Class Helper",
+      "isCorrect": false
+    }
+  ],
+  "author": "DmitrijSergeev"
+}

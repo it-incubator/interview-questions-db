@@ -1,0 +1,23 @@
+{
+  "questionText": "Какой принцип работы лежит в основе структуры данных `стек`?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "First In, First Out (FIFO)",
+      "isCorrect": false
+    },
+    {
+      "text": "принцип `event loop`",
+      "isCorrect": false
+    },
+    {
+      "text": "Last In, First Out (LIFO)",
+      "isCorrect": true
+    },
+    {
+      "text": "принцип `dry`",
+      "isCorrect": false
+    }
+  ],
+  "author": "DmitrijSergeev"
+}

@@ -1,0 +1,23 @@
+{
+  "questionText": "С какого слова должна начинаться функция, чтобы она считалась кастомным хуком (custom hook)?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "get",
+      "isCorrect": false
+    },
+    {
+      "text": "fn",
+      "isCorrect": false
+    },
+    {
+      "text": "hook",
+      "isCorrect": false
+    },
+    {
+      "text": "use",
+      "isCorrect": true
+    }
+  ],
+  "author": "DmitrijSergeev"
+}

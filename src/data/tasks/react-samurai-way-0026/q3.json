@@ -1,0 +1,23 @@
+{
+  "questionText": "Какие из перечисленных папок должны быть включены в файл .gitignore и не должны быть запушены в репозиторий, поскольку они являются производными от исходного кода и конфигурации?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "Папки node_modules и dist.",
+      "isCorrect": true
+    },
+    {
+      "text": "Папка .github/workflows",
+      "isCorrect": false
+    },
+    {
+      "text": "Файлы конфигурации .yaml и .ts.",
+      "isCorrect": false
+    },
+    {
+      "text": "Папка src и файл index.html.",
+      "isCorrect": false
+    }
+  ],
+  "author": "DmitrijSergeev"
+}

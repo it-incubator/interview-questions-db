@@ -1,0 +1,23 @@
+{
+  "questionText": "Какая команда используется для фиксации и консервации изменений, находящихся в Staged Area (Indexed, Ready to commit), в виде новой версии (коммита), при этом необходимо добавить описательное сообщение?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "git branch",
+      "isCorrect": false
+    },
+    {
+      "text": "git commit add .",
+      "isCorrect": false
+    },
+    {
+      "text": "git status",
+      "isCorrect": false
+    },
+    {
+      "text": "git commit -m [message]",
+      "isCorrect": true
+    }
+  ],
+  "author": "DmitrijSergeev"
+}

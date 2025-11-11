@@ -1,0 +1,23 @@
+{
+  "questionText": "Какая инструмент вэб-разработки, кроме TypeScript, может замечать ошибки во время написания кода?",
+  "type": "radio",
+  "answers": [
+    {
+      "text": "ESLint",
+      "isCorrect": true
+    },
+    {
+      "text": "Dockerfile",
+      "isCorrect": false
+    },
+    {
+      "text": "TSConfig",
+      "isCorrect": false
+    },
+    {
+      "text": "Prettier",
+      "isCorrect": false
+    }
+  ],
+  "author": "DmitrijSergeev"
+}
