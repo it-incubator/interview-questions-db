@@ -1,0 +1,23 @@
+{
+  "questionText": "Какое свойство в конфигурации createApi используется для описания массива всех доступных тегов (playlist, track и т.д.) в системе, которые будут использоваться для кэширования и инвалидации?",
+  "type": "checkbox",
+  "author": "DmitrijSergeev",
+  "answers": [
+    {
+      "text": "providesTags",
+      "isCorrect": false
+    },
+    {
+      "text": "refetchOnFocus",
+      "isCorrect": false
+    },
+    {
+      "text": "invalidatesTags",
+      "isCorrect": false
+    },
+    {
+      "text": "tagTypes",
+      "isCorrect": true
+    }
+  ]
+}

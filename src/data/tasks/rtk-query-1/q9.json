@@ -1,0 +1,23 @@
+{
+  "questionText": "Что является стандартным поведением RTK Query после того, как мутация (например, создание плейлиста) вызывает invalidateTags для тега playlist?",
+  "type": "checkbox",
+  "author": "DmitrijSergeev",
+  "answers": [
+    {
+      "text": "Запрос к серверу отправляется только через интервал pollingInterval",
+      "isCorrect": false
+    },
+    {
+      "text": "Данные немедленно обновляются локально без запроса к серверу, чтобы избежать лишней нагрузки",
+      "isCorrect": false
+    },
+    {
+      "text": "RTK Query автоматически инициирует повторный GET-запрос (рефетчинг) для всех Query-эндпоинтов, помеченных этим тегом (providesTags)",
+      "isCorrect": true
+    },
+    {
+      "text": "Происходит перезагрузка страницы",
+      "isCorrect": false
+    }
+  ]
+}

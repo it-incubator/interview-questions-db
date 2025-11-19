@@ -1,0 +1,23 @@
+{
+  "questionText": "Что в контексте Redux Toolkit и RTK Query считается `Серверным стейтом` (Server State)?",
+  "type": "checkbox",
+  "author": "DmitrijSergeev",
+  "answers": [
+    {
+      "text": "Данные, хранящиеся в Local Storage",
+      "isCorrect": false
+    },
+    {
+      "text": "Данные, хранящиеся в базе данных браузера",
+      "isCorrect": false
+    },
+    {
+      "text": "Данные, введенные пользователем в форму до отправки на сервер",
+      "isCorrect": false
+    },
+    {
+      "text": "Данные, получаемые с бэкэнда",
+      "isCorrect": true
+    }
+  ]
+}

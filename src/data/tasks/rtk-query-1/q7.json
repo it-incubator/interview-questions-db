@@ -1,0 +1,23 @@
+{
+  "questionText": "Какой статус ответа (status code) обычно возвращает бэкэнд при успешном удалении или обновлении плейлиста, когда нет необходимости возвращать тело ответа, согласно документации Swagger?",
+  "type": "checkbox",
+  "author": "DmitrijSergeev",
+  "answers": [
+    {
+      "text": "200 OK",
+      "isCorrect": false
+    },
+    {
+      "text": "404 Not Found",
+      "isCorrect": false
+    },
+    {
+      "text": "401 Unauthorized",
+      "isCorrect": false
+    },
+    {
+      "text": "204 No Content",
+      "isCorrect": true
+    }
+  ]
+}

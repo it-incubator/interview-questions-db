@@ -1,0 +1,23 @@
+{
+  "questionText": "Какое главное преимущество достигается при внедрении Code Splitting (разделения кода) в RTK Query?",
+  "type": "checkbox",
+  "author": "DmitrijSergeev",
+  "answers": [
+    {
+      "text": "Упрощение передачи свойств (props) между компонентами",
+      "isCorrect": false
+    },
+    {
+      "text": "Уменьшение размера бандла",
+      "isCorrect": false
+    },
+    {
+      "text": "Уменьшение начального объема JavaScript кода, сокращение времени загрузки и повышение производительности",
+      "isCorrect": true
+    },
+    {
+      "text": "Так достигается переход на `useMutation` вместо использования `middleWare`",
+      "isCorrect": false
+    }
+  ]
+}

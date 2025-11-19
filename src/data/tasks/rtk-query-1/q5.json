@@ -1,0 +1,23 @@
+{
+  "questionText": "Какое действие выполняется на сервере, если разработчик использует Mutation (мутацию) в RTK Query?",
+  "type": "checkbox",
+  "author": "DmitrijSergeev",
+  "answers": [
+    {
+      "text": "Только получение данных (GET-запрос)",
+      "isCorrect": false
+    },
+    {
+      "text": "Кэширование данных",
+      "isCorrect": false
+    },
+    {
+      "text": "Изменение, создание или удаление сущности в базе данных",
+      "isCorrect": true
+    },
+    {
+      "text": "Реализация бесконечной прокрутки (Infinity Scroll)",
+      "isCorrect": false
+    }
+  ]
+}

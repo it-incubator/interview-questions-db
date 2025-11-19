@@ -1,0 +1,23 @@
+{
+  "questionText": "Какой файл необходимо обязательно добавить в .gitignore, чтобы обеспечить безопасность чувствительных переменных окружения (sensitive variables), таких как секретные ключи (API_KEY или ACCESS_TOKEN), при работе с Vite?",
+  "type": "checkbox",
+  "author": "DmitrijSergeev",
+  "answers": [
+    {
+      "text": ".env",
+      "isCorrect": false
+    },
+    {
+      "text": "package.json",
+      "isCorrect": false
+    },
+    {
+      "text": "vite.config.json",
+      "isCorrect": false
+    },
+    {
+      "text": ".env.local",
+      "isCorrect": true
+    }
+  ]
+}

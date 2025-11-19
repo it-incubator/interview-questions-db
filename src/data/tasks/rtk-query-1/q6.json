@@ -1,0 +1,23 @@
+{
+  "questionText": "Что необходимо добавить к вызову мутационной функции (триггеру), чтобы ошибки, возникшие при запросе (например, статус 403 Forbidden), попадали в блок .catch() промиса, а не в .then()?",
+  "type": "checkbox",
+  "author": "DmitrijSergeev",
+  "answers": [
+    {
+      "text": "Свойство isError",
+      "isCorrect": false
+    },
+    {
+      "text": "Обернуть вызов в try...finally",
+      "isCorrect": false
+    },
+    {
+      "text": "Метод then()",
+      "isCorrect": false
+    },
+    {
+      "text": "Метод unwrap()",
+      "isCorrect": true
+    }
+  ]
+}

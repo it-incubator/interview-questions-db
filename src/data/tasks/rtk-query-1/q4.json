@@ -1,0 +1,23 @@
+{
+  "questionText": "Для чего используется свойство prepareHeaders в конфигурации baseQuery?",
+  "type": "checkbox",
+  "author": "DmitrijSergeev",
+  "answers": [
+    {
+      "text": "Для указания базового URL бэкэнда",
+      "isCorrect": false
+    },
+    {
+      "text": "Для перехвата всех запросов и динамического добавления заголовков, например, Authorization (реализует логику, аналогичную интерцепторам)",
+      "isCorrect": true
+    },
+    {
+      "text": "Для указания типов тегов (tagTypes) для API",
+      "isCorrect": false
+    },
+    {
+      "text": "Для описания конкретных эндпоинтов (Queries и Mutations)",
+      "isCorrect": false
+    }
+  ]
+}
